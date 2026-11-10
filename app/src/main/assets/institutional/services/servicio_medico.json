@@ -1,0 +1,95 @@
+{
+  "schemaVersion": 1,
+  "id": "servicios_estudiantiles_servicio_medico",
+  "type": "SERVICE",
+  "category": "SALUD",
+  "archetype": "FACILITY_SERVICE",
+  "name": "Servicio Médico de Primer Contacto",
+  "shortDescription": "Atención médica inicial, valoración clínica y expedición de justificantes por enfermedad.",
+  "description": "El Área de Servicio Médico de la ESCOM brinda atención médica de primer contacto ante malestares o síntomas agudos que se presenten durante la estancia escolar. En caso de requerir medicina deportiva o nutrición canaliza a la USISE Zacatenco, y para urgencias o especialidades orienta el uso del Seguro Facultativo del IMSS.",
+  "aliases": [
+    "justificante medico",
+    "justificantes medicos",
+    "consulta medica general",
+    "curaciones",
+    "valoracion clinica",
+    "medico de primer contacto"
+  ],
+  "keywords": [
+    "médico",
+    "salud",
+    "doctor",
+    "justificante",
+    "enfermedad",
+    "urgencias",
+    "primer contacto"
+  ],
+  "audience": [
+    "ESTUDIANTE",
+    "COMUNIDAD_ESCOM"
+  ],
+  "requirements": [
+    "Pertenecer a la comunidad estudiantil de ESCOM.",
+    "Presentar credencial escolar vigente o tira de materias SAES al momento de la consulta."
+  ],
+  "location": {
+    "mapLocationId": "servicio_medico",
+    "displayName": "Consultorio de Servicio Médico (Planta baja del Edificio de Gobierno, a un costado de Gestión Escolar)"
+  },
+  "cost": {
+    "displayText": "Gratuito para la comunidad estudiantil de ESCOM"
+  },
+  "schedule": "Turno matutino: Lunes a Viernes de 08:00 a 15:00 hrs | Turno vespertino: Lunes a Viernes de 16:00 a 22:00 hrs",
+  "contact": {
+    "name": "Dr. Daniel Mauricio Temozihui Trejo / Dr. Óscar Cortés Jiménez",
+    "role": "Médicos Escolares Titulares",
+    "phone": "57296000",
+    "extension": "52014"
+  },
+  "steps": [
+    {
+      "order": 1,
+      "title": "Acudir al Consultorio",
+      "description": "Presentarse directamente en el consultorio médico ubicado en planta baja del Edificio de Gobierno."
+    },
+    {
+      "order": 2,
+      "title": "Identificación",
+      "description": "Mostrar credencial escolar vigente de ESCOM para el registro en bitácora."
+    },
+    {
+      "order": 3,
+      "title": "Valoración Médica",
+      "description": "Revisión clínica de signos vitales, diagnóstico y suministro de medicamentos del cuadro básico si se encuentran disponibles."
+    },
+    {
+      "order": 4,
+      "title": "Canalización",
+      "description": "En caso de requerirse estudios especializados o reposo, expedición de receta o canalización a la clínica del IMSS correspondiente."
+    }
+  ],
+  "faqs": [
+    {
+      "question": "¿El servicio médico de ESCOM expide justificantes?",
+      "answer": "Sí, el médico escolar valora el estado de salud del estudiante y, en su caso, valida justificantes médicos institucionales."
+    },
+    {
+      "question": "¿Qué atención especializada se cubre fuera de la escuela?",
+      "answer": "Para nutrición, rehabilitación y medicina del deporte se canaliza a la USISE Zacatenco. Para urgencias quirúrgicas, ginecología y hospitalización se utiliza el Seguro Facultativo IMSS."
+    }
+  ],
+  "sources": [
+    {
+      "name": "ESCOM - Servicios Estudiantiles - Atención a la Salud",
+      "url": "https://www.escom.ipn.mx/SSEIS/serviciosestudiantiles/servicios/servicioMedico.php",
+      "type": "OFFICIAL_WEB"
+    }
+  ],
+  "informationStatus": {
+    "verification": "OFFICIAL",
+    "notes": [
+      "Médicos en turno, horarios y extensión telefónica verificados en el portal oficial de ESCOM."
+    ]
+  },
+  "lastReviewed": "2026-10-22"
+}

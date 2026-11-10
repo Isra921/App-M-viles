@@ -1,0 +1,81 @@
+{
+  "schemaVersion": 1,
+  "id": "servicios_estudiantiles_cultura_tuna_escom",
+  "type": "SERVICE",
+  "category": "CULTURA",
+  "archetype": "WORKSHOP_ACTIVITY",
+  "name": "Tuna de la ESCOM",
+  "shortDescription": "Agrupación musical tradicional universitaria y estudiantil en ramas femenil y varonil.",
+  "description": "Club cultural representativo de la ESCOM que preserva la tradición de la tuna universitaria, interpretando música con guitarras, bandurrias, laúdes y panderetas en eventos institucionales, pasacalles y certámenes nacionales.",
+  "aliases": [
+    "tuna",
+    "tuna escom",
+    "la tuna",
+    "tuna femenil",
+    "tuna varonil",
+    "estudiantina"
+  ],
+  "keywords": [
+    "tuna",
+    "música",
+    "guitarra",
+    "tradición",
+    "cultura",
+    "estudiantina",
+    "serenata"
+  ],
+  "audience": [
+    "ESTUDIANTE"
+  ],
+  "requirements": [
+    "Ser estudiante de la ESCOM.",
+    "Gusto por la música tradicional e interés por aprender a tocar instrumentos de cuerda o percusión.",
+    "Ramas disponibles: Femenil y Varonil."
+  ],
+  "location": {
+    "displayName": "Ensayos en pasillos exteriores y explanada de la ESCOM"
+  },
+  "cost": {
+    "displayText": "Participación gratuita"
+  },
+  "schedule": "Horarios y ensayos coordinados por la mesa directiva de la Tuna en el Salón 4001",
+  "contact": {
+    "name": "Coordinación de Cultura y Deportes / Mesa Directiva de la Tuna",
+    "role": "Informes de Cultura",
+    "phone": "57296000",
+    "extension": "52063",
+    "email": "cultura_y_deportes_escom@ipn.mx"
+  },
+  "steps": [
+    {
+      "order": 1,
+      "title": "Contacto Inicial",
+      "description": "Solicitar informes en la oficina de Cultura (Salón 4001) o contactar directamente a los integrantes de la Tuna durante sus ensayos."
+    },
+    {
+      "order": 2,
+      "title": "Integración",
+      "description": "Asistir a los ensayos para inducción a los instrumentos y repertorio musical."
+    }
+  ],
+  "faqs": [
+    {
+      "question": "¿Necesito saber tocar algún instrumento para unirme a la Tuna?",
+      "answer": "No es indispensable; los integrantes enseñan a los nuevos miembros desde nivel principiante."
+    }
+  ],
+  "sources": [
+    {
+      "name": "ESCOM - Servicios Estudiantiles - Actividades Culturales",
+      "url": "https://www.escom.ipn.mx/SSEIS/serviciosestudiantiles/servicios/actsCulturales.php",
+      "type": "OFFICIAL_WEB"
+    }
+  ],
+  "informationStatus": {
+    "verification": "PARTIALLY_VERIFIED",
+    "notes": [
+      "Existencia del club confirmada oficialmente en la web de ESCOM. Los horarios semestrales específicos deben consultarse presencialmente en el Salón 4001."
+    ]
+  },
+  "lastReviewed": "2026-10-22"
+}

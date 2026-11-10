@@ -1,0 +1,200 @@
+{
+  "schemaVersion": 1,
+  "id": "gestion_escolar_constancia_inscripcion",
+  "type": "PROCEDURE",
+  "category": "GESTION_ESCOLAR",
+  "name": "Constancia de Inscripción",
+  "shortDescription": "Documento que acredita la inscripción del estudiante en el periodo escolar correspondiente.",
+  "description": "Constancia utilizada para acreditar que el estudiante se encuentra inscrito en el periodo escolar correspondiente.",
+  "aliases": [
+    "constancia",
+    "constancias",
+    "constancia de inscripción",
+    "constancia inscripción",
+    "comprobante de inscripción"
+  ],
+  "keywords": [
+    "constancia",
+    "inscripción",
+    "saes",
+    "gestión escolar",
+    "alumno inscrito"
+  ],
+  "audience": [
+    "ESTUDIANTE"
+  ],
+  "documents": [],
+  "location": {
+    "mapLocationId": "gestion_escolar",
+    "displayName": "Gestión Escolar"
+  },
+  "archetype": "PROCEDURE",
+  "cost": {
+    "displayText": "Gratuito en SAES"
+  },
+  "period": {
+    "type": "ACADEMIC_CALENDAR_WINDOW",
+    "description": "Disponible una vez completada y validada la inscripción del semestre."
+  },
+  "schedule": "Atención en ventanillas de Gestión Escolar de 09:00 a 14:00 y de 15:00 a 20:00",
+  "faqs": [
+    {
+      "question": "¿Sirve la constancia de inscripción como comprobante de estudios?",
+      "answer": "Sí, acredita formalmente que te encuentras inscrito y cursando asignaturas en el periodo escolar activo."
+    }
+  ],
+  "notes": [
+    "Los días hábiles no incluyen fines de semana, días festivos ni días sin actividades escolares."
+  ],
+  "sources": [
+    {
+      "name": "ESCOM - Gestión Escolar - Trámites",
+      "url": "https://www.escom.ipn.mx/SSEIS/gestionescolar/servicios/tramite.php",
+      "type": "OFFICIAL_WEB"
+    }
+  ],
+  "informationStatus": {
+    "verification": "PARTIALLY_VERIFIED",
+    "notes": [
+      "La disponibilidad de trámites y los tiempos publicados en el portal se consideran información oficial.",
+      "El flujo de solicitud y seguimiento mediante SAES fue confirmado por experiencia de uso.",
+      "Los requisitos presenciales exactos de Gestión Escolar no se encontraron documentados de forma completa en la fuente consultada."
+    ]
+  },
+  "lastReviewed": "2026-08-23",
+  "channels": [
+    {
+      "id": "saes",
+      "type": "ONLINE_PLATFORM",
+      "name": "SAES",
+      "recommended": true,
+      "requirements": [
+        "Conocer la boleta.",
+        "Conocer la contraseña del SAES."
+      ],
+      "estimatedTime": {
+        "type": "VARIABLE",
+        "displayText": "El tiempo de procesamiento puede variar. En algunos casos puede resolverse en poco tiempo o incluso de forma inmediata.",
+        "official": false,
+        "basis": "VERIFIED_BY_USE"
+      },
+      "steps": [
+        {
+          "order": 1,
+          "description": "Ingresar al SAES con boleta y contraseña."
+        },
+        {
+          "order": 2,
+          "description": "Abrir la sección \"Trámites\"."
+        },
+        {
+          "order": 3,
+          "description": "Seleccionar \"Solicitud\"."
+        },
+        {
+          "order": 4,
+          "description": "Seleccionar \"Constancia de Inscripción\"."
+        },
+        {
+          "order": 5,
+          "description": "Ingresar nuevamente la contraseña del SAES cuando sea solicitada."
+        },
+        {
+          "order": 6,
+          "description": "Seleccionar \"Realizar solicitud\"."
+        }
+      ],
+      "tracking": {
+        "available": true,
+        "steps": [
+          {
+            "order": 1,
+            "description": "Ingresar a la sección \"Trámites\"."
+          },
+          {
+            "order": 2,
+            "description": "Seleccionar \"Seguimiento\"."
+          },
+          {
+            "order": 3,
+            "description": "Consultar el estado de la solicitud."
+          },
+          {
+            "order": 4,
+            "description": "Si la solicitud continúa pendiente, esperar a que el sistema la procese."
+          },
+          {
+            "order": 5,
+            "description": "Cuando el documento esté disponible, descargar el archivo ZIP mostrado en la matriz de seguimiento."
+          }
+        ]
+      }
+    },
+    {
+      "id": "gestion_escolar",
+      "type": "IN_PERSON",
+      "name": "Gestión Escolar",
+      "recommended": false,
+      "requirements": [
+        "Conocer la boleta.",
+        "Conocer el nombre completo.",
+        "Contar con acceso al correo institucional o proporcionar un correo en caso de que sea solicitado."
+      ],
+      "estimatedTime": {
+        "type": "BUSINESS_DAYS",
+        "displayText": "Aproximadamente 5 a 7 días hábiles.",
+        "official": false,
+        "basis": "PARTIALLY_VERIFIED"
+      },
+      "steps": [
+        {
+          "order": 1,
+          "description": "Acudir a Gestión Escolar."
+        },
+        {
+          "order": 2,
+          "description": "Solicitar el documento requerido."
+        },
+        {
+          "order": 3,
+          "description": "Proporcionar los datos que sean solicitados para identificar al estudiante."
+        },
+        {
+          "order": 4,
+          "description": "Dar seguimiento conforme a las indicaciones proporcionadas por el área."
+        }
+      ]
+    },
+    {
+      "id": "escom_web",
+      "type": "WEB_FORM",
+      "name": "Portal de Gestión Escolar ESCOM",
+      "recommended": false,
+      "url": "https://www.escom.ipn.mx/SSEIS/gestionescolar/servicios/tramite.php",
+      "estimatedTime": {
+        "type": "BUSINESS_DAYS",
+        "displayText": "5 a 7 días hábiles.",
+        "official": true,
+        "basis": "OFFICIAL"
+      },
+      "steps": [
+        {
+          "order": 1,
+          "description": "Ingresar al portal de trámites de Gestión Escolar de ESCOM."
+        },
+        {
+          "order": 2,
+          "description": "Seleccionar el trámite correspondiente a \"Constancia de Inscripción\"."
+        },
+        {
+          "order": 3,
+          "description": "Capturar la información solicitada por el formulario."
+        },
+        {
+          "order": 4,
+          "description": "Enviar la solicitud y conservar la información de seguimiento que proporcione el portal."
+        }
+      ]
+    }
+  ]
+}

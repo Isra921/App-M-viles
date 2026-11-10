@@ -1,0 +1,80 @@
+{
+  "schemaVersion": 1,
+  "id": "servicios_estudiantiles_cultura_algoritmo_baile",
+  "type": "SERVICE",
+  "category": "CULTURA",
+  "archetype": "WORKSHOP_ACTIVITY",
+  "name": "Club Algoritmo de Baile",
+  "shortDescription": "Club estudiantil enfocado en el aprendizaje y práctica recreativa de ritmos latinos (Salsa y Bachata).",
+  "description": "Club cultural estudiantil que fomenta la convivencia, el ritmo y el acondicionamiento físico a través del baile social en ritmos como salsa en línea, salsa cubana y bachata.",
+  "aliases": [
+    "clases de danza",
+    "clases de baile",
+    "taller de baile",
+    "taller de danza",
+    "algoritmo de baile",
+    "baile escom",
+    "club de baile",
+    "salsa escom",
+    "bachata escom",
+    "clases de salsa",
+    "clases de bachata"
+  ],
+  "keywords": [
+    "baile",
+    "salsa",
+    "bachata",
+    "ritmos latinos",
+    "club",
+    "cultura"
+  ],
+  "audience": [
+    "ESTUDIANTE"
+  ],
+  "requirements": [
+    "Ser estudiante de la ESCOM.",
+    "Gusto por aprender a bailar ritmos latinos."
+  ],
+  "location": {
+    "mapLocationId": "zona_actividades",
+    "displayName": "Zona de actividades (Domo exterior norte de ESCOM)"
+  },
+  "cost": {
+    "displayText": "Participación gratuita"
+  },
+  "schedule": "Sesiones semanales extracurriculares en el Domo exterior norte (consultar días en Salón 4001)",
+  "contact": {
+    "name": "Mesa Directiva de Algoritmo de Baile / Cultura y Deportes",
+    "role": "Informes de Cultura",
+    "phone": "57296000",
+    "extension": "52063",
+    "email": "cultura_y_deportes_escom@ipn.mx"
+  },
+  "steps": [
+    {
+      "order": 1,
+      "title": "Asistencia a Prácticas",
+      "description": "Acudir a las clases abiertas y ensayos en la zona del Domo norte o solicitar información en el Salón 4001."
+    }
+  ],
+  "faqs": [
+    {
+      "question": "¿Se necesita pareja para entrar al club de baile?",
+      "answer": "No, las dinámicas de clase se realizan rotando parejas entre los asistentes."
+    }
+  ],
+  "sources": [
+    {
+      "name": "ESCOM - Servicios Estudiantiles - Actividades Culturales",
+      "url": "https://www.escom.ipn.mx/SSEIS/serviciosestudiantiles/servicios/actsCulturales.php",
+      "type": "OFFICIAL_WEB"
+    }
+  ],
+  "informationStatus": {
+    "verification": "PARTIALLY_VERIFIED",
+    "notes": [
+      "Club registrado en la página oficial de ESCOM con sede en Domo exterior norte. Los días de ensayo varían por semestre escolar."
+    ]
+  },
+  "lastReviewed": "2026-10-22"
+}

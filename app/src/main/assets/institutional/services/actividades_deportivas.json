@@ -1,0 +1,219 @@
+{
+  "schemaVersion": 1,
+  "id": "servicios_estudiantiles_actividades_deportivas",
+  "type": "SERVICE",
+  "category": "DEPORTES",
+  "name": "Actividades Deportivas",
+  "shortDescription": "Selecciones, equipos representativos y clubes deportivos disponibles para estudiantes de ESCOM.",
+  "description": "ESCOM fomenta la participación de los estudiantes en actividades deportivas que colaboran en su desarrollo académico e intelectual. La escuela participa en diferentes actividades mediante selecciones y equipos representativos en torneos internos y juegos deportivos interpolitécnicos.",
+  "aliases": [
+    "actividades deportivas",
+    "deportes escom",
+    "equipos deportivos",
+    "clubes deportivos",
+    "selecciones deportivas"
+  ],
+  "keywords": [
+    "deportes",
+    "fútbol",
+    "soccer",
+    "voleibol",
+    "taekwondo",
+    "ajedrez",
+    "barras",
+    "basquetbol",
+    "ping pong",
+    "tochito bandera"
+  ],
+  "audience": [
+    "ESTUDIANTE"
+  ],
+  "offerings": [
+    {
+      "id": "futbol",
+      "type": "SPORT",
+      "name": "Fútbol",
+      "description": "Actividad deportiva representativa de ESCOM.",
+      "variants": [
+        "SOCCER",
+        "FUTBOL_7",
+        "FUTBOL_RAPIDO"
+      ],
+      "divisions": [
+        "VARONIL",
+        "FEMENIL"
+      ],
+      "instructor": "Diego Espinosa Gómez",
+      "instructorRole": "Prof.",
+      "schedule": [
+        {
+          "day": "MARTES",
+          "start": "16:00",
+          "end": "19:00"
+        },
+        {
+          "day": "MIERCOLES",
+          "start": "10:00",
+          "end": "18:00"
+        },
+        {
+          "day": "VIERNES",
+          "start": "12:00",
+          "end": "20:00"
+        }
+      ],
+      "location": {
+        "mapLocationId": "cancha_futbol_11",
+        "displayName": "Cancha de fútbol 11 (Área exterior de ESCOM)"
+      }
+    },
+    {
+      "id": "voleibol",
+      "type": "SPORT",
+      "name": "Voleibol",
+      "description": "Actividad deportiva representativa de ESCOM.",
+      "divisions": [
+        "VARONIL",
+        "FEMENIL"
+      ],
+      "instructor": "Hugo Hernández Vera",
+      "instructorRole": "Prof.",
+      "schedule": [
+        {
+          "day": "MARTES",
+          "start": "12:00",
+          "end": "19:00"
+        },
+        {
+          "day": "JUEVES",
+          "start": "12:00",
+          "end": "19:00"
+        }
+      ],
+      "location": {
+        "mapLocationId": "cancha_basquetbol_ia",
+        "displayName": "Cancha de básquetbol y voleibol (Área sur, junto a Edificio 5)"
+      }
+    },
+    {
+      "id": "taekwondo",
+      "type": "SPORT_CLUB",
+      "name": "Taekwondo",
+      "divisions": [
+        "VARONIL",
+        "FEMENIL"
+      ],
+      "location": {
+        "mapLocationId": "zona_actividades",
+        "displayName": "Zona de actividades (Domo exterior norte)"
+      }
+    },
+    {
+      "id": "ajedrez",
+      "type": "SPORT_CLUB",
+      "name": "Ajedrez",
+      "divisions": [
+        "VARONIL",
+        "FEMENIL"
+      ]
+    },
+    {
+      "id": "barras",
+      "type": "SPORT_CLUB",
+      "name": "Barras",
+      "divisions": [
+        "VARONIL",
+        "FEMENIL"
+      ],
+      "location": {
+        "mapLocationId": "barras_ejercicio",
+        "displayName": "Barras de ejercicio (Área exterior de acondicionamiento físico)"
+      }
+    },
+    {
+      "id": "basquetbol",
+      "type": "SPORT_CLUB",
+      "name": "Basquetbol",
+      "divisions": [
+        "VARONIL",
+        "FEMENIL"
+      ],
+      "location": {
+        "mapLocationId": "canchas_basquetbol_norte",
+        "displayName": "Canchas de básquetbol norte (Frente a Gestión Escolar)"
+      }
+    },
+    {
+      "id": "ping_pong",
+      "type": "SPORT_CLUB",
+      "name": "Ping Pong",
+      "divisions": [
+        "VARONIL",
+        "FEMENIL"
+      ],
+      "location": {
+        "mapLocationId": "mesas_ping_pong",
+        "displayName": "Mesas de ping pong (Área exterior sur)"
+      }
+    },
+    {
+      "id": "tochito_bandera",
+      "type": "SPORT_CLUB",
+      "name": "Tochito Bandera",
+      "divisions": [
+        "VARONIL",
+        "FEMENIL"
+      ],
+      "location": {
+        "mapLocationId": "cancha_futbol_7",
+        "displayName": "Cancha de fútbol 7 / campo exterior"
+      }
+    }
+  ],
+  "contact": {
+    "name": "Martha Angélica Gasca Cervantes",
+    "role": "Informes de Cultura y Deportes ESCOM",
+    "phone": "57296000",
+    "extension": "52063",
+    "email": "cultura_y_deportes_escom@ipn.mx"
+  },
+  "documents": [],
+  "archetype": "WORKSHOP_ACTIVITY",
+  "location": {
+    "mapLocationId": "actividades_culturales_deportivas_4001",
+    "displayName": "Oficina de Cultura y Deportes (Salón 4001, Edificio de Laboratorios, Planta Baja)"
+  },
+  "schedule": "Horarios por disciplina deportiva y torneos internos semestrales",
+  "cost": {
+    "displayText": "Gratuito para alumnos de ESCOM"
+  },
+  "faqs": [
+    {
+      "question": "¿Tienen costo los talleres deportivos?",
+      "answer": "No, todas las actividades deportivas y clubes son completamente gratuitos."
+    },
+    {
+      "question": "¿Otorgan créditos electivos por participar en deportes?",
+      "answer": "Sí, asistiendo con regularidad y cumpliendo con el 80% de asistencia durante el semestre puedes liberar créditos electivos."
+    }
+  ],
+  "notes": [
+    "La fuente proporcionada publica horarios específicos para Fútbol y Voleibol.",
+    "La fuente proporcionada no publica horarios ni responsables específicos para Taekwondo, Ajedrez, Barras, Basquetbol, Ping Pong y Tochito Bandera.",
+    "Los clubes deportivos se indican como disponibles en ramas varonil y femenil."
+  ],
+  "sources": [
+    {
+      "name": "ESCOM - Servicios Estudiantiles - Actividades Deportivas",
+      "url": "https://www.escom.ipn.mx/SSEIS/serviciosestudiantiles/servicios/actsDeportivas.php",
+      "type": "OFFICIAL_WEB"
+    }
+  ],
+  "informationStatus": {
+    "verification": "OFFICIAL",
+    "notes": [
+      "El contenido de este recurso fue estructurado a partir de la información institucional proporcionada para Servicios Estudiantiles de ESCOM."
+    ]
+  },
+  "lastReviewed": "2026-08-24"
+}

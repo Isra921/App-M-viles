@@ -1,0 +1,149 @@
+{
+  "schemaVersion": 1,
+  "id": "gestion_escolar_reinscripcion",
+  "type": "PROCEDURE",
+  "category": "GESTION_ESCOLAR",
+  "archetype": "PROCEDURE",
+  "name": "Reinscripción y Selección de Cita en SAES",
+  "shortDescription": "Proceso de reinscripción semestral y asignación de horario para estudiantes de ESCOM.",
+  "description": "Procedimiento mediante el cual el estudiante consulta su cita de reinscripción en el SAES (asignada por promedio y avance de créditos), selecciona sus grupos y unidades de aprendizaje para el siguiente semestre y obtiene su Comprobante de Horario Oficial.",
+  "aliases": [
+    "reinscripcion",
+    "reinscripciones",
+    "reinscribirme",
+    "cita saes",
+    "cita de reinscripcion",
+    "seleccion de horario",
+    "comprobante de horario",
+    "reinscripcion saes"
+  ],
+  "keywords": [
+    "reinscripcion",
+    "saes",
+    "cita",
+    "horario",
+    "materias",
+    "grupos",
+    "gestion escolar"
+  ],
+  "audience": [
+    "ESTUDIANTE"
+  ],
+  "requirements": [
+    "Ser estudiante inscrito en el semestre escolar activo.",
+    "No contar con adeudos administrativos con biblioteca, laboratorios o gestión escolar.",
+    "Contar con boleta y contraseña activa para ingresar al portal SAES."
+  ],
+  "documents": [
+    {
+      "id": "comprobante_horario_pdf",
+      "name": "Comprobante de Horario Oficial (PDF emitido por SAES)",
+      "required": true,
+      "description": "Documento digital que ampara la inscripción formal a las materias y grupos seleccionados."
+    }
+  ],
+  "channels": [
+    {
+      "id": "saes",
+      "type": "ONLINE_PLATFORM",
+      "name": "SAES ESCOM",
+      "recommended": true,
+      "url": "https://www.saes.escom.ipn.mx/",
+      "requirements": [
+        "Conocer número de boleta y contraseña de SAES.",
+        "Ingresar en el día y bloque horario asignado en la cita."
+      ],
+      "estimatedTime": {
+        "type": "IMMEDIATE",
+        "displayText": "Inmediato al concluir la selección y confirmación de asignaturas.",
+        "official": true,
+        "basis": "OFFICIAL"
+      },
+      "steps": [
+        {
+          "order": 1,
+          "title": "Consultar Cita",
+          "description": "Ingresar al portal SAES con boleta y contraseña para verificar la fecha y hora exacta asignada para tu reinscripción."
+        },
+        {
+          "order": 2,
+          "title": "Acceso Puntual",
+          "description": "Ingresar al SAES puntualmente al iniciar tu bloque de cita para tener mayor disponibilidad de cupos en los grupos."
+        },
+        {
+          "order": 3,
+          "title": "Seleccionar Materias",
+          "description": "Seleccionar las unidades de aprendizaje y grupos deseados, asegurando no generar cruces de horario."
+        },
+        {
+          "order": 4,
+          "title": "Confirmar y Descargar",
+          "description": "Guardar la selección, confirmar con tu contraseña y descargar tu Comprobante de Horario en PDF."
+        }
+      ]
+    },
+    {
+      "id": "gestion_escolar_ventanilla",
+      "type": "IN_PERSON",
+      "name": "Ventanillas de Gestión Escolar",
+      "recommended": false,
+      "requirements": [
+        "Acudir en caso de problemas técnicos con el SAES, ajuste de materias o aclaración de citas."
+      ],
+      "steps": [
+        {
+          "order": 1,
+          "title": "Acudir a Gestión Escolar",
+          "description": "Presentarse en ventanilla en el horario de atención con identificación escolar y número de boleta."
+        },
+        {
+          "order": 2,
+          "title": "Aclaración de Caso",
+          "description": "Exponer la situación de sobrecupo, desbloqueo de cuenta o revisión de situación escolar."
+        }
+      ]
+    }
+  ],
+  "location": {
+    "mapLocationId": "gestion_escolar",
+    "displayName": "Gestión Escolar (Edificio de Gobierno, Planta Baja)"
+  },
+  "period": {
+    "type": "ACADEMIC_CALENDAR_WINDOW",
+    "description": "Periodo intersemestral previo al inicio del ciclo lectivo conforme al calendario oficial del IPN.",
+    "warning": "Si no ingresas durante tu bloque de cita, perderás la prioridad de selección y deberás esperar a la fase de rezagados o cupos restantes."
+  },
+  "cost": {
+    "displayText": "Aportación voluntaria institucional en cuenta oficial del plantel"
+  },
+  "schedule": "Atención en ventanillas de Gestión Escolar: Lunes a Viernes de 09:00 a 14:00 y de 15:00 a 20:00 hrs",
+  "faqs": [
+    {
+      "question": "¿Cómo se determina la fecha y hora de mi cita de reinscripción?",
+      "answer": "El sistema SAES calcula la prioridad con base en el promedio general, número de materias aprobadas en ordinario y avance curricular."
+    },
+    {
+      "question": "¿Qué hago si una materia obligatoria ya no tiene cupo?",
+      "answer": "Debes solicitar apoyo durante el periodo de atención de sobrecupos y ajustes publicado por la Subdirección Académica y Gestión Escolar."
+    }
+  ],
+  "sources": [
+    {
+      "name": "Sistema de Administración Escolar (SAES ESCOM)",
+      "url": "https://www.saes.escom.ipn.mx/",
+      "type": "OFFICIAL_PLATFORM"
+    },
+    {
+      "name": "Portal de Gestión Escolar ESCOM",
+      "url": "https://www.escom.ipn.mx/SSEIS/gestionescolar/",
+      "type": "OFFICIAL_WEB"
+    }
+  ],
+  "informationStatus": {
+    "verification": "VERIFIED",
+    "notes": [
+      "Flujo oficial del sistema SAES de ESCOM para la reinscripción de semestres ordinarios."
+    ]
+  },
+  "lastReviewed": "2026-10-22"
+}

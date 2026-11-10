@@ -1,0 +1,102 @@
+{
+  "schemaVersion": 1,
+  "id": "servicios_estudiantiles_biblioteca_cubiculos",
+  "type": "SERVICE",
+  "category": "BIBLIOTECA",
+  "archetype": "FACILITY_SERVICE",
+  "name": "Préstamo de Cubículos de Estudio Grupal",
+  "shortDescription": "Espacios privados para estudio y trabajo en equipo de 2 a 4 personas (máximo 90 minutos).",
+  "description": "Servicio de préstamo de cubículos cerrados dentro de la Biblioteca de ESCOM, diseñados para trabajo colaborativo, preparación de exposiciones y asesorías en grupos pequeños de 2 a 4 estudiantes.",
+  "aliases": [
+    "cubiculos",
+    "cubiculos biblioteca",
+    "cubiculo de estudio",
+    "apartar cubiculo",
+    "estudio grupal",
+    "cubiculos de biblioteca"
+  ],
+  "keywords": [
+    "cubículos",
+    "estudio",
+    "equipo",
+    "biblioteca",
+    "90 minutos",
+    "grupal"
+  ],
+  "audience": [
+    "ESTUDIANTE"
+  ],
+  "requirements": [
+    "Conformar un grupo de mínimo 2 y máximo 4 personas.",
+    "Presentar credenciales escolares vigentes de todos los integrantes del grupo."
+  ],
+  "serviceRules": [
+    {
+      "id": "capacidad_cubiculos",
+      "type": "SPACE_USAGE",
+      "description": "Los cubículos pueden ser utilizados exclusivamente por grupos de 2 a 4 personas.",
+      "minPeople": 2,
+      "maxPeople": 4,
+      "maxDurationMinutes": 90
+    },
+    {
+      "id": "prohibicion_alimentos",
+      "type": "PROHIBITION",
+      "description": "Está estrictamente prohibido introducir alimentos o bebidas a los cubículos."
+    }
+  ],
+  "location": {
+    "mapLocationId": "biblioteca",
+    "displayName": "Mostrador de Biblioteca (Edificio de Biblioteca de ESCOM)"
+  },
+  "cost": {
+    "displayText": "Servicio gratuito"
+  },
+  "schedule": "Lunes a Viernes de 08:30 a 19:30 hrs",
+  "steps": [
+    {
+      "order": 1,
+      "title": "Verificar Disponibilidad",
+      "description": "Acudir al mostrador de la biblioteca con los integrantes de tu equipo (2 a 4 personas)."
+    },
+    {
+      "order": 2,
+      "title": "Entrega de Credenciales",
+      "description": "Entregar en mostrador las credenciales institucionales vigentes de todos los usuarios."
+    },
+    {
+      "order": 3,
+      "title": "Uso del Cubículo",
+      "description": "Hacer uso del cubículo asignado por un tiempo máximo de 1 hora y 30 minutos (90 minutos)."
+    },
+    {
+      "order": 4,
+      "title": "Entrega y Recuperación",
+      "description": "Desalojar el espacio puntualmente en condiciones de orden y recoger las credenciales en el mostrador."
+    }
+  ],
+  "faqs": [
+    {
+      "question": "¿Puede una sola persona apartar un cubículo?",
+      "answer": "No, el reglamento de operación establece que los cubículos son de uso grupal para un mínimo de 2 y un máximo de 4 personas."
+    },
+    {
+      "question": "¿Cuánto tiempo dura el préstamo de un cubículo?",
+      "answer": "La duración máxima reglamentaria es de 90 minutos (1 hora con 30 minutos)."
+    }
+  ],
+  "sources": [
+    {
+      "name": "Políticas de Operación de la Biblioteca ESCOM",
+      "url": "https://www.escom.ipn.mx/SSEIS/serviciosestudiantiles/documentos/PoliticasOperacionBiblioteca2025.pdf",
+      "type": "OFFICIAL_DOCUMENT"
+    }
+  ],
+  "informationStatus": {
+    "verification": "OFFICIAL",
+    "notes": [
+      "Capacidad (2-4 personas) y tiempo límite (90 min) verificados en las Políticas de Operación 2025."
+    ]
+  },
+  "lastReviewed": "2026-10-22"
+}

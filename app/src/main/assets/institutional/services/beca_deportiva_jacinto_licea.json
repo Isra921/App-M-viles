@@ -1,0 +1,125 @@
+{
+  "schemaVersion": 1,
+  "id": "apoyos_educativos_beca_deportiva_jacinto_licea",
+  "type": "SUPPORT",
+  "category": "BECAS",
+  "archetype": "SCHOLARSHIP",
+  "name": "Beca Deportiva Jacinto Licea",
+  "shortDescription": "Estímulo económico de $15,000.00 a $20,000.00 M.N. para atletas politécnicos de alto rendimiento en torneos oficiales.",
+  "description": "Modalidad de excelencia deportiva para deportistas de alto rendimiento que representan oficialmente al Instituto Politécnico Nacional en competencias avaladas por la Dirección de Actividades Deportivas (DAD). Otorga $15,000.00 M.N. para campeonatos universitarios CONDE/CONDDE/ANUIES y $20,000.00 M.N. para eventos federados o internacionales.",
+  "aliases": [
+    "beca jacinto licea",
+    "beca licea",
+    "beca alto rendimiento deportivo",
+    "beca deportiva jacinto",
+    "beca seleccion politecnica"
+  ],
+  "keywords": [
+    "jacinto licea",
+    "alto rendimiento",
+    "condde",
+    "conade",
+    "anuies",
+    "selección ipn",
+    "deporte federado"
+  ],
+  "audience": [
+    "ESTUDIANTE"
+  ],
+  "requirements": [
+    "Monto: $15,000.00 M.N. (campeonatos universitarios CONDE/CONDDE/ANUIES) o $20,000.00 M.N. (Olimpiada Nacional CONADE / eventos federados o internacionales).",
+    "Tener un promedio general mínimo de 7.0 y encontrarse en situación escolar regular.",
+    "Representar activamente al IPN en competencias deportivas oficiales con aval técnico de la Dirección de Actividades Deportivas (DAD).",
+    "Compatible con BEIFI."
+  ],
+  "documents": [
+    {
+      "id": "acuse_solicitud_sibec",
+      "name": "Acuse de solicitud de beca emitido por SIBec",
+      "required": true
+    },
+    {
+      "id": "aval_tecnico_dad",
+      "name": "Cédula y aval técnico de deportista de alto rendimiento emitido por la DAD",
+      "required": true
+    },
+    {
+      "id": "expediente_bancario_bbva",
+      "name": "Expediente bancario BBVA a nombre del estudiante",
+      "required": true
+    }
+  ],
+  "channels": [
+    {
+      "id": "dad_sibec",
+      "type": "ONLINE_PLATFORM",
+      "name": "Dirección de Actividades Deportivas y SIBec",
+      "recommended": true,
+      "url": "https://www.sibec.ipn.mx/",
+      "steps": [
+        {
+          "order": 1,
+          "title": "Postulación Técnica",
+          "description": "Tramitar ante el entrenador de selección politécnica y la DAD la cédula de postulación de alto rendimiento."
+        },
+        {
+          "order": 2,
+          "title": "Solicitud en SIBec",
+          "description": "Registrar la solicitud en SIBec bajo la modalidad Jacinto Licea y adjuntar la documentación técnica."
+        },
+        {
+          "order": 3,
+          "title": "Validación y Pago",
+          "description": "Validación colegiada entre la DAD y la DAES, y dispersión del estímulo bancario."
+        }
+      ]
+    }
+  ],
+  "contact": {
+    "name": "Martha Angélica Gasca Cervantes",
+    "title": "Lic.",
+    "phone": "57296000",
+    "extension": "52056",
+    "email": "becas.escom@ipn.mx"
+  },
+  "location": {
+    "mapLocationId": "departamento_extension_apoyos_educativos",
+    "displayName": "Departamento de Extensión y Apoyos Educativos (Edificio de Gobierno, Planta Alta)"
+  },
+  "period": {
+    "type": "CALL_BASED",
+    "description": "Periodo Escolar 27/1 del Ciclo Escolar 2026-2027 (Agosto - Diciembre 2026). Registro en SIBec: 25 de septiembre al 02 de octubre de 2026."
+  },
+  "cost": {
+    "displayText": "Trámite gratuito"
+  },
+  "schedule": "Atención en ventanilla de Becas: Lunes a Viernes de 09:00 a 14:00 y de 16:00 a 19:00 hrs",
+  "faqs": [
+    {
+      "question": "¿Quién otorga el aval para la Beca Jacinto Licea?",
+      "answer": "El aval técnico lo emite exclusivamente la Dirección de Actividades Deportivas (DAD) del IPN en Zacatenco a los miembros de las selecciones representativas institucionales."
+    }
+  ],
+  "actions": [
+    {
+      "id": "open_sibec",
+      "name": "Abrir plataforma SIBec",
+      "type": "EXTERNAL_LINK",
+      "url": "https://www.sibec.ipn.mx/"
+    }
+  ],
+  "sources": [
+    {
+      "name": "Gaceta Politécnica Extraordinaria No. 1970 - Convocatoria General de Becas 27/1",
+      "url": "https://www.ipn.mx/daes/servicios/becas/",
+      "type": "OFFICIAL_GAZETTE"
+    }
+  ],
+  "informationStatus": {
+    "verification": "OFFICIAL",
+    "notes": [
+      "Verificado en Gaceta Politécnica Extraordinaria No. 1970."
+    ]
+  },
+  "lastReviewed": "2026-10-22"
+}

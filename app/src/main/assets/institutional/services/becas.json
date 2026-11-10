@@ -1,0 +1,287 @@
+{
+  "schemaVersion": 1,
+  "id": "apoyos_educativos_becas",
+  "type": "SUPPORT",
+  "category": "BECAS",
+  "name": "Becas y otros apoyos",
+  "shortDescription": "Información y acceso al proceso de registro, consulta y seguimiento de becas del IPN mediante SIBec.",
+  "description": "El IPN publica convocatorias de becas de forma semestral. La solicitud se gestiona mediante el Sistema Informático de Becas (SIBec), donde el estudiante realiza su pre-registro, llena el estudio socioeconómico, carga la documentación requerida y consulta el seguimiento de su solicitud.",
+  "aliases": [
+    "beca",
+    "becas",
+    "becas escom",
+    "sibec",
+    "apoyos economicos",
+    "apoyos educativos",
+    "convocatoria de becas"
+  ],
+  "keywords": [
+    "becas",
+    "sibec",
+    "convocatoria",
+    "apoyo económico",
+    "estudio socioeconómico",
+    "documentos",
+    "seguimiento"
+  ],
+  "audience": [
+    "ESTUDIANTE"
+  ],
+  "availability": {
+    "type": "CALL_BASED",
+    "activeCall": true,
+    "status": "ACTIVE_CALL",
+    "displayText": "Convocatoria General de Becas Ciclo Escolar 2026-2027 Periodo Escolar 27/1 (Gaceta Politécnica Extraordinaria 1970).",
+    "notes": [
+      "Registro de solicitudes en SIBec: del 25 de septiembre al 02 de octubre de 2026.",
+      "Publicación de resultados oficiales en SIBec: 06 de noviembre de 2026.",
+      "Captura de cuenta bancaria BBVA débito en SIBec: del 09 al 13 de noviembre de 2026.",
+      "Requisitos indispensables: cuenta bancaria BBVA activa a tu nombre y correo institucional."
+    ]
+  },
+  "period": {
+    "description": "Periodo Escolar 27/1 del Ciclo Escolar 2026-2027 (Agosto – Diciembre 2026). Registro en SIBec: 25 de septiembre al 02 de octubre de 2026.",
+    "warning": "Indispensable contar con cuenta bancaria BBVA de débito o ahorro activa a tu nombre (no tarjeta de crédito ni monedero electrónico). Dos intentos de depósito rechazados causan la revocación definitiva de la beca."
+  },
+  "applicationProcess": {
+    "platform": {
+      "id": "sibec",
+      "name": "Sistema Informático de Becas (SIBec)",
+      "url": "https://www.sibec.ipn.mx/",
+      "supports": [
+        "PRE_REGISTRATION",
+        "SOCIOECONOMIC_STUDY",
+        "DOCUMENT_UPLOAD",
+        "APPLICATION_STATUS",
+        "SCHOLARSHIP_MANAGEMENT"
+      ]
+    },
+    "steps": [
+      {
+        "order": 1,
+        "description": "Registro de solicitud y carga de documentos probatorios en SIBec (https://www.sibec.ipn.mx/) del 25 de septiembre al 02 de octubre de 2026."
+      },
+      {
+        "order": 2,
+        "description": "Revisión y validación por los Subcomités de Becas de las Unidades Académicas: del 05 al 27 de octubre de 2026."
+      },
+      {
+        "order": 3,
+        "description": "Publicación de resultados oficiales en la plataforma SIBec: 06 de noviembre de 2026."
+      },
+      {
+        "order": 4,
+        "description": "Captura de cuenta bancaria BBVA débito en SIBec y carga de expediente bancario: del 09 al 13 de noviembre de 2026."
+      },
+      {
+        "order": 5,
+        "description": "Periodo para interponer Recurso de Reconsideración en SIBec (para solicitudes rechazadas): del 09 al 23 de noviembre de 2026."
+      },
+      {
+        "order": 6,
+        "description": "Fecha tentativa de pago y dispersión bancaria: 27 de noviembre de 2026 (a más tardar dos semanas antes de concluir el periodo lectivo)."
+      }
+    ],
+    "recommendations": [
+      "Registrarse en SIBec exclusivamente con la cuenta de correo electrónico institucional (@ipn.mx / @alumno.ipn.mx).",
+      "Contar con una cuenta bancaria BBVA de débito activa a tu nombre que permita recibir transferencias mayores al monto de la beca y sin límite mensual.",
+      "No se aceptan monederos electrónicos, tarjetas de crédito, cuentas Banco del Bienestar ni giros postales.",
+      "Para becas Deportiva y Cultural, verificar el alta de la actividad en SAES antes del 24 de septiembre de 2026."
+    ]
+  },
+  "scholarshipTypes": [
+    {
+      "id": "institucional",
+      "name": "Beca Institucional (Nivel Superior)",
+      "requirements": [
+        "Monto: $6,600.00 M.N. por periodo escolar 27/1 (pago único).",
+        "Tener un promedio general mínimo de 7.0.",
+        "Ser estudiante en situación escolar regular.",
+        "Estar inscrito en modalidad escolarizada, no escolarizada o mixta.",
+        "Compatible únicamente con BEIFI."
+      ],
+      "requirementsStatus": "Vigente Convocatoria 27/1"
+    },
+    {
+      "id": "excelencia",
+      "name": "Beca Excelencia (Nivel Superior)",
+      "requirements": [
+        "Monto: $19,000.00 M.N. por periodo escolar 27/1 (pago único).",
+        "Tener un promedio general mínimo de 9.0 (Área de Ciencias Físico Matemáticas / ESCOM).",
+        "Haber cursado como mínimo el 30% del total de créditos del programa académico.",
+        "Ser estudiante en situación escolar regular.",
+        "Desempeño académico sobresaliente o reconocimientos otorgados en certámenes académicos o científicos.",
+        "Compatible únicamente con BEIFI."
+      ],
+      "requirementsStatus": "Vigente Convocatoria 27/1"
+    },
+    {
+      "id": "cultural",
+      "name": "Beca Cultural (Nivel Superior)",
+      "requirements": [
+        "Monto: $7,000.00 M.N. por periodo escolar 27/1 (pago único).",
+        "Tener un promedio general mínimo de 6.0.",
+        "Ser estudiante regular o con adeudo de hasta dos unidades de aprendizaje.",
+        "Participar en talleres artístico-culturales de la Dirección de Difusión Cultural (DDC) del IPN.",
+        "Actividad registrada en SAES antes del 24 de septiembre de 2026 (a partir de 2° semestre, acreditar 80% de asistencia).",
+        "Compatible con BEIFI (únicamente en situación regular)."
+      ],
+      "requirementsStatus": "Vigente Convocatoria 27/1"
+    },
+    {
+      "id": "cultural_carmen_fuente",
+      "name": "Beca Cultural Carmen de la Fuente",
+      "requirements": [
+        "Monto: $20,000.00 M.N. por periodo escolar 27/1.",
+        "Tener un promedio general mínimo de 7.0 y situación escolar regular.",
+        "Labor artística/cultural comprobable en espacios externos al IPN durante el año anterior registrada ante DDC antes del 24 de septiembre de 2026.",
+        "Áreas: Artes Visuales, Creación Literaria, Danza, Música y Teatro.",
+        "Realizar al menos una actividad artística durante la vigencia de la beca sin fines de lucro.",
+        "Compatible con BEIFI."
+      ],
+      "requirementsStatus": "Vigente Convocatoria 27/1"
+    },
+    {
+      "id": "deportiva",
+      "name": "Beca Deportiva (Nivel Superior)",
+      "requirements": [
+        "Monto: $7,000.00 M.N. por periodo escolar 27/1 (pago único).",
+        "Tener un promedio general mínimo de 6.0.",
+        "Ser estudiante regular o con adeudo de hasta una unidad de aprendizaje.",
+        "Participar en disciplinas deportivas avaladas por la Dirección de Actividades Deportivas (DAD) del IPN.",
+        "Actividad registrada en SAES antes del 24 de septiembre de 2026.",
+        "Compatible con BEIFI (únicamente en situación regular)."
+      ],
+      "requirementsStatus": "Vigente Convocatoria 27/1"
+    },
+    {
+      "id": "deportiva_jacinto_licea",
+      "name": "Beca Deportiva Jacinto Licea",
+      "requirements": [
+        "Monto: $15,000.00 M.N. (campeonatos universitarios CONDE/CONDDE/ANUIES) o $20,000.00 M.N. (Olimpiada Nacional CONADE/eventos federados/internacionales).",
+        "Tener un promedio general mínimo de 7.0 y situación escolar regular.",
+        "Representar al IPN en competencias deportivas oficiales avaladas por la DAD.",
+        "Compatible con BEIFI."
+      ],
+      "requirementsStatus": "Vigente Convocatoria 27/1"
+    },
+    {
+      "id": "beifi",
+      "name": "Beca de Estímulo Institucional de Formación de Investigadores (BEIFI)",
+      "requirements": [
+        "Monto: $1,400.00 M.N. mensuales (hasta 5 meses por periodo = $7,000.00 M.N.).",
+        "Tener un promedio general mínimo de 8.0 y ser estudiante regular sin adeudos.",
+        "Ser postulado/a por director/a de proyecto de investigación institucional SIP vigente.",
+        "Entrega de formatos BEIFI-01 y BEIFI-02 en el área de becas de la escuela.",
+        "Compatible con becas Institucional, Excelencia, Cultural, Deportiva y Beca Benito Juárez."
+      ],
+      "requirementsStatus": "Vigente Convocatoria 27/1"
+    }
+  ],
+  "contact": {
+    "name": "Martha Angélica Gasca Cervantes",
+    "title": "Lic.",
+    "phone": "57296000",
+    "extension": "52056",
+    "email": "becas.escom@ipn.mx"
+  },
+  "location": {
+    "mapLocationId": "departamento_extension_apoyos_educativos",
+    "displayName": "Departamento de Extensión y Apoyos Educativos, Edificio de Gobierno, planta alta"
+  },
+  "actions": [
+    {
+      "id": "open_sibec",
+      "type": "EXTERNAL_LINK",
+      "name": "Abrir plataforma SIBec",
+      "url": "https://www.sibec.ipn.mx/"
+    },
+    {
+      "id": "open_convocatoria_gaceta",
+      "type": "EXTERNAL_DOCUMENT",
+      "name": "Convocatoria General de Becas 27/1 (Gaceta 1970)",
+      "url": "https://www.ipn.mx/daes/servicios/becas/"
+    },
+    {
+      "id": "open_escom_becas",
+      "type": "EXTERNAL_LINK",
+      "name": "Consultar Becas ESCOM",
+      "url": "https://www.escom.ipn.mx/SSEIS/apoyoseducativos/servicios/becas.php"
+    }
+  ],
+  "documents": [
+    {
+      "id": "acuse_solicitud_sibec",
+      "name": "Acuse de solicitud de beca y carta compromiso (expedida por SIBec)",
+      "required": true
+    },
+    {
+      "id": "credencial_dae",
+      "name": "Credencial escolar expedida por la DAE",
+      "required": true
+    },
+    {
+      "id": "datos_saes",
+      "name": "Datos académicos del SAES (validados automáticamente al 25 de septiembre de 2026)",
+      "required": true
+    },
+    {
+      "id": "expediente_bancario_bbva",
+      "name": "Expediente bancario BBVA (estado de cuenta o contrato donde conste titularidad y CLABE)",
+      "required": true
+    }
+  ],
+  "archetype": "SCHOLARSHIP",
+  "schedule": "Atención en ventanilla de Becas (Depto. de Extensión y Apoyos): Lunes a Viernes de 09:00 a 14:00 y de 16:00 a 19:00 hrs",
+  "cost": {
+    "displayText": "Trámite gratuito"
+  },
+  "faqs": [
+    {
+      "question": "¿Dónde se realiza el registro para las becas del IPN?",
+      "answer": "Todo el registro, llenado de estudio socioeconómico y carga de documentos probatorios se realiza en línea a través del Sistema Informático de Becas (SIBec): https://www.sibec.ipn.mx/."
+    },
+    {
+      "question": "¿Qué cuenta de banco necesito para recibir la beca?",
+      "answer": "Es requisito indispensable contar con una cuenta bancaria BBVA de débito o ahorros activa a tu nombre (no tarjeta de crédito, no monedero electrónico ni cuentas Banco del Bienestar). El periodo de captura bancaria en SIBec es del 09 al 13 de noviembre de 2026."
+    },
+    {
+      "question": "¿Puedo tener más de una beca al mismo tiempo?",
+      "answer": "Según la Matriz de Compatibilidad oficial (Anexo I de la Gaceta 1970), las becas Institucional, Excelencia, Cultural y Deportiva son compatibles exclusivamente con la beca BEIFI (investigación). No es posible combinar dos becas generales del mismo tipo."
+    },
+    {
+      "question": "¿Cuándo y cómo se publican los resultados?",
+      "answer": "Los resultados se publicarán el 06 de noviembre de 2026 y solo podrán consultarse ingresando con tu usuario y contraseña en tu sesión del SIBec."
+    }
+  ],
+  "notes": [
+    "Convocatoria oficial publicada en la Gaceta Politécnica Extraordinaria No. 1970 del 27 de agosto de 2026.",
+    "Aplica para el Ciclo Escolar 2026-2027, Periodo Escolar 27/1 (Agosto - Diciembre 2026).",
+    "Los pagos se entregan en una sola exhibición bancaria a más tardar dos semanas antes de terminar el periodo escolar lectivo.",
+    "El trámite es completamente gratuito."
+  ],
+  "sources": [
+    {
+      "name": "Gaceta Politécnica Extraordinaria No. 1970 - Convocatoria General de Becas 27/1",
+      "url": "https://www.ipn.mx/daes/servicios/becas/",
+      "type": "OFFICIAL_GAZETTE"
+    },
+    {
+      "name": "SIBec - Sistema Informático de Becas",
+      "url": "https://www.sibec.ipn.mx/",
+      "type": "OFFICIAL_PLATFORM"
+    },
+    {
+      "name": "ESCOM - Becas y otros apoyos",
+      "url": "https://www.escom.ipn.mx/SSEIS/apoyoseducativos/servicios/becas.php",
+      "type": "OFFICIAL_WEB"
+    }
+  ],
+  "informationStatus": {
+    "verification": "OFFICIAL",
+    "notes": [
+      "Información actualizada y verificada con base en la Gaceta Politécnica Extraordinaria No. 1970 (Periodo 27/1)."
+    ]
+  },
+  "lastReviewed": "2026-08-27"
+}

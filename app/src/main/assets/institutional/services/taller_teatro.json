@@ -1,0 +1,80 @@
+{
+  "schemaVersion": 1,
+  "id": "servicios_estudiantiles_cultura_teatro",
+  "type": "SERVICE",
+  "category": "CULTURA",
+  "archetype": "WORKSHOP_ACTIVITY",
+  "name": "Taller de Teatro",
+  "shortDescription": "Expresión corporal, pérdida del miedo escénico, técnicas de actuación y montaje escénico.",
+  "description": "Taller enfocado en el desarrollo integral del estudiante mediante diversas técnicas teatrales, modulación de voz, improvisación y expresión en público, preparando montajes para eventos institucionales.",
+  "aliases": [
+    "teatro",
+    "taller de teatro",
+    "actuacion",
+    "clases de teatro",
+    "grupo de teatro"
+  ],
+  "keywords": [
+    "teatro",
+    "actuación",
+    "expresión",
+    "escenario",
+    "auditorio",
+    "cultura",
+    "dramaturgia"
+  ],
+  "audience": [
+    "ESTUDIANTE"
+  ],
+  "requirements": [
+    "Ser estudiante de la ESCOM.",
+    "Compromiso de asistencia y participación en dinámicas grupales y ensayos."
+  ],
+  "location": {
+    "mapLocationId": "auditorio",
+    "displayName": "Auditorio de ESCOM (Planta Baja)"
+  },
+  "cost": {
+    "displayText": "Taller gratuito"
+  },
+  "schedule": "Martes de 12:00 a 15:00 hrs y Miércoles de 15:30 a 18:30 hrs",
+  "contact": {
+    "name": "Profra. Verónica Hernández",
+    "role": "Instructora del Taller de Teatro",
+    "phone": "57296000",
+    "extension": "52063",
+    "email": "cultura_y_deportes_escom@ipn.mx"
+  },
+  "steps": [
+    {
+      "order": 1,
+      "title": "Inscripción",
+      "description": "Acudir al Salón 4001 o presentarse en el Auditorio de ESCOM en los horarios del taller."
+    },
+    {
+      "order": 2,
+      "title": "Ensayos",
+      "description": "Participar en las dinámicas de expresión corporal y montaje en el Auditorio."
+    }
+  ],
+  "faqs": [
+    {
+      "question": "¿Se requiere experiencia previa para entrar al taller de teatro?",
+      "answer": "No, el taller está diseñado para principiantes y niveles intermedios que buscan desenvolverse con seguridad al hablar en público."
+    }
+  ],
+  "sources": [
+    {
+      "name": "ESCOM - Servicios Estudiantiles - Actividades Culturales",
+      "url": "https://www.escom.ipn.mx/SSEIS/serviciosestudiantiles/servicios/actsCulturales.php",
+      "type": "OFFICIAL_WEB"
+    }
+  ],
+  "informationStatus": {
+    "verification": "OFFICIAL",
+    "notes": [
+      "Instructora, horarios y sede (Auditorio) verificados en el portal oficial de ESCOM."
+    ]
+  },
+  "lastReviewed": "2026-10-22"
+}

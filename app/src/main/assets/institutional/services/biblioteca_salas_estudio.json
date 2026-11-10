@@ -1,0 +1,85 @@
+{
+  "schemaVersion": 1,
+  "id": "servicios_estudiantiles_biblioteca_salas_estudio",
+  "type": "SERVICE",
+  "category": "BIBLIOTECA",
+  "archetype": "FACILITY_SERVICE",
+  "name": "Salas de Estudio Colaborativo",
+  "shortDescription": "Áreas acondicionadas para trabajo en equipos medianos y grandes de 5 a 10 personas.",
+  "description": "Espacios destinados a grupos de estudio numerosos de 5 a 10 estudiantes para la discusión académica, desarrollo de proyectos integradores y preparación de exámenes en un entorno ordenado.",
+  "aliases": [
+    "salas de estudio",
+    "sala de estudio",
+    "estudio colaborativo",
+    "sala grupal biblioteca"
+  ],
+  "keywords": [
+    "salas de estudio",
+    "trabajo en equipo",
+    "5 a 10 personas",
+    "biblioteca",
+    "colaborativo"
+  ],
+  "audience": [
+    "ESTUDIANTE"
+  ],
+  "requirements": [
+    "Conformar un grupo de mínimo 5 y máximo 10 integrantes.",
+    "Presentar credenciales escolares vigentes en mostrador."
+  ],
+  "serviceRules": [
+    {
+      "id": "capacidad_salas",
+      "type": "SPACE_USAGE",
+      "description": "Las salas de estudio pueden ser utilizadas por grupos de 5 a 10 personas.",
+      "minPeople": 5,
+      "maxPeople": 10,
+      "maxDurationMinutes": 90
+    }
+  ],
+  "location": {
+    "mapLocationId": "biblioteca",
+    "displayName": "Planta Alta de la Biblioteca de ESCOM"
+  },
+  "cost": {
+    "displayText": "Servicio gratuito"
+  },
+  "schedule": "Lunes a Viernes de 08:30 a 19:30 hrs",
+  "steps": [
+    {
+      "order": 1,
+      "title": "Registro del Grupo",
+      "description": "Presentarse en el mostrador de atención bibliotecaria con los integrantes del equipo."
+    },
+    {
+      "order": 2,
+      "title": "Entrega de Credenciales",
+      "description": "Dejar en resguardo las identificaciones escolares vigentes."
+    },
+    {
+      "order": 3,
+      "title": "Uso Responsable",
+      "description": "Trabajar en la sala asignada manteniendo volumen de voz moderado por un máximo de 90 minutos."
+    }
+  ],
+  "faqs": [
+    {
+      "question": "¿Cuál es la diferencia entre un cubículo y una sala de estudio?",
+      "answer": "Los cubículos son para equipos pequeños de 2 a 4 personas; las salas de estudio son para grupos más grandes de 5 a 10 integrantes."
+    }
+  ],
+  "sources": [
+    {
+      "name": "Políticas de Operación de la Biblioteca ESCOM",
+      "url": "https://www.escom.ipn.mx/SSEIS/serviciosestudiantiles/documentos/PoliticasOperacionBiblioteca2025.pdf",
+      "type": "OFFICIAL_DOCUMENT"
+    }
+  ],
+  "informationStatus": {
+    "verification": "OFFICIAL",
+    "notes": [
+      "Reglas verificadas en el reglamento oficial de la Biblioteca de ESCOM."
+    ]
+  },
+  "lastReviewed": "2026-10-22"
+}

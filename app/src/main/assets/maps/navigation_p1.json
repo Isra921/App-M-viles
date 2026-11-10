@@ -1,0 +1,424 @@
+{
+  "floorId": "1",
+  "notaConectores": "La correspondencia física entre escaleras se define explícitamente en MapScreen; los IDs no se comparan directamente entre pisos.",
+  "conectoresEntrePisos": [
+    "S01",
+    "S02",
+    "S03",
+    "S04",
+    "S05",
+    "S06",
+    "S07",
+    "S08"
+  ],
+  "coordinateSystem": {
+    "width": 1260,
+    "height": 1600,
+    "mapWidth": 1260,
+    "mapHeight": 1600,
+    "verticalOffset": 0
+  },
+  "nodes": [
+    {
+      "id": "N32",
+      "x": 671,
+      "y": 379,
+      "tipo": "CAMINO"
+    },
+    {
+      "id": "S01",
+      "x": 381,
+      "y": 531,
+      "tipo": "ESCALERAS"
+    },
+    {
+      "id": "S02",
+      "x": 880,
+      "y": 531,
+      "tipo": "ESCALERAS"
+    },
+    {
+      "id": "S03",
+      "x": 631,
+      "y": 668,
+      "tipo": "ESCALERAS"
+    },
+    {
+      "id": "S04",
+      "x": 381,
+      "y": 967,
+      "tipo": "ESCALERAS"
+    },
+    {
+      "id": "S05",
+      "x": 880,
+      "y": 967,
+      "tipo": "ESCALERAS"
+    },
+    {
+      "id": "S06",
+      "x": 635,
+      "y": 1116,
+      "tipo": "ESCALERAS"
+    },
+    {
+      "id": "S07",
+      "x": 635,
+      "y": 1438,
+      "tipo": "ESCALERAS"
+    },
+    {
+      "id": "S08",
+      "x": 670,
+      "y": 336,
+      "tipo": "ESCALERAS"
+    },
+    {
+      "id": "N33",
+      "x": 433,
+      "y": 380,
+      "tipo": "CAMINO"
+    },
+    {
+      "id": "N34",
+      "x": 554,
+      "y": 379,
+      "tipo": "CAMINO"
+    },
+    {
+      "id": "N35",
+      "x": 433,
+      "y": 534,
+      "tipo": "CAMINO"
+    },
+    {
+      "id": "N38",
+      "x": 706,
+      "y": 377,
+      "tipo": "CAMINO"
+    },
+    {
+      "id": "N39",
+      "x": 431,
+      "y": 724,
+      "tipo": "CAMINO"
+    },
+    {
+      "id": "N40",
+      "x": 555,
+      "y": 724,
+      "tipo": "CAMINO"
+    },
+    {
+      "id": "N41",
+      "x": 709,
+      "y": 724,
+      "tipo": "CAMINO"
+    },
+    {
+      "id": "N42",
+      "x": 832,
+      "y": 378,
+      "tipo": "CAMINO"
+    },
+    {
+      "id": "N43",
+      "x": 831,
+      "y": 724,
+      "tipo": "CAMINO"
+    },
+    {
+      "id": "N44",
+      "x": 832,
+      "y": 532,
+      "tipo": "CAMINO"
+    },
+    {
+      "id": "N45",
+      "x": 832,
+      "y": 967,
+      "tipo": "CAMINO"
+    },
+    {
+      "id": "N46",
+      "x": 832,
+      "y": 1058,
+      "tipo": "CAMINO"
+    },
+    {
+      "id": "N47",
+      "x": 832,
+      "y": 1161,
+      "tipo": "CAMINO"
+    },
+    {
+      "id": "N48",
+      "x": 707,
+      "y": 1056,
+      "tipo": "CAMINO"
+    },
+    {
+      "id": "N49",
+      "x": 629,
+      "y": 1056,
+      "tipo": "CAMINO"
+    },
+    {
+      "id": "N50",
+      "x": 556,
+      "y": 1055,
+      "tipo": "CAMINO"
+    },
+    {
+      "id": "N51",
+      "x": 432,
+      "y": 1055,
+      "tipo": "CAMINO"
+    },
+    {
+      "id": "N52",
+      "x": 433,
+      "y": 1162,
+      "tipo": "CAMINO"
+    },
+    {
+      "id": "N53",
+      "x": 431,
+      "y": 969,
+      "tipo": "CAMINO"
+    },
+    {
+      "id": "N54",
+      "x": 630,
+      "y": 726,
+      "tipo": "CAMINO"
+    },
+    {
+      "id": "N55",
+      "x": 556,
+      "y": 1478,
+      "tipo": "CAMINO"
+    },
+    {
+      "id": "N56",
+      "x": 636,
+      "y": 1481,
+      "tipo": "CAMINO"
+    },
+    {
+      "id": "N57",
+      "x": 715,
+      "y": 1477,
+      "tipo": "CAMINO"
+    },
+    {
+      "id": "N58",
+      "x": 553,
+      "y": 193,
+      "tipo": "CAMINO"
+    },
+    {
+      "id": "N59",
+      "x": 707,
+      "y": 193,
+      "tipo": "CAMINO"
+    }
+  ],
+  "edges": [
+    {
+      "from": "N32",
+      "to": "S08",
+      "weight": 43.012
+    },
+    {
+      "from": "N33",
+      "to": "N34",
+      "weight": 121.004
+    },
+    {
+      "from": "N32",
+      "to": "N34",
+      "weight": 117
+    },
+    {
+      "from": "N33",
+      "to": "N35",
+      "weight": 154
+    },
+    {
+      "from": "S01",
+      "to": "N35",
+      "weight": 52.086
+    },
+    {
+      "from": "N38",
+      "to": "N32",
+      "weight": 35.057
+    },
+    {
+      "from": "N35",
+      "to": "N39",
+      "weight": 190.011
+    },
+    {
+      "from": "N39",
+      "to": "N40",
+      "weight": 124
+    },
+    {
+      "from": "N38",
+      "to": "N42",
+      "weight": 126.004
+    },
+    {
+      "from": "N42",
+      "to": "N44",
+      "weight": 154
+    },
+    {
+      "from": "N44",
+      "to": "N43",
+      "weight": 192.003
+    },
+    {
+      "from": "N41",
+      "to": "N43",
+      "weight": 122
+    },
+    {
+      "from": "N54",
+      "to": "N41",
+      "weight": 79.025
+    },
+    {
+      "from": "N43",
+      "to": "N45",
+      "weight": 243.002
+    },
+    {
+      "from": "N46",
+      "to": "N45",
+      "weight": 91
+    },
+    {
+      "from": "N47",
+      "to": "N46",
+      "weight": 103
+    },
+    {
+      "from": "N48",
+      "to": "N46",
+      "weight": 125.016
+    },
+    {
+      "from": "N48",
+      "to": "N49",
+      "weight": 78
+    },
+    {
+      "from": "N50",
+      "to": "N49",
+      "weight": 73.007
+    },
+    {
+      "from": "N51",
+      "to": "N50",
+      "weight": 124
+    },
+    {
+      "from": "N51",
+      "to": "N52",
+      "weight": 107.005
+    },
+    {
+      "from": "N53",
+      "to": "N51",
+      "weight": 86.006
+    },
+    {
+      "from": "N53",
+      "to": "N39",
+      "weight": 245
+    },
+    {
+      "from": "N40",
+      "to": "N54",
+      "weight": 75.027
+    },
+    {
+      "from": "N40",
+      "to": "N50",
+      "weight": 331.002
+    },
+    {
+      "from": "N41",
+      "to": "N48",
+      "weight": 332.006
+    },
+    {
+      "from": "N48",
+      "to": "N57",
+      "weight": 421.076
+    },
+    {
+      "from": "N56",
+      "to": "N57",
+      "weight": 79.101
+    },
+    {
+      "from": "N55",
+      "to": "N56",
+      "weight": 80.056
+    },
+    {
+      "from": "N55",
+      "to": "N50",
+      "weight": 423
+    },
+    {
+      "from": "N59",
+      "to": "N38",
+      "weight": 184.003
+    },
+    {
+      "from": "N34",
+      "to": "N58",
+      "weight": 186.003
+    },
+    {
+      "from": "N58",
+      "to": "N59",
+      "weight": 154
+    },
+    {
+      "from": "S02",
+      "to": "N44",
+      "weight": 48.01
+    },
+    {
+      "from": "N45",
+      "to": "S05",
+      "weight": 48
+    },
+    {
+      "from": "N53",
+      "to": "S04",
+      "weight": 50.04
+    },
+    {
+      "from": "S03",
+      "to": "N54",
+      "weight": 58.009
+    },
+    {
+      "from": "S06",
+      "to": "N49",
+      "weight": 60.299
+    },
+    {
+      "from": "S07",
+      "to": "N56",
+      "weight": 43.012
+    }
+  ]
+}

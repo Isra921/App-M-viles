@@ -1,0 +1,84 @@
+{
+  "schemaVersion": 1,
+  "id": "servicios_estudiantiles_deporte_futbol",
+  "type": "SERVICE",
+  "category": "DEPORTE",
+  "archetype": "WORKSHOP_ACTIVITY",
+  "name": "Fútbol (Torneos y Selecciones)",
+  "shortDescription": "Equipos representativos y torneos internos en modalidades Soccer, Fútbol 7 y Rápido.",
+  "description": "Actividad deportiva representativa de la ESCOM en ramas varonil y femenil. Incluye entrenamientos técnicos, participación en la liga interna inter-grupos y selección para los Juegos Deportivos Interpolitécnicos.",
+  "aliases": [
+    "futbol",
+    "futbol soccer",
+    "futbol 7",
+    "futbol rapido",
+    "soccer",
+    "seleccion de futbol",
+    "equipo de futbol",
+    "torneo de futbol"
+  ],
+  "keywords": [
+    "fútbol",
+    "soccer",
+    "futbol 7",
+    "cancha",
+    "deporte",
+    "interpolitécnicos",
+    "entrenamientos"
+  ],
+  "audience": [
+    "ESTUDIANTE"
+  ],
+  "requirements": [
+    "Ser estudiante activo de la ESCOM.",
+    "Ramas: Varonil y Femenil.",
+    "Presentar certificado médico de aptitud física expedido por el Servicio Médico escolar o sector salud para competencias oficiales."
+  ],
+  "location": {
+    "mapLocationId": "cancha_futbol_11",
+    "displayName": "Cancha de fútbol 11 y Cancha de fútbol 7 (Área exterior de ESCOM)"
+  },
+  "cost": {
+    "displayText": "Participación gratuita para alumnos de ESCOM"
+  },
+  "schedule": "Martes de 16:00 a 19:00 hrs | Miércoles de 10:00 a 18:00 hrs | Viernes de 12:00 a 20:00 hrs",
+  "contact": {
+    "name": "Prof. Diego Espinosa Gómez",
+    "role": "Entrenador Titular de Fútbol",
+    "phone": "57296000",
+    "extension": "52063",
+    "email": "cultura_y_deportes_escom@ipn.mx"
+  },
+  "steps": [
+    {
+      "order": 1,
+      "title": "Registro e Integración",
+      "description": "Presentarse con el Prof. Diego Espinosa en la cancha exterior o en el Salón 4001 durante las primeras semanas de clase."
+    },
+    {
+      "order": 2,
+      "title": "Entrenamientos y Torneo",
+      "description": "Participar en las visorías de selección o registrar a tu equipo en el torneo interno semestral."
+    }
+  ],
+  "faqs": [
+    {
+      "question": "¿Hay torneo de fútbol para estudiantes de primer semestre?",
+      "answer": "Sí, al inicio de cada semestre se abre la convocatoria para el torneo interno de bienvenida y la conformación de equipos por grupo."
+    }
+  ],
+  "sources": [
+    {
+      "name": "ESCOM - Servicios Estudiantiles - Actividades Deportivas",
+      "url": "https://www.escom.ipn.mx/SSEIS/serviciosestudiantiles/servicios/actsDeportivas.php",
+      "type": "OFFICIAL_WEB"
+    }
+  ],
+  "informationStatus": {
+    "verification": "OFFICIAL",
+    "notes": [
+      "Entrenador titular, horarios y modalidades deportivas verificados en la página de ESCOM."
+    ]
+  },
+  "lastReviewed": "2026-10-22"
+}

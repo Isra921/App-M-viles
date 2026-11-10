@@ -1,0 +1,180 @@
+{
+  "schemaVersion": 1,
+  "id": "servicios_estudiantiles_actividades_culturales",
+  "type": "SERVICE",
+  "category": "CULTURA",
+  "name": "Actividades Culturales",
+  "shortDescription": "Talleres y clubes culturales disponibles para la comunidad estudiantil de ESCOM.",
+  "description": "ESCOM ofrece talleres y clubes culturales orientados al desarrollo integral, la expresión artística y la participación estudiantil.",
+  "aliases": [
+    "actividades culturales",
+    "talleres culturales",
+    "cultura escom",
+    "clubes culturales"
+  ],
+  "keywords": [
+    "cultura",
+    "artes",
+    "pintura",
+    "dibujo",
+    "literatura",
+    "teatro",
+    "tuna",
+    "baile",
+    "anime"
+  ],
+  "audience": [
+    "ESTUDIANTE"
+  ],
+  "offerings": [
+    {
+      "id": "artes_plasticas",
+      "type": "WORKSHOP",
+      "name": "Artes Plásticas",
+      "description": "Aprende a expresar tus emociones y sentimientos por medio de la pintura y el dibujo.",
+      "instructor": "Martha Aurora Torres Hernández",
+      "instructorRole": "Profra.",
+      "schedule": [
+        {
+          "day": "MIERCOLES",
+          "start": "13:00",
+          "end": "18:00"
+        },
+        {
+          "day": "VIERNES",
+          "start": "13:00",
+          "end": "18:00"
+        }
+      ]
+    },
+    {
+      "id": "creacion_literaria",
+      "type": "WORKSHOP",
+      "name": "Creación Literaria",
+      "description": "Permite adquirir técnicas y métodos para formar hábitos de lectura y escritura. También prepara a los alumnos para participar en concursos de poesía, cuento, lectura en atril y declamación.",
+      "instructor": "Julián Castruita Morán",
+      "instructorRole": "Prof.",
+      "schedule": [
+        {
+          "day": "JUEVES",
+          "start": "11:00",
+          "end": "16:00"
+        }
+      ]
+    },
+    {
+      "id": "teatro",
+      "type": "WORKSHOP",
+      "name": "Teatro",
+      "description": "Aprende a expresarte en público mediante diversas técnicas teatrales, contribuyendo al desarrollo integral.",
+      "instructor": "Verónica Hernández",
+      "instructorRole": "Profra.",
+      "schedule": [
+        {
+          "day": "MARTES",
+          "start": "12:00",
+          "end": "15:00"
+        },
+        {
+          "day": "MIERCOLES",
+          "start": "15:30",
+          "end": "18:30"
+        }
+      ],
+      "location": {
+        "mapLocationId": "auditorio",
+        "displayName": "Auditorio de ESCOM (Planta Baja)"
+      }
+    },
+    {
+      "id": "tuna_escom",
+      "type": "CLUB",
+      "name": "Tuna ESCOM",
+      "description": "Club cultural de la ESCOM.",
+      "variants": [
+        "FEMENIL",
+        "VARONIL"
+      ]
+    },
+    {
+      "id": "algoritmo_baile",
+      "type": "CLUB",
+      "name": "Algoritmo de Baile",
+      "description": "Club cultural enfocado en Salsa y Bachata.",
+      "variants": [
+        "SALSA",
+        "BACHATA"
+      ],
+      "location": {
+        "mapLocationId": "zona_actividades",
+        "displayName": "Zona de actividades (Domo exterior norte)"
+      }
+    },
+    {
+      "id": "anime",
+      "type": "CLUB",
+      "name": "Anime",
+      "description": "Club cultural de anime."
+    }
+  ],
+  "contact": {
+    "name": "Martha Angélica Gasca Cervantes",
+    "role": "Informes de Cultura y Deportes ESCOM",
+    "phone": "57296000",
+    "extension": "52063",
+    "email": "cultura_y_deportes_escom@ipn.mx"
+  },
+  "documents": [
+    {
+      "id": "procedimiento_registro_clubes",
+      "name": "Procedimiento de registro y gestión de un Club Académico, Cultural o Deportivo",
+      "type": "PDF",
+      "url": "https://www.escom.ipn.mx/SSEIS/serviciosestudiantiles/documentos/SSEIS_ProcedimientoClubes_2022.pdf",
+      "required": false
+    },
+    {
+      "id": "formato_solicitud_materiales",
+      "name": "Formato para Solicitud de material de un Club Académico, Cultural o Deportivo",
+      "type": "XLSX",
+      "url": "https://www.escom.ipn.mx/SSEIS/serviciosestudiantiles/documentos/FormatoSolicitudMateriales.xlsx",
+      "required": false
+    }
+  ],
+  "location": {
+    "mapLocationId": "actividades_culturales_deportivas_4001",
+    "displayName": "Oficina de Cultura y Deportes (Salón 4001, Edificio de Laboratorios, Planta Baja)"
+  },
+  "archetype": "WORKSHOP_ACTIVITY",
+  "cost": {
+    "displayText": "Gratuito para la comunidad estudiantil de ESCOM"
+  },
+  "schedule": "Horarios específicos por taller (Artes plásticas, Teatro, Creación literaria)",
+  "faqs": [
+    {
+      "question": "¿Tienen costo los talleres culturales?",
+      "answer": "No, todos los talleres y clubes culturales son completamente gratuitos para los estudiantes de ESCOM."
+    },
+    {
+      "question": "¿Cómo me inscribo a un taller cultural?",
+      "answer": "Al inicio de cada semestre se realiza la convocatoria e inscripción a través del área de Cultura y Deportes."
+    }
+  ],
+  "notes": [
+    "La fuente consultada publica horarios específicos para los talleres de Artes Plásticas, Creación Literaria y Teatro.",
+    "La fuente consultada no publica horarios ni responsables específicos para Tuna ESCOM, Algoritmo de Baile y Anime."
+  ],
+  "sources": [
+    {
+      "name": "ESCOM - Servicios Estudiantiles - Actividades Culturales",
+      "url": "https://www.escom.ipn.mx/SSEIS/serviciosestudiantiles/servicios/actsCulturales.php",
+      "type": "OFFICIAL_WEB"
+    }
+  ],
+  "informationStatus": {
+    "verification": "OFFICIAL",
+    "notes": [
+      "Los talleres, clubes, responsables, horarios y datos de contacto fueron tomados de la página oficial de ESCOM."
+    ]
+  },
+  "lastReviewed": "2026-08-24"
+}

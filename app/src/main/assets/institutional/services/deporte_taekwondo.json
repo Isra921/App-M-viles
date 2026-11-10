@@ -1,0 +1,76 @@
+{
+  "schemaVersion": 1,
+  "id": "servicios_estudiantiles_deporte_taekwondo",
+  "type": "SERVICE",
+  "category": "DEPORTE",
+  "archetype": "WORKSHOP_ACTIVITY",
+  "name": "Club de Taekwondo",
+  "shortDescription": "Práctica de arte marcial coreana, acondicionamiento físico, formas (poomsae) y combate (kyorugi).",
+  "description": "Club deportivo enfocado en la disciplina marcial del Taekwondo para estudiantes de la ESCOM, promoviendo valores de disciplina, autocontrol, defensa personal y preparación para torneos interpolitécnicos.",
+  "aliases": [
+    "taekwondo",
+    "tae kwon do",
+    "tkd",
+    "artes marciales",
+    "defensa personal",
+    "club de taekwondo"
+  ],
+  "keywords": [
+    "taekwondo",
+    "arte marcial",
+    "combate",
+    "patadas",
+    "defensa personal",
+    "deporte"
+  ],
+  "audience": [
+    "ESTUDIANTE"
+  ],
+  "requirements": [
+    "Ser estudiante de la ESCOM.",
+    "Ramas: Varonil y Femenil.",
+    "Dobok (uniforme de taekwondo) o ropa deportiva adecuada."
+  ],
+  "location": {
+    "mapLocationId": "zona_actividades",
+    "displayName": "Zona de actividades (Domo exterior norte de ESCOM)"
+  },
+  "cost": {
+    "displayText": "Participación gratuita"
+  },
+  "schedule": "Entrenamientos semanales en el Domo exterior norte (consultar horarios del semestre en Salón 4001)",
+  "contact": {
+    "name": "Coordinación de Deportes ESCOM",
+    "role": "Informes de Deportes",
+    "phone": "57296000",
+    "extension": "52063",
+    "email": "cultura_y_deportes_escom@ipn.mx"
+  },
+  "steps": [
+    {
+      "order": 1,
+      "title": "Informes e Inscripción",
+      "description": "Acudir al Salón 4001 para conocer los días y horarios fijados para el semestre lectivo en curso."
+    }
+  ],
+  "faqs": [
+    {
+      "question": "¿Se aceptan principiantes en el club de Taekwondo?",
+      "answer": "Sí, el club recibe alumnos sin experiencia previa que deseen aprender técnicas básicas y acondicionamiento marcial."
+    }
+  ],
+  "sources": [
+    {
+      "name": "ESCOM - Servicios Estudiantiles - Actividades Deportivas",
+      "url": "https://www.escom.ipn.mx/SSEIS/serviciosestudiantiles/servicios/actsDeportivas.php",
+      "type": "OFFICIAL_WEB"
+    }
+  ],
+  "informationStatus": {
+    "verification": "PARTIALLY_VERIFIED",
+    "notes": [
+      "Disciplina deportiva registrada en el portal institucional. Los horarios y entrenador de cada ciclo deben confirmarse físicamente en la oficina de Deportes."
+    ]
+  },
+  "lastReviewed": "2026-10-22"
+}

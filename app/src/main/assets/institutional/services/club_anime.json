@@ -1,0 +1,73 @@
+{
+  "schemaVersion": 1,
+  "id": "servicios_estudiantiles_cultura_anime",
+  "type": "SERVICE",
+  "category": "CULTURA",
+  "archetype": "WORKSHOP_ACTIVITY",
+  "name": "Club de Anime ESCOM",
+  "shortDescription": "Espacio estudiantil de apreciación, debate y actividades en torno a la animación y cultura pop japonesa.",
+  "description": "Club cultural estudiantil que reúne a alumnos interesados en la animación japonesa, manga, dibujo, narrativa gráfica y videojuegos, organizando proyecciones, charlas y torneos temáticos.",
+  "aliases": [
+    "club de anime",
+    "anime escom",
+    "anime",
+    "manga escom",
+    "comunidad anime"
+  ],
+  "keywords": [
+    "anime",
+    "manga",
+    "cultura japonesa",
+    "club",
+    "estudiantil",
+    "proyecciones"
+  ],
+  "audience": [
+    "ESTUDIANTE"
+  ],
+  "requirements": [
+    "Ser estudiante de la ESCOM.",
+    "Interés en la animación y cultura audiovisual japonesa."
+  ],
+  "location": {
+    "displayName": "Aulas asignadas para actividades extracurriculares en ESCOM"
+  },
+  "cost": {
+    "displayText": "Participación gratuita"
+  },
+  "schedule": "Reuniones periódicas conforme a la agenda semestral del club (informes en Salón 4001)",
+  "contact": {
+    "name": "Coordinación de Cultura y Deportes",
+    "role": "Informes de Cultura",
+    "phone": "57296000",
+    "extension": "52063",
+    "email": "cultura_y_deportes_escom@ipn.mx"
+  },
+  "steps": [
+    {
+      "order": 1,
+      "title": "Informes e Integración",
+      "description": "Consultar las convocatorias en redes oficiales del club o en la oficina de Cultura (Salón 4001)."
+    }
+  ],
+  "faqs": [
+    {
+      "question": "¿Qué actividades realiza el Club de Anime?",
+      "answer": "Organiza proyecciones de series y películas animadas, círculos de discusión sobre narrativa gráfica y eventos de integración estudiantil."
+    }
+  ],
+  "sources": [
+    {
+      "name": "ESCOM - Servicios Estudiantiles - Actividades Culturales",
+      "url": "https://www.escom.ipn.mx/SSEIS/serviciosestudiantiles/servicios/actsCulturales.php",
+      "type": "OFFICIAL_WEB"
+    }
+  ],
+  "informationStatus": {
+    "verification": "PARTIALLY_VERIFIED",
+    "notes": [
+      "Club registrado en la página oficial de ESCOM. Los horarios de proyecciones dependen de la disponibilidad de salones de cada semestre."
+    ]
+  },
+  "lastReviewed": "2026-10-22"
+}

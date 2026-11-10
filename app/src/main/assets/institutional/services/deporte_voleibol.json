@@ -1,0 +1,82 @@
+{
+  "schemaVersion": 1,
+  "id": "servicios_estudiantiles_deporte_voleibol",
+  "type": "SERVICE",
+  "category": "DEPORTE",
+  "archetype": "WORKSHOP_ACTIVITY",
+  "name": "Voleibol (Selección y Práctica)",
+  "shortDescription": "Entrenamientos técnicos, torneos internos y selección representativa en ramas varonil y femenil.",
+  "description": "Actividad deportiva orientada a la práctica del voleibol de sala en la ESCOM. Prepara a las selecciones representativas institucionalmente y organiza encuentros formativos y recreativos para el alumnado.",
+  "aliases": [
+    "voleibol",
+    "voley",
+    "volibol",
+    "seleccion de voleibol",
+    "equipo de voleibol",
+    "torneo de voleibol"
+  ],
+  "keywords": [
+    "voleibol",
+    "voley",
+    "cancha",
+    "deporte",
+    "entrenamientos",
+    "femenil",
+    "varonil"
+  ],
+  "audience": [
+    "ESTUDIANTE"
+  ],
+  "requirements": [
+    "Ser estudiante de la ESCOM.",
+    "Ramas: Varonil y Femenil.",
+    "Ropa y calzado deportivo adecuado para cancha de concreto o duela."
+  ],
+  "location": {
+    "mapLocationId": "cancha_basquetbol_ia",
+    "displayName": "Cancha de básquetbol y voleibol (Área sur de ESCOM, junto a Edificio 5)"
+  },
+  "cost": {
+    "displayText": "Participación gratuita"
+  },
+  "schedule": "Martes y Jueves de 12:00 a 19:00 hrs",
+  "contact": {
+    "name": "Prof. Hugo Hernández Vera",
+    "role": "Entrenador Titular de Voleibol",
+    "phone": "57296000",
+    "extension": "52063",
+    "email": "cultura_y_deportes_escom@ipn.mx"
+  },
+  "steps": [
+    {
+      "order": 1,
+      "title": "Convocatoria y Registro",
+      "description": "Acudir a la cancha de voleibol en los días de entrenamiento o solicitar informes en el Salón 4001."
+    },
+    {
+      "order": 2,
+      "title": "Pruebas Técnicas",
+      "description": "Participar en las sesiones de acondicionamiento físico y voleo con el Prof. Hugo Hernández."
+    }
+  ],
+  "faqs": [
+    {
+      "question": "¿Dónde se realizan los entrenamientos de voleibol?",
+      "answer": "En la cancha de usos múltiples ubicada en el área sur del plantel, a un costado del Edificio 5."
+    }
+  ],
+  "sources": [
+    {
+      "name": "ESCOM - Servicios Estudiantiles - Actividades Deportivas",
+      "url": "https://www.escom.ipn.mx/SSEIS/serviciosestudiantiles/servicios/actsDeportivas.php",
+      "type": "OFFICIAL_WEB"
+    }
+  ],
+  "informationStatus": {
+    "verification": "OFFICIAL",
+    "notes": [
+      "Entrenador titular y horarios verificados en la página de ESCOM."
+    ]
+  },
+  "lastReviewed": "2026-10-22"
+}

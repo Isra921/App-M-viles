@@ -1,0 +1,76 @@
+{
+  "schemaVersion": 1,
+  "id": "servicios_estudiantiles_deporte_tochito_bandera",
+  "type": "SERVICE",
+  "category": "DEPORTE",
+  "archetype": "WORKSHOP_ACTIVITY",
+  "name": "Club de Tochito Bandera",
+  "shortDescription": "Fútbol americano bandera sin contacto físico en ramas mixta, femenil y varonil.",
+  "description": "Club deportivo estudiantil orientado a la práctica y estrategia del tochito bandera (flag football). Promueve la agilidad, el trabajo en equipo y la participación en torneos universitarios e interpolitécnicos sin impacto físico directo.",
+  "aliases": [
+    "tochito bandera",
+    "tochito",
+    "flag football",
+    "futbol bandera",
+    "tocho escom",
+    "equipo de tochito"
+  ],
+  "keywords": [
+    "tochito",
+    "flag football",
+    "fútbol americano",
+    "cintas",
+    "deporte",
+    "torneo"
+  ],
+  "audience": [
+    "ESTUDIANTE"
+  ],
+  "requirements": [
+    "Ser estudiante de la ESCOM.",
+    "Ramas: Varonil, Femenil y Mixta.",
+    "Ropa deportiva y calzado adecuado para pasto/campo exterior."
+  ],
+  "location": {
+    "mapLocationId": "cancha_futbol_7",
+    "displayName": "Cancha de fútbol 7 / campo exterior de ESCOM"
+  },
+  "cost": {
+    "displayText": "Participación gratuita"
+  },
+  "schedule": "Entrenamientos semanales en campo exterior (consultar horarios y rol de temporada en Salón 4001)",
+  "contact": {
+    "name": "Mesa Directiva de Tochito / Cultura y Deportes",
+    "role": "Informes de Deportes",
+    "phone": "57296000",
+    "extension": "52063",
+    "email": "cultura_y_deportes_escom@ipn.mx"
+  },
+  "steps": [
+    {
+      "order": 1,
+      "title": "Informes e Integración",
+      "description": "Acudir al Salón 4001 o presentarse en el campo exterior en los horarios de entrenamiento del equipo."
+    }
+  ],
+  "faqs": [
+    {
+      "question": "¿El tochito bandera requiere equipo de protección especial?",
+      "answer": "No requiere cascos ni hombreras pesadas; únicamente el cinturón de banderas y protector bucal reglamentario para partidos."
+    }
+  ],
+  "sources": [
+    {
+      "name": "ESCOM - Servicios Estudiantiles - Actividades Deportivas",
+      "url": "https://www.escom.ipn.mx/SSEIS/serviciosestudiantiles/servicios/actsDeportivas.php",
+      "type": "OFFICIAL_WEB"
+    }
+  ],
+  "informationStatus": {
+    "verification": "PARTIALLY_VERIFIED",
+    "notes": [
+      "Disciplina deportiva registrada en el portal oficial de ESCOM. Los horarios de entrenamiento deben confirmarse presencialmente."
+    ]
+  },
+  "lastReviewed": "2026-10-22"
+}

@@ -1,0 +1,160 @@
+{
+  "schemaVersion": 1,
+  "id": "apoyos_educativos_beca_institucional",
+  "type": "SUPPORT",
+  "category": "BECAS",
+  "archetype": "SCHOLARSHIP",
+  "name": "Beca Institucional (Nivel Superior)",
+  "shortDescription": "Apoyo económico semestral de $6,600.00 M.N. para estudiantes regulares con promedio mínimo de 7.0.",
+  "description": "La Beca Institucional del IPN para nivel superior está dirigida a estudiantes en situación escolar regular inscritos en modalidad escolarizada, no escolarizada o mixta. Proporciona un apoyo económico de pago único por periodo escolar para favorecer la permanencia y conclusión de los estudios profesionales.",
+  "aliases": [
+    "beca institucional",
+    "beca general",
+    "beca sibec",
+    "apoyo institucional",
+    "beca promedio 7"
+  ],
+  "keywords": [
+    "beca institucional",
+    "beca",
+    "sibec",
+    "apoyo económico",
+    "promedio 7",
+    "regular"
+  ],
+  "audience": [
+    "ESTUDIANTE"
+  ],
+  "requirements": [
+    "Monto: $6,600.00 M.N. por periodo escolar 27/1 (pago único semestral).",
+    "Tener un promedio general mínimo de 7.0.",
+    "Ser estudiante en situación escolar regular.",
+    "Estar formalmente inscrito en modalidad escolarizada, no escolarizada o mixta.",
+    "Contar con cuenta bancaria BBVA de débito activa a tu nombre (no tarjeta de crédito, no monedero electrónico ni Banco del Bienestar).",
+    "Compatible únicamente con la beca BEIFI (investigación)."
+  ],
+  "documents": [
+    {
+      "id": "acuse_solicitud_sibec",
+      "name": "Acuse de solicitud de beca y carta compromiso (expedida por SIBec)",
+      "required": true
+    },
+    {
+      "id": "credencial_dae",
+      "name": "Credencial escolar expedida por la DAE o comprobante de inscripción",
+      "required": true
+    },
+    {
+      "id": "datos_saes",
+      "name": "Datos académicos del SAES validados en el sistema",
+      "required": true
+    },
+    {
+      "id": "expediente_bancario_bbva",
+      "name": "Expediente bancario BBVA (estado de cuenta o contrato donde conste titularidad y CLABE)",
+      "required": true
+    }
+  ],
+  "channels": [
+    {
+      "id": "sibec_plataforma",
+      "type": "ONLINE_PLATFORM",
+      "name": "Sistema Informático de Becas (SIBec)",
+      "recommended": true,
+      "url": "https://www.sibec.ipn.mx/",
+      "requirements": [
+        "Registrarse exclusivamente con correo institucional (@ipn.mx o @alumno.ipn.mx)."
+      ],
+      "steps": [
+        {
+          "order": 1,
+          "title": "Registro en SIBec",
+          "description": "Completar solicitud y estudio socioeconómico en SIBec (https://www.sibec.ipn.mx/) del 25 de septiembre al 02 de octubre de 2026."
+        },
+        {
+          "order": 2,
+          "title": "Validación de Subcomité",
+          "description": "Revisión documental por el Subcomité de Becas de ESCOM: del 05 al 27 de octubre de 2026."
+        },
+        {
+          "order": 3,
+          "title": "Publicación de Resultados",
+          "description": "Publicación de resultados oficiales en la plataforma SIBec: 06 de noviembre de 2026."
+        },
+        {
+          "order": 4,
+          "title": "Captura de Cuenta Bancaria",
+          "description": "Captura de CLABE BBVA débito en SIBec y carga de expediente bancario: del 09 al 13 de noviembre de 2026."
+        },
+        {
+          "order": 5,
+          "title": "Dispersión del Pago",
+          "description": "Dispersión bancaria tentativa: 27 de noviembre de 2026 (a más tardar dos semanas antes del fin de semestre)."
+        }
+      ]
+    }
+  ],
+  "contact": {
+    "name": "Martha Angélica Gasca Cervantes",
+    "title": "Lic.",
+    "phone": "57296000",
+    "extension": "52056",
+    "email": "becas.escom@ipn.mx"
+  },
+  "location": {
+    "mapLocationId": "departamento_extension_apoyos_educativos",
+    "displayName": "Departamento de Extensión y Apoyos Educativos (Edificio de Gobierno, Planta Alta)"
+  },
+  "period": {
+    "type": "CALL_BASED",
+    "description": "Periodo Escolar 27/1 del Ciclo Escolar 2026-2027 (Agosto - Diciembre 2026). Registro en SIBec: 25 de septiembre al 02 de octubre de 2026.",
+    "warning": "Indispensable contar con cuenta bancaria BBVA débito activa a tu nombre. Dos intentos de depósito rechazados causan la revocación definitiva de la beca."
+  },
+  "cost": {
+    "displayText": "Trámite gratuito"
+  },
+  "schedule": "Atención en ventanilla de Becas: Lunes a Viernes de 09:00 a 14:00 y de 16:00 a 19:00 hrs",
+  "faqs": [
+    {
+      "question": "¿Cuál es el promedio mínimo para la Beca Institucional?",
+      "answer": "Se requiere un promedio general mínimo de 7.0 y encontrarse en situación escolar regular."
+    },
+    {
+      "question": "¿Puedo cobrar la beca en una tarjeta que no sea BBVA?",
+      "answer": "No, la convocatoria del IPN establece como requisito obligatorio que la cuenta bancaria de débito pertenezca a BBVA y esté a nombre exclusivo del estudiante beneficiario."
+    }
+  ],
+  "actions": [
+    {
+      "id": "open_sibec",
+      "name": "Abrir plataforma SIBec",
+      "type": "EXTERNAL_LINK",
+      "url": "https://www.sibec.ipn.mx/"
+    },
+    {
+      "id": "open_convocatoria_gaceta",
+      "name": "Convocatoria General de Becas 27/1 (Gaceta 1970)",
+      "type": "EXTERNAL_DOCUMENT",
+      "url": "https://www.ipn.mx/daes/servicios/becas/"
+    }
+  ],
+  "sources": [
+    {
+      "name": "Gaceta Politécnica Extraordinaria No. 1970 - Convocatoria General de Becas 27/1",
+      "url": "https://www.ipn.mx/daes/servicios/becas/",
+      "type": "OFFICIAL_GAZETTE"
+    },
+    {
+      "name": "SIBec - Sistema Informático de Becas",
+      "url": "https://www.sibec.ipn.mx/",
+      "type": "OFFICIAL_PLATFORM"
+    }
+  ],
+  "informationStatus": {
+    "verification": "OFFICIAL",
+    "notes": [
+      "Información respaldada en la Gaceta Politécnica Extraordinaria No. 1970 (Ciclo Escolar 2026-2027, Periodo 27/1)."
+    ]
+  },
+  "lastReviewed": "2026-10-22"
+}

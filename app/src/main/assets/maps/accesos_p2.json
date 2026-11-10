@@ -1,0 +1,1067 @@
+{
+  "floorId": "2",
+  "coordinateSystem": {
+    "width": 1260,
+    "height": 1600,
+    "mapWidth": 1260,
+    "mapHeight": 1600,
+    "verticalOffset": 0
+  },
+  "places": [
+    {
+      "id": "salon_1201",
+      "name": "1201",
+      "accessPoints": [
+        {
+          "id": "A001",
+          "x": 417,
+          "y": 344,
+          "tipo": "ENTRADA_SALIDA",
+          "graphNodeIds": [
+            "N01"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "salon_1202",
+      "name": "1202",
+      "accessPoints": [
+        {
+          "id": "A002",
+          "x": 417,
+          "y": 391,
+          "tipo": "ENTRADA_SALIDA",
+          "graphNodeIds": [
+            "N01",
+            "N03"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "salon_1203",
+      "name": "1203",
+      "accessPoints": [
+        {
+          "id": "A003",
+          "x": 417,
+          "y": 439,
+          "tipo": "ENTRADA_SALIDA",
+          "graphNodeIds": [
+            "N01",
+            "N03"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "salon_1204",
+      "name": "1204",
+      "accessPoints": [
+        {
+          "id": "A004",
+          "x": 417,
+          "y": 487,
+          "tipo": "ENTRADA_SALIDA",
+          "graphNodeIds": [
+            "N01",
+            "N03"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "salon_1205",
+      "name": "1205",
+      "accessPoints": [
+        {
+          "id": "A005",
+          "x": 417,
+          "y": 575,
+          "tipo": "ENTRADA_SALIDA",
+          "graphNodeIds": [
+            "N03",
+            "N06"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "salon_1206",
+      "name": "1206",
+      "accessPoints": [
+        {
+          "id": "A006",
+          "x": 417,
+          "y": 623,
+          "tipo": "ENTRADA_SALIDA",
+          "graphNodeIds": [
+            "N03",
+            "N06"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "salon_1207",
+      "name": "1207",
+      "accessPoints": [
+        {
+          "id": "A007",
+          "x": 417,
+          "y": 671,
+          "tipo": "ENTRADA_SALIDA",
+          "graphNodeIds": [
+            "N03",
+            "N06"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "salon_1208",
+      "name": "1208 · Club de Algoritmia",
+      "accessPoints": [
+        {
+          "id": "A008",
+          "x": 417,
+          "y": 780,
+          "tipo": "ENTRADA_SALIDA",
+          "graphNodeIds": [
+            "N06"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "salon_1209",
+      "name": "1209",
+      "accessPoints": [
+        {
+          "id": "A009",
+          "x": 417,
+          "y": 827,
+          "tipo": "ENTRADA_SALIDA",
+          "graphNodeIds": [
+            "N06"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "salon_1210",
+      "name": "1210",
+      "accessPoints": [
+        {
+          "id": "A010",
+          "x": 417,
+          "y": 875,
+          "tipo": "ENTRADA_SALIDA",
+          "graphNodeIds": [
+            "N06"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "salon_1211",
+      "name": "1211",
+      "accessPoints": [
+        {
+          "id": "A011",
+          "x": 417,
+          "y": 923,
+          "tipo": "ENTRADA_SALIDA",
+          "graphNodeIds": [
+            "N06"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "salon_1212",
+      "name": "1212",
+      "accessPoints": [
+        {
+          "id": "A012",
+          "x": 417,
+          "y": 1011,
+          "tipo": "ENTRADA_SALIDA",
+          "graphNodeIds": [
+            "N12",
+            "N14"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "salon_1213",
+      "name": "1213",
+      "accessPoints": [
+        {
+          "id": "A013",
+          "x": 417,
+          "y": 1059,
+          "tipo": "ENTRADA_SALIDA",
+          "graphNodeIds": [
+            "N14"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "salon_1214",
+      "name": "1214",
+      "accessPoints": [
+        {
+          "id": "A014",
+          "x": 417,
+          "y": 1107,
+          "tipo": "ENTRADA_SALIDA",
+          "graphNodeIds": [
+            "N14",
+            "N19"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "salon_2201",
+      "name": "2201",
+      "accessPoints": [
+        {
+          "id": "A015",
+          "x": 844,
+          "y": 344,
+          "tipo": "ENTRADA_SALIDA",
+          "graphNodeIds": [
+            "N02"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "salon_2202",
+      "name": "2202",
+      "accessPoints": [
+        {
+          "id": "A016",
+          "x": 844,
+          "y": 391,
+          "tipo": "ENTRADA_SALIDA",
+          "graphNodeIds": [
+            "N02",
+            "N04"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "salon_2203",
+      "name": "2203",
+      "accessPoints": [
+        {
+          "id": "A017",
+          "x": 844,
+          "y": 439,
+          "tipo": "ENTRADA_SALIDA",
+          "graphNodeIds": [
+            "N02",
+            "N04"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "salon_2204",
+      "name": "2204",
+      "accessPoints": [
+        {
+          "id": "A018",
+          "x": 844,
+          "y": 487,
+          "tipo": "ENTRADA_SALIDA",
+          "graphNodeIds": [
+            "N04",
+            "N02"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "salon_2205",
+      "name": "2205",
+      "accessPoints": [
+        {
+          "id": "A019",
+          "x": 844,
+          "y": 575,
+          "tipo": "ENTRADA_SALIDA",
+          "graphNodeIds": [
+            "N04",
+            "N10"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "salon_2206",
+      "name": "2206",
+      "accessPoints": [
+        {
+          "id": "A020",
+          "x": 844,
+          "y": 623,
+          "tipo": "ENTRADA_SALIDA",
+          "graphNodeIds": [
+            "N04",
+            "N10"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "salon_2207",
+      "name": "2207",
+      "accessPoints": [
+        {
+          "id": "A021",
+          "x": 844,
+          "y": 671,
+          "tipo": "ENTRADA_SALIDA",
+          "graphNodeIds": [
+            "N04",
+            "N10"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "salon_2208",
+      "name": "2208 · Sala de Profesores de Ciencias Básicas",
+      "accessPoints": [
+        {
+          "id": "A022",
+          "x": 844,
+          "y": 788,
+          "tipo": "ENTRADA_SALIDA",
+          "graphNodeIds": [
+            "N10",
+            "N13"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "salon_2209",
+      "name": "2209",
+      "accessPoints": [
+        {
+          "id": "A023",
+          "x": 844,
+          "y": 851,
+          "tipo": "ENTRADA_SALIDA",
+          "graphNodeIds": [
+            "N10",
+            "N13"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "salon_2210",
+      "name": "2210",
+      "accessPoints": [
+        {
+          "id": "A024",
+          "x": 844,
+          "y": 915,
+          "tipo": "ENTRADA_SALIDA",
+          "graphNodeIds": [
+            "N10",
+            "N13"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "salon_2211",
+      "name": "2211",
+      "accessPoints": [
+        {
+          "id": "A025",
+          "x": 844,
+          "y": 1011,
+          "tipo": "ENTRADA_SALIDA",
+          "graphNodeIds": [
+            "N13",
+            "N18"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "salon_2212",
+      "name": "2212",
+      "accessPoints": [
+        {
+          "id": "A026",
+          "x": 844,
+          "y": 1059,
+          "tipo": "ENTRADA_SALIDA",
+          "graphNodeIds": [
+            "N18",
+            "N21"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "salon_2213",
+      "name": "2213",
+      "accessPoints": [
+        {
+          "id": "A027",
+          "x": 844,
+          "y": 1107,
+          "tipo": "ENTRADA_SALIDA",
+          "graphNodeIds": [
+            "N18",
+            "N21"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "salon_3201",
+      "name": "3201 · CUBO / CRUD",
+      "accessPoints": [
+        {
+          "id": "A028",
+          "x": 578,
+          "y": 691,
+          "tipo": "ENTRADA_SALIDA",
+          "graphNodeIds": [
+            "N09",
+            "N07"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "salon_3202",
+      "name": "3202",
+      "accessPoints": [
+        {
+          "id": "A029",
+          "x": 565,
+          "y": 758,
+          "tipo": "ENTRADA_SALIDA",
+          "graphNodeIds": [
+            "N07",
+            "N15"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "salon_3203",
+      "name": "3203",
+      "accessPoints": [
+        {
+          "id": "A030",
+          "x": 565,
+          "y": 810,
+          "tipo": "ENTRADA_SALIDA",
+          "graphNodeIds": [
+            "N07",
+            "N15"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "salon_3204",
+      "name": "3204 · Sala 22-N",
+      "accessPoints": [
+        {
+          "id": "A031",
+          "x": 565,
+          "y": 861,
+          "tipo": "ENTRADA_SALIDA",
+          "graphNodeIds": [
+            "N07",
+            "N15"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "salon_3205",
+      "name": "3205",
+      "accessPoints": [
+        {
+          "id": "A032",
+          "x": 565,
+          "y": 912,
+          "tipo": "ENTRADA_SALIDA",
+          "graphNodeIds": [
+            "N07",
+            "N15"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "salon_3206",
+      "name": "3206 · Cubículos de profesores",
+      "accessPoints": [
+        {
+          "id": "A033",
+          "x": 565,
+          "y": 963,
+          "tipo": "ENTRADA_SALIDA",
+          "graphNodeIds": [
+            "N07",
+            "N15"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "salon_3207",
+      "name": "3207 · Cubículos de profesores",
+      "accessPoints": [
+        {
+          "id": "A034",
+          "x": 565,
+          "y": 1015,
+          "tipo": "ENTRADA_SALIDA",
+          "graphNodeIds": [
+            "N07",
+            "N15"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "salon_4201",
+      "name": "4201",
+      "accessPoints": [
+        {
+          "id": "A035",
+          "x": 684,
+          "y": 691,
+          "tipo": "ENTRADA_SALIDA",
+          "graphNodeIds": [
+            "N09",
+            "N08"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "salon_4202_4203",
+      "name": "4202-4203 · Departamento de Formación Básica",
+      "accessPoints": [
+        {
+          "id": "A036",
+          "x": 697,
+          "y": 784,
+          "tipo": "ENTRADA_SALIDA",
+          "graphNodeIds": [
+            "N08",
+            "N17"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "salon_4204",
+      "name": "4204",
+      "accessPoints": [
+        {
+          "id": "A037",
+          "x": 697,
+          "y": 861,
+          "tipo": "ENTRADA_SALIDA",
+          "graphNodeIds": [
+            "N08",
+            "N17"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "salon_4205",
+      "name": "4205 · Sala 25-S",
+      "accessPoints": [
+        {
+          "id": "A038",
+          "x": 697,
+          "y": 912,
+          "tipo": "ENTRADA_SALIDA",
+          "graphNodeIds": [
+            "N08",
+            "N17"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "salon_4206",
+      "name": "4206",
+      "accessPoints": [
+        {
+          "id": "A039",
+          "x": 697,
+          "y": 963,
+          "tipo": "ENTRADA_SALIDA",
+          "graphNodeIds": [
+            "N08",
+            "N17"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "salon_4207",
+      "name": "4207",
+      "accessPoints": [
+        {
+          "id": "A040",
+          "x": 697,
+          "y": 1015,
+          "tipo": "ENTRADA_SALIDA",
+          "graphNodeIds": [
+            "N08",
+            "N17"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "salon_3208",
+      "name": "3208",
+      "accessPoints": [
+        {
+          "id": "A041",
+          "x": 569,
+          "y": 1162,
+          "tipo": "ENTRADA_SALIDA",
+          "graphNodeIds": [
+            "N15",
+            "N23"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "salon_3209",
+      "name": "3209",
+      "accessPoints": [
+        {
+          "id": "A042",
+          "x": 569,
+          "y": 1208,
+          "tipo": "ENTRADA_SALIDA",
+          "graphNodeIds": [
+            "N23",
+            "N15"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "salon_3210",
+      "name": "3210",
+      "accessPoints": [
+        {
+          "id": "A043",
+          "x": 569,
+          "y": 1254,
+          "tipo": "ENTRADA_SALIDA",
+          "graphNodeIds": [
+            "N23",
+            "N15"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "salon_3211",
+      "name": "3211",
+      "accessPoints": [
+        {
+          "id": "A044",
+          "x": 569,
+          "y": 1300,
+          "tipo": "ENTRADA_SALIDA",
+          "graphNodeIds": [
+            "N15",
+            "N23"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "salon_3212",
+      "name": "3212",
+      "accessPoints": [
+        {
+          "id": "A045",
+          "x": 569,
+          "y": 1346,
+          "tipo": "ENTRADA_SALIDA",
+          "graphNodeIds": [
+            "N23",
+            "N15"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "salon_3213",
+      "name": "3213",
+      "accessPoints": [
+        {
+          "id": "A046",
+          "x": 569,
+          "y": 1392,
+          "tipo": "ENTRADA_SALIDA",
+          "graphNodeIds": [
+            "N23",
+            "N15"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "salon_3214",
+      "name": "3214 · IDF",
+      "accessPoints": [
+        {
+          "id": "A047",
+          "x": 569,
+          "y": 1421,
+          "tipo": "ENTRADA_SALIDA",
+          "graphNodeIds": [
+            "N23",
+            "N15"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "salon_4208",
+      "name": "4208",
+      "accessPoints": [
+        {
+          "id": "A048",
+          "x": 701,
+          "y": 1162,
+          "tipo": "ENTRADA_SALIDA",
+          "graphNodeIds": [
+            "N17",
+            "N25"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "salon_4209",
+      "name": "4209",
+      "accessPoints": [
+        {
+          "id": "A049",
+          "x": 701,
+          "y": 1208,
+          "tipo": "ENTRADA_SALIDA",
+          "graphNodeIds": [
+            "N17",
+            "N25"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "salon_4210",
+      "name": "4210",
+      "accessPoints": [
+        {
+          "id": "A050",
+          "x": 701,
+          "y": 1254,
+          "tipo": "ENTRADA_SALIDA",
+          "graphNodeIds": [
+            "N17",
+            "N25"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "salon_4211",
+      "name": "4211",
+      "accessPoints": [
+        {
+          "id": "A051",
+          "x": 701,
+          "y": 1300,
+          "tipo": "ENTRADA_SALIDA",
+          "graphNodeIds": [
+            "N17",
+            "N25"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "salon_4212",
+      "name": "4212",
+      "accessPoints": [
+        {
+          "id": "A052",
+          "x": 701,
+          "y": 1346,
+          "tipo": "ENTRADA_SALIDA",
+          "graphNodeIds": [
+            "N17",
+            "N25"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "salon_4213",
+      "name": "4213",
+      "accessPoints": [
+        {
+          "id": "A053",
+          "x": 701,
+          "y": 1392,
+          "tipo": "ENTRADA_SALIDA",
+          "graphNodeIds": [
+            "N17",
+            "N25"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "banos_mujeres_ed1_p2",
+      "name": "Baño de mujeres",
+      "accessPoints": [
+        {
+          "id": "A054",
+          "x": 399,
+          "y": 721,
+          "tipo": "ENTRADA_SALIDA",
+          "graphNodeIds": [
+            "N06"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "banos_hombres_ed1_p2",
+      "name": "Baño de hombres",
+      "accessPoints": [
+        {
+          "id": "A055",
+          "x": 363,
+          "y": 721,
+          "tipo": "ENTRADA_SALIDA",
+          "graphNodeIds": [
+            "N06"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "banos_mujeres_ed2_p2",
+      "name": "Baño de mujeres",
+      "accessPoints": [
+        {
+          "id": "A056",
+          "x": 862,
+          "y": 721,
+          "tipo": "ENTRADA_SALIDA",
+          "graphNodeIds": [
+            "N10"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "banos_hombres_ed2_p2",
+      "name": "Baño de hombres",
+      "accessPoints": [
+        {
+          "id": "A057",
+          "x": 898,
+          "y": 721,
+          "tipo": "ENTRADA_SALIDA",
+          "graphNodeIds": [
+            "N10"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "banos_mujeres_ed3_p2",
+      "name": "Baño de mujeres",
+      "accessPoints": [
+        {
+          "id": "A058",
+          "x": 399,
+          "y": 1157,
+          "tipo": "ENTRADA_SALIDA",
+          "graphNodeIds": [
+            "N19"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "banos_hombres_ed3_p2",
+      "name": "Baño de hombres",
+      "accessPoints": [
+        {
+          "id": "A059",
+          "x": 363,
+          "y": 1157,
+          "tipo": "ENTRADA_SALIDA",
+          "graphNodeIds": [
+            "N19"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "banos_mujeres_ed4_p2",
+      "name": "Baño de mujeres",
+      "accessPoints": [
+        {
+          "id": "A060",
+          "x": 862,
+          "y": 1157,
+          "tipo": "ENTRADA_SALIDA",
+          "graphNodeIds": [
+            "N21"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "banos_hombres_ed4_p2",
+      "name": "Baño de hombres",
+      "accessPoints": [
+        {
+          "id": "A061",
+          "x": 898,
+          "y": 1157,
+          "tipo": "ENTRADA_SALIDA",
+          "graphNodeIds": [
+            "N21"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "banos_mujeres_ed5_norte_p2",
+      "name": "Baño de mujeres",
+      "accessPoints": [
+        {
+          "id": "A062",
+          "x": 678,
+          "y": 1093,
+          "tipo": "ENTRADA_SALIDA",
+          "graphNodeIds": [
+            "N16",
+            "N17"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "banos_mujeres_ed5_sur_p2",
+      "name": "Baño de mujeres",
+      "accessPoints": [
+        {
+          "id": "A063",
+          "x": 678,
+          "y": 1461,
+          "tipo": "ENTRADA_SALIDA",
+          "graphNodeIds": [
+            "N25",
+            "N24"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "banos_hombres_ed5_norte_p2",
+      "name": "Baño de hombres",
+      "accessPoints": [
+        {
+          "id": "A064",
+          "x": 592,
+          "y": 1093,
+          "tipo": "ENTRADA_SALIDA",
+          "graphNodeIds": [
+            "N15",
+            "N16"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "banos_hombres_ed5_sur_p2",
+      "name": "Baño de hombres",
+      "accessPoints": [
+        {
+          "id": "A065",
+          "x": 592,
+          "y": 1461,
+          "tipo": "ENTRADA_SALIDA",
+          "graphNodeIds": [
+            "N24",
+            "N23"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "elevador_pcd_norte_ed5_p2",
+      "name": "Elevador PCD norte",
+      "accessPoints": [
+        {
+          "id": "A066",
+          "x": 635,
+          "y": 1093,
+          "tipo": "ENTRADA_SALIDA",
+          "graphNodeIds": [
+            "N16"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "elevador_pcd_sur_ed5_p2",
+      "name": "Elevador PCD sur",
+      "accessPoints": [
+        {
+          "id": "A067",
+          "x": 635,
+          "y": 1461,
+          "tipo": "ENTRADA_SALIDA",
+          "graphNodeIds": [
+            "N24"
+          ]
+        }
+      ]
+    }
+  ]
+}

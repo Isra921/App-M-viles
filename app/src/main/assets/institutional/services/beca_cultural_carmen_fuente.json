@@ -1,0 +1,131 @@
+{
+  "schemaVersion": 1,
+  "id": "apoyos_educativos_beca_cultural_carmen_fuente",
+  "type": "SUPPORT",
+  "category": "BECAS",
+  "archetype": "SCHOLARSHIP",
+  "name": "Beca Cultural Carmen de la Fuente",
+  "shortDescription": "Apoyo de $20,000.00 M.N. para estudiantes con trayectoria artística y cultural destacada en espacios externos.",
+  "description": "Modalidad de excelencia cultural dirigida a estudiantes de nivel superior con labor artística comprobable en espacios externos al IPN durante el año previo. Otorga un apoyo único de $20,000.00 M.N. y requiere el compromiso de presentar una actividad cultural sin fines de lucro en la comunidad politécnica.",
+  "aliases": [
+    "beca carmen de la fuente",
+    "beca carmen fuente",
+    "beca cultural carmen",
+    "beca artistica externa"
+  ],
+  "keywords": [
+    "carmen de la fuente",
+    "beca cultural",
+    "artes visuales",
+    "danza",
+    "música",
+    "teatro",
+    "literatura"
+  ],
+  "audience": [
+    "ESTUDIANTE"
+  ],
+  "requirements": [
+    "Monto: $20,000.00 M.N. por periodo escolar 27/1 (pago único semestral).",
+    "Tener un promedio general mínimo de 7.0 y encontrarse en situación escolar regular.",
+    "Acreditar labor artística comprobable en espacios externos al IPN durante el año anterior, registrada ante la DDC antes del 24 de septiembre de 2026.",
+    "Áreas elegibles: Artes Visuales, Creación Literaria, Danza, Música y Teatro.",
+    "Compromiso formal de realizar al menos una actividad artística en el IPN durante la vigencia de la beca sin fines de lucro.",
+    "Compatible con BEIFI."
+  ],
+  "documents": [
+    {
+      "id": "acuse_solicitud_sibec",
+      "name": "Acuse de solicitud emitido por SIBec",
+      "required": true
+    },
+    {
+      "id": "portafolio_artistico",
+      "name": "Portafolio de obra y reconocimientos externos validados por la Dirección de Difusión Cultural",
+      "required": true
+    },
+    {
+      "id": "carta_compromiso_actividad",
+      "name": "Carta compromiso para la realización de una actividad artística para el IPN",
+      "required": true
+    },
+    {
+      "id": "expediente_bancario_bbva",
+      "name": "Expediente bancario BBVA a nombre del estudiante",
+      "required": true
+    }
+  ],
+  "channels": [
+    {
+      "id": "ddc_sibec",
+      "type": "ONLINE_PLATFORM",
+      "name": "SIBec y Dirección de Difusión Cultural",
+      "recommended": true,
+      "url": "https://www.sibec.ipn.mx/",
+      "steps": [
+        {
+          "order": 1,
+          "title": "Registro ante DDC",
+          "description": "Registrar trayectoria y portafolio artístico ante la Dirección de Difusión Cultural del IPN previo a la fecha límite."
+        },
+        {
+          "order": 2,
+          "title": "Postulación en SIBec",
+          "description": "Completar la solicitud en SIBec bajo la modalidad Carmen de la Fuente y adjuntar carta compromiso."
+        },
+        {
+          "order": 3,
+          "title": "Dictamen y Dispersión",
+          "description": "Evaluación del comité cultural del IPN y dispersión del apoyo bancario."
+        }
+      ]
+    }
+  ],
+  "contact": {
+    "name": "Martha Angélica Gasca Cervantes",
+    "title": "Lic.",
+    "phone": "57296000",
+    "extension": "52056",
+    "email": "becas.escom@ipn.mx"
+  },
+  "location": {
+    "mapLocationId": "departamento_extension_apoyos_educativos",
+    "displayName": "Departamento de Extensión y Apoyos Educativos (Edificio de Gobierno, Planta Alta)"
+  },
+  "period": {
+    "type": "CALL_BASED",
+    "description": "Periodo Escolar 27/1 del Ciclo Escolar 2026-2027 (Agosto - Diciembre 2026). Registro en SIBec: 25 de septiembre al 02 de octubre de 2026."
+  },
+  "cost": {
+    "displayText": "Trámite gratuito"
+  },
+  "schedule": "Atención en ventanilla de Becas: Lunes a Viernes de 09:00 a 14:00 y de 16:00 a 19:00 hrs",
+  "faqs": [
+    {
+      "question": "¿En qué áreas artísticas aplica la Beca Carmen de la Fuente?",
+      "answer": "Aplica para Artes Visuales, Creación Literaria, Danza, Música y Teatro con trayectoria comprobable en el último año."
+    }
+  ],
+  "actions": [
+    {
+      "id": "open_sibec",
+      "name": "Abrir plataforma SIBec",
+      "type": "EXTERNAL_LINK",
+      "url": "https://www.sibec.ipn.mx/"
+    }
+  ],
+  "sources": [
+    {
+      "name": "Gaceta Politécnica Extraordinaria No. 1970 - Convocatoria General de Becas 27/1",
+      "url": "https://www.ipn.mx/daes/servicios/becas/",
+      "type": "OFFICIAL_GAZETTE"
+    }
+  ],
+  "informationStatus": {
+    "verification": "OFFICIAL",
+    "notes": [
+      "Respaldado en la Gaceta Politécnica Extraordinaria No. 1970."
+    ]
+  },
+  "lastReviewed": "2026-10-22"
+}

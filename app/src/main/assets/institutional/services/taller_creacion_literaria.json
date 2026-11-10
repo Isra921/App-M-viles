@@ -1,0 +1,82 @@
+{
+  "schemaVersion": 1,
+  "id": "servicios_estudiantiles_cultura_creacion_literaria",
+  "type": "SERVICE",
+  "category": "CULTURA",
+  "archetype": "WORKSHOP_ACTIVITY",
+  "name": "Taller de Creación Literaria",
+  "shortDescription": "Fomento a la lectura, redacción de cuento, poesía y declamación.",
+  "description": "Taller que permite adquirir técnicas y métodos para formar hábitos de lectura y escritura creativa. Prepara a los alumnos para participar en concursos de poesía, cuento, lectura en atril y declamación convocados por el IPN.",
+  "aliases": [
+    "creacion literaria",
+    "taller de literatura",
+    "taller de lectura",
+    "literatura",
+    "declamacion",
+    "poesia",
+    "cuento"
+  ],
+  "keywords": [
+    "literatura",
+    "poesía",
+    "cuento",
+    "lectura",
+    "declamación",
+    "escritura",
+    "cultura"
+  ],
+  "audience": [
+    "ESTUDIANTE"
+  ],
+  "requirements": [
+    "Ser estudiante de la ESCOM.",
+    "Interés por la lectura y la producción literaria."
+  ],
+  "location": {
+    "mapLocationId": "actividades_culturales_deportivas_4001",
+    "displayName": "Oficina de Cultura y Deportes (Salón 4001, Edificio de Laboratorios, Planta Baja)"
+  },
+  "cost": {
+    "displayText": "Taller gratuito"
+  },
+  "schedule": "Jueves de 11:00 a 16:00 hrs",
+  "contact": {
+    "name": "Prof. Julián Castruita Morán",
+    "role": "Instructor del Taller de Creación Literaria",
+    "phone": "57296000",
+    "extension": "52063",
+    "email": "cultura_y_deportes_escom@ipn.mx"
+  },
+  "steps": [
+    {
+      "order": 1,
+      "title": "Inscripción",
+      "description": "Registrarse al inicio del semestre en la Oficina de Cultura (Salón 4001)."
+    },
+    {
+      "order": 2,
+      "title": "Talleres y Ensayos",
+      "description": "Asistir a las sesiones de los jueves para revisión de textos, dinámicas de lectura y preparación para certámenes."
+    }
+  ],
+  "faqs": [
+    {
+      "question": "¿Sirve este taller para solicitar la Beca Cultural?",
+      "answer": "Sí, asistiendo con regularidad y acreditando el 80% de asistencia puedes obtener el aval para la Beca Cultural del IPN."
+    }
+  ],
+  "sources": [
+    {
+      "name": "ESCOM - Servicios Estudiantiles - Actividades Culturales",
+      "url": "https://www.escom.ipn.mx/SSEIS/serviciosestudiantiles/servicios/actsCulturales.php",
+      "type": "OFFICIAL_WEB"
+    }
+  ],
+  "informationStatus": {
+    "verification": "OFFICIAL",
+    "notes": [
+      "Profesor titular y horario verificados en el portal oficial de ESCOM."
+    ]
+  },
+  "lastReviewed": "2026-10-22"
+}

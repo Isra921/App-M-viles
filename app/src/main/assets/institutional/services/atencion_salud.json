@@ -1,0 +1,341 @@
+{
+  "schemaVersion": 1,
+  "id": "servicios_estudiantiles_atencion_salud",
+  "type": "SERVICE",
+  "category": "SALUD",
+  "name": "Servicio Médico",
+  "shortDescription": "Servicios de primer contacto médico, odontología y orientación educativa para la comunidad estudiantil de ESCOM.",
+  "description": "La Sección de Atención a la Salud de ESCOM agrupa servicios orientados al cuidado integral del estudiante, incluyendo atención médica de primer contacto, atención odontológica y orientación educativa.",
+  "aliases": [
+    "atencion a la salud",
+    "servicio medico",
+    "medico",
+    "servicio de salud",
+    "salud",
+    "medico escom",
+    "consultorio medico",
+    "doctor"
+  ],
+  "keywords": [
+    "salud",
+    "médico",
+    "odontología",
+    "orientación",
+    "salud mental",
+    "seguro",
+    "ambulancia",
+    "imss",
+    "nutrición",
+    "rehabilitación"
+  ],
+  "audience": [
+    "ESTUDIANTE",
+    "COMUNIDAD_ESCOM"
+  ],
+  "offerings": [
+    {
+      "id": "servicio_medico",
+      "type": "HEALTH_SERVICE",
+      "name": "Área de Servicio Médico",
+      "shortDescription": "Atención médica de primer contacto para molestias o síntomas relacionados con alguna enfermedad.",
+      "description": "Brinda atención de primer contacto. En caso de requerir medicina del deporte, rehabilitación o nutrición, se puede acudir a la Unidad de Servicios Integrales de Salud Escolar Zacatenco. Para atención especializada como cirugía general, ginecología y urgencias, se indica hacer válido el seguro facultativo del IMSS.",
+      "cost": null,
+      "confidential": null,
+      "location": {
+        "mapLocationId": "servicio_medico",
+        "displayName": "Planta baja del Edificio de Gobierno, a un costado de Gestión Escolar"
+      },
+      "schedule": [
+        {
+          "displayText": "Turno matutino: Lunes a Viernes de 08:00 a 15:00 hrs"
+        },
+        {
+          "displayText": "Turno vespertino: Lunes a Viernes de 16:00 a 22:00 hrs"
+        }
+      ],
+      "contacts": [
+        {
+          "shift": "MATUTINO",
+          "name": "Daniel Mauricio Temozihui Trejo",
+          "title": "Dr.",
+          "phone": "57296000",
+          "extension": "52014",
+          "schedule": {
+            "days": [
+              "LUNES",
+              "MARTES",
+              "MIERCOLES",
+              "JUEVES",
+              "VIERNES"
+            ],
+            "start": "08:00",
+            "end": "15:00"
+          }
+        },
+        {
+          "shift": "VESPERTINO",
+          "name": "Óscar Cortés Jiménez",
+          "title": "Dr.",
+          "phone": "57296000",
+          "extension": "52014",
+          "schedule": {
+            "days": [
+              "LUNES",
+              "MARTES",
+              "MIERCOLES",
+              "JUEVES",
+              "VIERNES"
+            ],
+            "start": "16:00",
+            "end": "22:00"
+          }
+        }
+      ],
+      "referrals": [
+        {
+          "service": "Medicina del deporte, rehabilitación o nutrición",
+          "destination": "Unidad de Servicios Integrales de Salud Escolar Zacatenco"
+        },
+        {
+          "service": "Cirugía general, ginecología y urgencias",
+          "destination": "Seguro facultativo IMSS"
+        }
+      ],
+      "documents": [
+        {
+          "id": "que_ofrece_servicio_medico",
+          "name": "¿Qué te ofrece el Servicio Médico?",
+          "type": "PDF",
+          "url": "https://www.escom.ipn.mx/SSEIS/serviciosestudiantiles/documentos/cartelServicioMedico.pdf"
+        },
+        {
+          "id": "protocolo_uso_ambulancia",
+          "name": "Conoce el protocolo para el Uso de la Ambulancia",
+          "type": "PDF",
+          "url": "https://www.escom.ipn.mx/SSEIS/serviciosestudiantiles/documentos/protocoloUsoAmbulancia.pdf"
+        },
+        {
+          "id": "triptico_uso_ambulancia",
+          "name": "Tríptico para el Uso de la Ambulancia",
+          "type": "PDF",
+          "url": "https://www.escom.ipn.mx/SSEIS/serviciosestudiantiles/documentos/tripticoUsoAmbulancia.pdf"
+        },
+        {
+          "id": "seguro_vida",
+          "name": "Seguro de Vida",
+          "type": "PDF",
+          "url": "https://www.escom.ipn.mx/SSEIS/serviciosestudiantiles/documentos/seguroVida.pdf"
+        },
+        {
+          "id": "ejemplo_seguro_vida",
+          "name": "Ejemplo de llenado de Seguro de Vida",
+          "type": "PDF",
+          "url": "https://www.escom.ipn.mx/SSEIS/serviciosestudiantiles/documentos/ejemploLlenadoSeguroVida.pdf"
+        },
+        {
+          "id": "seguro_accidentes",
+          "name": "Seguro de Accidentes",
+          "type": "PDF",
+          "url": "https://www.escom.ipn.mx/SSEIS/serviciosestudiantiles/documentos/seguroAccidentes.pdf"
+        },
+        {
+          "id": "ejemplo_seguro_accidentes",
+          "name": "Ejemplo de llenado de Seguro de Accidentes",
+          "type": "PDF",
+          "url": "https://www.escom.ipn.mx/SSEIS/serviciosestudiantiles/documentos/ejemploLlenadoSeguroAccidentes.pdf"
+        }
+      ],
+      "actions": [
+        {
+          "id": "formulario_seguros",
+          "type": "EXTERNAL_FORM",
+          "name": "Formulario para Seguro de Vida y Seguro de Accidentes",
+          "url": "https://docs.google.com/forms/d/e/1FAIpQLSesltmSfnHYW-K4Yj5sLYJOfmjwweCHHLAJAJjX7bsvU86AKQ/viewform"
+        }
+      ]
+    },
+    {
+      "id": "odontologia",
+      "type": "HEALTH_SERVICE",
+      "name": "Odontología",
+      "shortDescription": "Servicio odontológico para fomentar y preservar la salud bucal.",
+      "description": "El Servicio Odontológico trabaja con el compromiso de fomentar y preservar la salud bucal a través de servicios con cuotas de recuperación asequibles.",
+      "cost": {
+        "type": "RECOVERY_FEE",
+        "displayText": "Cuotas de recuperación asequibles",
+        "amount": null,
+        "currency": "MXN"
+      },
+      "location": {
+        "mapLocationId": null,
+        "displayName": "Planta baja del Edificio de Gobierno, a un costado de Gestión Escolar"
+      },
+      "schedule": [
+        "Turno matutino: Lunes a Viernes de 08:00 a 15:00 hrs",
+        "Turno vespertino: Lunes a Viernes de 15:00 a 21:00 hrs"
+      ],
+      "contacts": [
+        {
+          "shift": "MATUTINO",
+          "name": "Rocío Gómez Ruíz",
+          "title": "C. D.",
+          "phone": "57296000",
+          "extension": "52079",
+          "schedule": {
+            "days": [
+              "LUNES",
+              "MARTES",
+              "MIERCOLES",
+              "JUEVES",
+              "VIERNES"
+            ],
+            "start": "08:00",
+            "end": "15:00"
+          }
+        },
+        {
+          "shift": "VESPERTINO",
+          "name": "Gabriela Sanabria Paredes",
+          "title": "C. D.",
+          "phone": "57296000",
+          "extension": "52079",
+          "schedule": {
+            "days": [
+              "LUNES",
+              "MARTES",
+              "MIERCOLES",
+              "JUEVES",
+              "VIERNES"
+            ],
+            "start": "15:00",
+            "end": "21:00"
+          }
+        }
+      ]
+    },
+    {
+      "id": "orientacion_educativa",
+      "type": "COUNSELING_SERVICE",
+      "name": "Orientación Educativa",
+      "shortDescription": "Servicio gratuito y confidencial de orientación para apoyar el bienestar y desempeño académico del estudiante.",
+      "description": "Tiene el propósito de fomentar una cultura de salud mental y autocuidado, así como apoyar a la comunidad estudiantil en su desempeño académico, desarrollo humano e integración social.",
+      "cost": {
+        "type": "FREE",
+        "displayText": "Gratuito",
+        "amount": 0,
+        "currency": "MXN"
+      },
+      "confidential": true,
+      "schedule": [
+        "Turno matutino: Lunes a Viernes de 08:00 a 15:00 hrs",
+        "Turno vespertino: Lunes a Viernes de 15:00 a 21:00 hrs"
+      ],
+      "topics": [
+        "Problemas personales",
+        "Problemas de pareja",
+        "Autoestima",
+        "Problemas familiares",
+        "Rendimiento escolar",
+        "Adicciones",
+        "Sexualidad",
+        "Relaciones humanas",
+        "Hábitos de estudio"
+      ],
+      "contacts": [
+        {
+          "shift": "MATUTINO",
+          "name": "Paola Celeste Montes de Oca Gómez",
+          "title": "Lic.",
+          "phone": "57296000",
+          "extension": "52080",
+          "email": "pmontesdeocag@ipn.mx",
+          "schedule": {
+            "days": [
+              "LUNES",
+              "MARTES",
+              "MIERCOLES",
+              "JUEVES",
+              "VIERNES"
+            ],
+            "start": "08:00",
+            "end": "15:00"
+          }
+        },
+        {
+          "shift": "VESPERTINO",
+          "name": "Estefania Castro Burgos",
+          "title": "Lic.",
+          "phone": "57296000",
+          "extension": "52080",
+          "email": "lcastrob@ipn.mx",
+          "schedule": {
+            "days": [
+              "LUNES",
+              "MARTES",
+              "MIERCOLES",
+              "JUEVES",
+              "VIERNES"
+            ],
+            "start": "15:00",
+            "end": "21:00"
+          }
+        }
+      ]
+    }
+  ],
+  "location": {
+    "mapLocationId": "servicio_medico",
+    "displayName": "Edificio de Gobierno, planta baja"
+  },
+  "archetype": "FACILITY_SERVICE",
+  "cost": {
+    "displayText": "Gratuito para la comunidad estudiantil de ESCOM"
+  },
+  "schedule": "Lunes a Viernes: Turno Matutino 08:00 a 15:00 hrs | Turno Vespertino 16:00 a 22:00 hrs",
+  "subServices": [
+    {
+      "id": "servicio_medico",
+      "name": "Consultorio Médico (Primer Contacto)",
+      "description": "Atención médica inmediata ante molestias o síntomas de enfermedad."
+    },
+    {
+      "id": "odontologia",
+      "name": "Consultorio Dental (Odontología)",
+      "description": "Revisión preventiva, diagnóstico y orientación bucodental."
+    },
+    {
+      "id": "orientacion_educativa",
+      "name": "Orientación Juvenil y Educativa",
+      "description": "Atención psicológica y acompañamiento escolar individualizado de carácter confidencial."
+    }
+  ],
+  "faqs": [
+    {
+      "question": "¿El servicio médico tiene algún costo?",
+      "answer": "No, las consultas de primer contacto médico, odontología y orientación son completamente gratuitas."
+    },
+    {
+      "question": "¿Qué pasa si requiero atención médica especializada o medicamentos?",
+      "answer": "Para casos de urgencias mayores, cirugías o especialistas se canaliza mediante el seguro facultativo del IMSS que te otorga el IPN."
+    }
+  ],
+  "notes": [
+    "El Servicio Médico y Odontología se ubican en la planta baja del Edificio de Gobierno, a un costado de Gestión Escolar.",
+    "El Servicio Médico es de primer contacto; la atención especializada se deriva a otras instancias según el caso.",
+    "Orientación Educativa se ofrece de manera gratuita y confidencial."
+  ],
+  "sources": [
+    {
+      "name": "ESCOM - Servicios Estudiantiles - Sección de Atención a la Salud",
+      "url": "https://www.escom.ipn.mx/SSEIS/serviciosestudiantiles/servicios/salud.php",
+      "type": "OFFICIAL_WEB"
+    }
+  ],
+  "informationStatus": {
+    "verification": "OFFICIAL",
+    "notes": [
+      "La información fue estructurada a partir del contenido institucional proporcionado por el usuario."
+    ]
+  },
+  "lastReviewed": "2026-08-24"
+}

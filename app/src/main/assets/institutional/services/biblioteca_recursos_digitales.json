@@ -1,0 +1,88 @@
+{
+  "schemaVersion": 1,
+  "id": "servicios_estudiantiles_biblioteca_recursos_digitales",
+  "type": "SERVICE",
+  "category": "BIBLIOTECA",
+  "archetype": "FACILITY_SERVICE",
+  "name": "Recursos Digitales y Catálogo IPN",
+  "shortDescription": "Acceso a bases de datos científicas, tesis, repositorio digital y catálogo bibliográfico del IPN.",
+  "description": "Servicio de acceso virtual a la Red de Bibliotecas del IPN para consulta de acervos digitales, descarga de tesis de licenciatura y posgrado, y acceso a bases de datos científicas indexadas (IEEE Xplore, ScienceDirect, SpringerLink) mediante la red institucional o acceso remoto.",
+  "aliases": [
+    "recursos digitales",
+    "catalogo ipn",
+    "tesis ipn",
+    "repositorio digital",
+    "bases de datos ipn",
+    "biblioteca digital",
+    "buscador biblioteca"
+  ],
+  "keywords": [
+    "catálogo",
+    "tesis",
+    "repositorio",
+    "ieee",
+    "artículos",
+    "libros digitales",
+    "investigación"
+  ],
+  "audience": [
+    "ESTUDIANTE",
+    "COMUNIDAD_ESCOM"
+  ],
+  "requirements": [
+    "Pertenecer a la comunidad politécnica.",
+    "Para acceso remoto: contar con cuenta de correo institucional activa (@ipn.mx o @alumno.ipn.mx)."
+  ],
+  "location": {
+    "displayName": "Acceso en línea mediante red IPN o portal de Biblioteca de ESCOM"
+  },
+  "cost": {
+    "displayText": "Servicio gratuito para la comunidad politécnica"
+  },
+  "schedule": "Disponible en línea las 24 horas del día",
+  "actions": [
+    {
+      "id": "open_portal_biblioteca",
+      "type": "EXTERNAL_LINK",
+      "name": "Buscador de Biblioteca ESCOM",
+      "url": "https://www.escom.ipn.mx/SSEIS/serviciosestudiantiles/servicios/biblioteca.php"
+    }
+  ],
+  "steps": [
+    {
+      "order": 1,
+      "title": "Ingreso al Portal",
+      "description": "Entrar a la página oficial de Biblioteca de ESCOM o al Repositorio Digital del IPN."
+    },
+    {
+      "order": 2,
+      "title": "Seleccionar Recurso",
+      "description": "Elegir entre Catálogo Colectivo IPN, Tesis Institucionales o Bases de Datos Científicas."
+    },
+    {
+      "order": 3,
+      "title": "Búsqueda y Descarga",
+      "description": "Ingresar palabras clave o autores y descargar documentos en PDF con licencia académica."
+    }
+  ],
+  "faqs": [
+    {
+      "question": "¿Cómo descargo artículos de IEEE Xplore o ScienceDirect desde mi casa?",
+      "answer": "Debes configurar el acceso remoto del IPN con tus credenciales de correo institucional o conectarte desde la red cableada/Wi-Fi de la ESCOM."
+    }
+  ],
+  "sources": [
+    {
+      "name": "ESCOM - Biblioteca - Buscador de Información",
+      "url": "https://www.escom.ipn.mx/SSEIS/serviciosestudiantiles/servicios/biblioteca.php",
+      "type": "OFFICIAL_WEB"
+    }
+  ],
+  "informationStatus": {
+    "verification": "OFFICIAL",
+    "notes": [
+      "Buscador y enlaces oficiales verificados en el portal de la Biblioteca de ESCOM."
+    ]
+  },
+  "lastReviewed": "2026-10-22"
+}

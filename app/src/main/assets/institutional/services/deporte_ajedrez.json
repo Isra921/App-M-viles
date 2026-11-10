@@ -1,0 +1,74 @@
+{
+  "schemaVersion": 1,
+  "id": "servicios_estudiantiles_deporte_ajedrez",
+  "type": "SERVICE",
+  "category": "DEPORTE",
+  "archetype": "WORKSHOP_ACTIVITY",
+  "name": "Club de Ajedrez ESCOM",
+  "shortDescription": "Fomento al pensamiento estratégico, análisis táctico y participación en torneos universitarios.",
+  "description": "Club deportivo y ciencia que estimula el razonamiento lógico-matemático y la concentración mental. Organiza torneos relámpago, partidas simultáneas y prepara a los representantes de ESCOM para los Juegos Interpolitécnicos de Ajedrez.",
+  "aliases": [
+    "ajedrez",
+    "club de ajedrez",
+    "torneo de ajedrez",
+    "tablero ajedrez",
+    "ajedrez escom"
+  ],
+  "keywords": [
+    "ajedrez",
+    "estrategia",
+    "torneo",
+    "pensamiento",
+    "lógica",
+    "deporte ciencia"
+  ],
+  "audience": [
+    "ESTUDIANTE"
+  ],
+  "requirements": [
+    "Ser estudiante de la ESCOM.",
+    "Ramas: Varonil y Femenil.",
+    "Gusto por el juego de ajedrez en cualquier nivel (principiante, intermedio o avanzado)."
+  ],
+  "location": {
+    "displayName": "Salón 4001 o cubículos asignados por la oficina de Deportes"
+  },
+  "cost": {
+    "displayText": "Participación gratuita"
+  },
+  "schedule": "Sesiones semanales de práctica y torneos internos (consultar agenda en Salón 4001)",
+  "contact": {
+    "name": "Mesa Directiva de Ajedrez / Cultura y Deportes",
+    "role": "Informes de Deportes",
+    "phone": "57296000",
+    "extension": "52063",
+    "email": "cultura_y_deportes_escom@ipn.mx"
+  },
+  "steps": [
+    {
+      "order": 1,
+      "title": "Contacto y Torneos",
+      "description": "Solicitar informes en el Salón 4001 o inscribirse en las convocatorias de torneos internos publicados en mamparas."
+    }
+  ],
+  "faqs": [
+    {
+      "question": "¿Prestan tableros de ajedrez en la escuela?",
+      "answer": "Sí, en la oficina de Deportes se cuenta con material para préstamos durante horas libres con credencial vigente."
+    }
+  ],
+  "sources": [
+    {
+      "name": "ESCOM - Servicios Estudiantiles - Actividades Deportivas",
+      "url": "https://www.escom.ipn.mx/SSEIS/serviciosestudiantiles/servicios/actsDeportivas.php",
+      "type": "OFFICIAL_WEB"
+    }
+  ],
+  "informationStatus": {
+    "verification": "PARTIALLY_VERIFIED",
+    "notes": [
+      "Club registrado en la página oficial de ESCOM. La mesa directiva y rol de torneos deben verificarse presencialmente."
+    ]
+  },
+  "lastReviewed": "2026-10-22"
+}

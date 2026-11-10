@@ -1,0 +1,91 @@
+{
+  "schemaVersion": 1,
+  "id": "servicios_estudiantiles_orientacion_educativa",
+  "type": "SERVICE",
+  "category": "SALUD",
+  "archetype": "FACILITY_SERVICE",
+  "name": "Orientación Educativa y Salud Mental",
+  "shortDescription": "Apoyo psicopedagógico, emocional y de salud mental gratuito y estrictamente confidencial.",
+  "description": "La Sección de Orientación Educativa tiene como propósito fomentar una cultura de salud mental, autocuidado y bienestar psicológico, apoyando a los estudiantes en su rendimiento académico, manejo de ansiedad, integración social y resolución de problemáticas personales o familiares.",
+  "aliases": [
+    "orientacion educativa",
+    "orientacion",
+    "psicologia",
+    "psicologo",
+    "psicologa",
+    "salud mental",
+    "orientacion juvenil",
+    "apoyo psicologico",
+    "asesoria personal"
+  ],
+  "keywords": [
+    "psicología",
+    "salud mental",
+    "orientación",
+    "ansiedad",
+    "estrés",
+    "emocional",
+    "confidencial"
+  ],
+  "audience": [
+    "ESTUDIANTE"
+  ],
+  "requirements": [
+    "Ser estudiante de la ESCOM.",
+    "Solicitud personal y voluntaria de atención psicopedagógica."
+  ],
+  "location": {
+    "displayName": "Cubículos de Orientación Educativa (Edificio de Gobierno, Planta Alta)"
+  },
+  "cost": {
+    "displayText": "Servicio gratuito y confidencial"
+  },
+  "schedule": "Turno matutino: Lunes a Viernes de 08:00 a 15:00 hrs (Lic. Paola Celeste Montes de Oca Gómez) | Turno vespertino: Lunes a Viernes de 15:00 a 21:00 hrs",
+  "contact": {
+    "name": "Lic. Paola Celeste Montes de Oca Gómez",
+    "role": "Orientadora Educativa y Psicóloga Escolar",
+    "phone": "57296000",
+    "extension": "52079"
+  },
+  "steps": [
+    {
+      "order": 1,
+      "title": "Solicitud de Orientación",
+      "description": "Acudir a los cubículos de Orientación Educativa en el Edificio de Gobierno o agendar una cita inicial."
+    },
+    {
+      "order": 2,
+      "title": "Sesión Inicial",
+      "description": "Entrevista diagnóstica confidencial para identificar necesidades psicopedagógicas, emocionales o académicas."
+    },
+    {
+      "order": 3,
+      "title": "Seguimiento",
+      "description": "Sesiones individuales de acompañamiento, técnicas de manejo de estrés o canalización a instituciones especializadas del sector salud si se requiere."
+    }
+  ],
+  "faqs": [
+    {
+      "question": "¿Las sesiones de orientación son confidenciales?",
+      "answer": "Sí, todo lo tratado en el área de Orientación Educativa es estrictamente confidencial bajo código ético profesional."
+    },
+    {
+      "question": "¿Qué problemas se atienden en Orientación Educativa?",
+      "answer": "Rendimiento académico, técnicas de estudio, ansiedad, autoestima, dificultades familiares, relaciones de pareja y salud emocional."
+    }
+  ],
+  "sources": [
+    {
+      "name": "ESCOM - Servicios Estudiantiles - Orientación Educativa",
+      "url": "https://www.escom.ipn.mx/SSEIS/serviciosestudiantiles/servicios/servicioMedico.php",
+      "type": "OFFICIAL_WEB"
+    }
+  ],
+  "informationStatus": {
+    "verification": "OFFICIAL",
+    "notes": [
+      "Responsable matutina, extensión telefónica y objetivos de servicio verificados en el portal de ESCOM."
+    ]
+  },
+  "lastReviewed": "2026-10-22"
+}

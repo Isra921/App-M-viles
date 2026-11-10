@@ -1,0 +1,140 @@
+{
+  "schemaVersion": 1,
+  "id": "apoyos_educativos_beca_excelencia",
+  "type": "SUPPORT",
+  "category": "BECAS",
+  "archetype": "SCHOLARSHIP",
+  "name": "Beca Excelencia (Nivel Superior)",
+  "shortDescription": "Apoyo al mérito académico de $19,000.00 M.N. para alumnos de alto promedio (mínimo 9.0) y desempeño sobresaliente.",
+  "description": "La Beca Excelencia reconoce el aprovechamiento académico sobresaliente de los estudiantes de educación superior del IPN con un apoyo de pago único de $19,000.00 M.N. por periodo escolar. En el área de Ciencias Físico Matemáticas (ESCOM) exige un promedio mínimo de 9.0.",
+  "aliases": [
+    "beca excelencia",
+    "beca de excelencia",
+    "beca promedio 9",
+    "beca alto promedio",
+    "apoyo excelencia"
+  ],
+  "keywords": [
+    "beca excelencia",
+    "excelencia",
+    "promedio 9",
+    "mérito",
+    "sibec",
+    "alto rendimiento"
+  ],
+  "audience": [
+    "ESTUDIANTE"
+  ],
+  "requirements": [
+    "Monto: $19,000.00 M.N. por periodo escolar 27/1 (pago único semestral).",
+    "Tener un promedio general mínimo de 9.0 (Área de Ciencias Físico Matemáticas / ESCOM).",
+    "Haber cursado como mínimo el 30% del total de créditos del programa académico (salvo criterios específicos de primer ingreso acreditados en convocatoria).",
+    "Ser estudiante en situación escolar regular sin adeudo de materias.",
+    "Acreditar desempeño académico sobresaliente o reconocimientos en certámenes académicos o científicos avalados.",
+    "Compatible únicamente con la beca BEIFI (investigación)."
+  ],
+  "documents": [
+    {
+      "id": "acuse_solicitud_sibec",
+      "name": "Acuse de solicitud de beca expedido por SIBec",
+      "required": true
+    },
+    {
+      "id": "constancia_creditos_promedio",
+      "name": "Constancia de créditos y promedio global emitida por SAES / Gestión Escolar",
+      "required": true
+    },
+    {
+      "id": "comprobantes_reconocimientos",
+      "name": "Documentos probatorios de premios o distinciones académicas (en su caso)",
+      "required": false
+    },
+    {
+      "id": "expediente_bancario_bbva",
+      "name": "Expediente bancario BBVA a nombre del estudiante",
+      "required": true
+    }
+  ],
+  "channels": [
+    {
+      "id": "sibec_plataforma",
+      "type": "ONLINE_PLATFORM",
+      "name": "Sistema Informático de Becas (SIBec)",
+      "recommended": true,
+      "url": "https://www.sibec.ipn.mx/",
+      "steps": [
+        {
+          "order": 1,
+          "title": "Registro en SIBec",
+          "description": "Completar la solicitud para Beca Excelencia y cargar documentación probatoria durante el periodo de convocatoria."
+        },
+        {
+          "order": 2,
+          "title": "Validación por Comité",
+          "description": "Cotejo de promedio de 9.0 y porcentaje de créditos por el Subcomité de Becas de ESCOM."
+        },
+        {
+          "order": 3,
+          "title": "Publicación de Resultados",
+          "description": "Consulta de resultados en SIBec con cuenta institucional."
+        },
+        {
+          "order": 4,
+          "title": "Captura BBVA",
+          "description": "Captura de CLABE bancaria BBVA débito activa a tu nombre."
+        }
+      ]
+    }
+  ],
+  "contact": {
+    "name": "Martha Angélica Gasca Cervantes",
+    "title": "Lic.",
+    "phone": "57296000",
+    "extension": "52056",
+    "email": "becas.escom@ipn.mx"
+  },
+  "location": {
+    "mapLocationId": "departamento_extension_apoyos_educativos",
+    "displayName": "Departamento de Extensión y Apoyos Educativos (Edificio de Gobierno, Planta Alta)"
+  },
+  "period": {
+    "type": "CALL_BASED",
+    "description": "Periodo Escolar 27/1 del Ciclo Escolar 2026-2027 (Agosto - Diciembre 2026). Registro en SIBec: 25 de septiembre al 02 de octubre de 2026."
+  },
+  "cost": {
+    "displayText": "Trámite gratuito"
+  },
+  "schedule": "Atención en ventanilla de Becas: Lunes a Viernes de 09:00 a 14:00 y de 16:00 a 19:00 hrs",
+  "faqs": [
+    {
+      "question": "¿Cuánto otorga la Beca Excelencia?",
+      "answer": "Otorga $19,000.00 M.N. por periodo escolar en una sola exhibición bancaria."
+    },
+    {
+      "question": "¿Un alumno con una materia reprobada puede aspirar a la Beca Excelencia?",
+      "answer": "No, es indispensable encontrarse en situación escolar regular y mantener un promedio general mínimo de 9.0 en ESCOM."
+    }
+  ],
+  "actions": [
+    {
+      "id": "open_sibec",
+      "name": "Abrir plataforma SIBec",
+      "type": "EXTERNAL_LINK",
+      "url": "https://www.sibec.ipn.mx/"
+    }
+  ],
+  "sources": [
+    {
+      "name": "Gaceta Politécnica Extraordinaria No. 1970 - Convocatoria General de Becas 27/1",
+      "url": "https://www.ipn.mx/daes/servicios/becas/",
+      "type": "OFFICIAL_GAZETTE"
+    }
+  ],
+  "informationStatus": {
+    "verification": "OFFICIAL",
+    "notes": [
+      "Requisitos y montos verificados en la Gaceta Extraordinaria No. 1970 (Periodo 27/1)."
+    ]
+  },
+  "lastReviewed": "2026-10-22"
+}

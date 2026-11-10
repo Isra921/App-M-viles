@@ -1,0 +1,85 @@
+{
+  "schemaVersion": 1,
+  "id": "servicios_estudiantiles_deporte_ping_pong",
+  "type": "SERVICE",
+  "category": "DEPORTE",
+  "archetype": "WORKSHOP_ACTIVITY",
+  "name": "Mesas de Ping Pong y Tenis de Mesa",
+  "shortDescription": "Área de mesas exteriores de tenis de mesa y préstamo de raquetas para convivencia estudiantil.",
+  "description": "Espacio recreativo al aire libre equipado con mesas de concreto para la práctica del tenis de mesa (ping pong). Permite a los alumnos relajarse, ejercitar reflejos y participar en retas y torneos semestrales organizados por la comunidad.",
+  "aliases": [
+    "ping pong",
+    "tenis de mesa",
+    "mesas de ping pong",
+    "raquetas de ping pong",
+    "jugar ping pong"
+  ],
+  "keywords": [
+    "ping pong",
+    "tenis de mesa",
+    "raquetas",
+    "pelotas",
+    "recreativo",
+    "deporte",
+    "área sur"
+  ],
+  "audience": [
+    "ESTUDIANTE"
+  ],
+  "requirements": [
+    "Ser estudiante de la ESCOM.",
+    "Presentar credencial vigente en el Salón 4001 para el préstamo de raquetas y pelotas."
+  ],
+  "location": {
+    "mapLocationId": "mesas_ping_pong",
+    "displayName": "Mesas de ping pong (Área exterior sur de ESCOM)"
+  },
+  "cost": {
+    "displayText": "Servicio gratuito"
+  },
+  "schedule": "Uso libre de mesas durante la jornada escolar; préstamo de material de 09:00 a 19:00 hrs",
+  "contact": {
+    "name": "Oficina de Cultura y Deportes",
+    "role": "Informes y Préstamo de Material",
+    "phone": "57296000",
+    "extension": "52063",
+    "email": "cultura_y_deportes_escom@ipn.mx"
+  },
+  "steps": [
+    {
+      "order": 1,
+      "title": "Préstamo de Material",
+      "description": "Acudir al Salón 4001 y dejar tu credencial escolar para solicitar el par de raquetas y pelota."
+    },
+    {
+      "order": 2,
+      "title": "Juego en Mesas",
+      "description": "Hacer uso de las mesas exteriores respetando los turnos de juego de otros compañeros."
+    },
+    {
+      "order": 3,
+      "title": "Devolución",
+      "description": "Regresar el equipo completo en buen estado para recuperar tu credencial."
+    }
+  ],
+  "faqs": [
+    {
+      "question": "¿Puedo llevar mis propias raquetas de ping pong?",
+      "answer": "Sí, las mesas están siempre disponibles para que juegues con tu propio equipo en cualquier momento libre."
+    }
+  ],
+  "sources": [
+    {
+      "name": "ESCOM - Instalaciones y Servicios Deportivos",
+      "url": "https://www.escom.ipn.mx/SSEIS/serviciosestudiantiles/servicios/actsDeportivas.php",
+      "type": "OFFICIAL_WEB"
+    }
+  ],
+  "informationStatus": {
+    "verification": "OFFICIAL",
+    "notes": [
+      "Espacio físico cartografiado y verificado en el plano del campus."
+    ]
+  },
+  "lastReviewed": "2026-10-22"
+}

@@ -1,0 +1,131 @@
+{
+  "schemaVersion": 1,
+  "id": "apoyos_educativos_beca_cultural",
+  "type": "SUPPORT",
+  "category": "BECAS",
+  "archetype": "SCHOLARSHIP",
+  "name": "Beca Cultural (Nivel Superior)",
+  "shortDescription": "Apoyo semestral de $7,000.00 M.N. para estudiantes participantes en talleres artísticos y culturales del IPN.",
+  "description": "La Beca Cultural del IPN fomenta el desarrollo artístico de los estudiantes mediante un apoyo de pago único de $7,000.00 M.N. por periodo escolar, dirigido a quienes participan activamente en talleres o grupos culturales del plantel o de la Dirección de Difusión Cultural (DDC).",
+  "aliases": [
+    "beca cultural",
+    "beca de cultura",
+    "beca talleres culturales",
+    "beca artes"
+  ],
+  "keywords": [
+    "beca cultural",
+    "cultura",
+    "talleres",
+    "artes",
+    "sibec",
+    "difusión cultural"
+  ],
+  "audience": [
+    "ESTUDIANTE"
+  ],
+  "requirements": [
+    "Monto: $7,000.00 M.N. por periodo escolar 27/1 (pago único semestral).",
+    "Tener un promedio general mínimo de 6.0.",
+    "Ser estudiante en situación escolar regular o con adeudo de hasta dos unidades de aprendizaje.",
+    "Participar activamente en talleres artístico-culturales de la Dirección de Difusión Cultural (DDC) del IPN o de ESCOM.",
+    "Tener la actividad registrada en SAES antes de la fecha límite estipulada en la convocatoria (24 de septiembre de 2026 en periodo 27/1).",
+    "A partir del segundo semestre de participación, acreditar mínimo el 80% de asistencias al taller.",
+    "Compatible con BEIFI en situación regular."
+  ],
+  "documents": [
+    {
+      "id": "acuse_solicitud_sibec",
+      "name": "Acuse de solicitud de beca y carta compromiso (expedida por SIBec)",
+      "required": true
+    },
+    {
+      "id": "constancia_taller_cultural",
+      "name": "Constancia de participación y registro en el taller emitida por Cultura y Deportes",
+      "required": true
+    },
+    {
+      "id": "expediente_bancario_bbva",
+      "name": "Expediente bancario BBVA activo a tu nombre",
+      "required": true
+    }
+  ],
+  "channels": [
+    {
+      "id": "sibec_plataforma",
+      "type": "ONLINE_PLATFORM",
+      "name": "Sistema Informático de Becas (SIBec)",
+      "recommended": true,
+      "url": "https://www.sibec.ipn.mx/",
+      "steps": [
+        {
+          "order": 1,
+          "title": "Alta en SAES",
+          "description": "Verificar la inscripción y alta del taller cultural en tu SAES antes de la fecha límite de la convocatoria."
+        },
+        {
+          "order": 2,
+          "title": "Solicitud en SIBec",
+          "description": "Capturar la solicitud de Beca Cultural y adjuntar la documentación requerida."
+        },
+        {
+          "order": 3,
+          "title": "Validación",
+          "description": "Cotejo de asistencia y promedio por el Subcomité de Becas y el área cultural."
+        },
+        {
+          "order": 4,
+          "title": "Resultados y Pago",
+          "description": "Consulta de resultados en SIBec y carga de cuenta BBVA para dispersión bancaria."
+        }
+      ]
+    }
+  ],
+  "contact": {
+    "name": "Martha Angélica Gasca Cervantes",
+    "title": "Lic.",
+    "phone": "57296000",
+    "extension": "52056",
+    "email": "becas.escom@ipn.mx"
+  },
+  "location": {
+    "mapLocationId": "departamento_extension_apoyos_educativos",
+    "displayName": "Departamento de Extensión y Apoyos Educativos (Edificio de Gobierno, Planta Alta)"
+  },
+  "period": {
+    "type": "CALL_BASED",
+    "description": "Periodo Escolar 27/1 del Ciclo Escolar 2026-2027 (Agosto - Diciembre 2026). Registro en SIBec: 25 de septiembre al 02 de octubre de 2026."
+  },
+  "cost": {
+    "displayText": "Trámite gratuito"
+  },
+  "schedule": "Atención en ventanilla de Becas: Lunes a Viernes de 09:00 a 14:00 y de 16:00 a 19:00 hrs",
+  "faqs": [
+    {
+      "question": "¿Puedo solicitar la Beca Cultural si adeudo una materia?",
+      "answer": "Sí, a diferencia de la institucional, la Beca Cultural admite alumnos con adeudo de hasta dos unidades de aprendizaje, con promedio mínimo de 6.0."
+    }
+  ],
+  "actions": [
+    {
+      "id": "open_sibec",
+      "name": "Abrir plataforma SIBec",
+      "type": "EXTERNAL_LINK",
+      "url": "https://www.sibec.ipn.mx/"
+    }
+  ],
+  "sources": [
+    {
+      "name": "Gaceta Politécnica Extraordinaria No. 1970 - Convocatoria General de Becas 27/1",
+      "url": "https://www.ipn.mx/daes/servicios/becas/",
+      "type": "OFFICIAL_GAZETTE"
+    }
+  ],
+  "informationStatus": {
+    "verification": "OFFICIAL",
+    "notes": [
+      "Verificado en Gaceta Politécnica Extraordinaria No. 1970."
+    ]
+  },
+  "lastReviewed": "2026-10-22"
+}

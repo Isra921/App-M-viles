@@ -1,0 +1,1818 @@
+{
+  "floorId": "PB",
+  "coordinateSystem": {
+    "width": 1260,
+    "height": 1600,
+    "mapWidth": 1260,
+    "mapHeight": 1600,
+    "verticalOffset": 0
+  },
+  "places": [
+    {
+      "id": "barras_ejercicio",
+      "name": "Barras de ejercicio",
+      "accessPoints": [
+        {
+          "id": "A001",
+          "x": 66,
+          "y": 253,
+          "tipo": "ENTRADA_SALIDA",
+          "graphNodeIds": [
+            "N86"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "cisterna",
+      "name": "Cisterna",
+      "accessPoints": [
+        {
+          "id": "A002",
+          "x": 100,
+          "y": 550,
+          "tipo": "ENTRADA_SALIDA",
+          "graphNodeIds": [
+            "N88"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "entrada_institucion_vehicular_ipn",
+      "name": "Entrada institucional y vehicular",
+      "accessPoints": [
+        {
+          "id": "A003",
+          "x": 664,
+          "y": 121,
+          "tipo": "ENTRADA_SALIDA",
+          "graphNodeIds": []
+        }
+      ]
+    },
+    {
+      "id": "entrada_principal",
+      "name": "Entrada principal",
+      "accessPoints": [
+        {
+          "id": "A004",
+          "x": 131,
+          "y": 990,
+          "tipo": "ENTRADA_SALIDA",
+          "graphNodeIds": [
+            "N75"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "entrada_secundaria_plaza_torres",
+      "name": "Entrada secundaria",
+      "accessPoints": [
+        {
+          "id": "A005",
+          "x": 468,
+          "y": 346,
+          "tipo": "ENTRADA_SALIDA",
+          "graphNodeIds": [
+            "N90"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "entrada_sur_metro",
+      "name": "Entrada sur",
+      "accessPoints": [
+        {
+          "id": "A006",
+          "x": 18,
+          "y": 1594,
+          "tipo": "ENTRADA_SALIDA",
+          "graphNodeIds": [
+            "N91"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "elevador_pcd_gobierno",
+      "name": "Elevador PCD - Edificio de Gobierno",
+      "accessPoints": [
+        {
+          "id": "A007",
+          "x": 342,
+          "y": 298,
+          "tipo": "ENTRADA_SALIDA",
+          "graphNodeIds": [
+            "N22"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "elevador_pcd_norte_ed5",
+      "name": "Elevador PCD norte",
+      "accessPoints": [
+        {
+          "id": "A008",
+          "x": 310,
+          "y": 753,
+          "tipo": "ENTRADA_SALIDA",
+          "graphNodeIds": [
+            "N51"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "elevador_pcd_sur_ed5",
+      "name": "Elevador PCD sur",
+      "accessPoints": [
+        {
+          "id": "A009",
+          "x": 310,
+          "y": 930,
+          "tipo": "ENTRADA_SALIDA",
+          "graphNodeIds": [
+            "N96"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "estacionamiento_principal",
+      "name": "Estacionamiento principal",
+      "accessPoints": [
+        {
+          "id": "A010",
+          "x": 478,
+          "y": 339,
+          "tipo": "ENTRADA_SALIDA",
+          "graphNodeIds": [
+            "N97"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "estacionamiento_secundario",
+      "name": "Estacionamiento secundario",
+      "accessPoints": [
+        {
+          "id": "A011",
+          "x": 629,
+          "y": 831,
+          "tipo": "ENTRADA_SALIDA",
+          "graphNodeIds": [
+            "N174"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "invernaderos_escom",
+      "name": "Invernaderos de ESCOM",
+      "accessPoints": [
+        {
+          "id": "A012",
+          "x": 769,
+          "y": 528,
+          "tipo": "ENTRADA_SALIDA",
+          "graphNodeIds": [
+            "N98"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "pastos_alumnos",
+      "name": "Pastos",
+      "accessPoints": [
+        {
+          "id": "A127",
+          "x": 120,
+          "y": 333,
+          "tipo": "ENTRADA_SALIDA",
+          "graphNodeIds": [
+            "N23"
+          ]
+        },
+        {
+          "id": "A128",
+          "x": 40,
+          "y": 520,
+          "tipo": "ENTRADA_SALIDA",
+          "graphNodeIds": [
+            "N39"
+          ]
+        },
+        {
+          "id": "A129",
+          "x": 53,
+          "y": 560,
+          "tipo": "ENTRADA_SALIDA",
+          "graphNodeIds": [
+            "N103"
+          ]
+        },
+        {
+          "id": "A130",
+          "x": 56,
+          "y": 763,
+          "tipo": "ENTRADA_SALIDA",
+          "graphNodeIds": [
+            "N55"
+          ]
+        },
+        {
+          "id": "A133",
+          "x": 111,
+          "y": 772,
+          "tipo": "ENTRADA_SALIDA",
+          "graphNodeIds": [
+            "N56"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "zona_fumadores",
+      "name": "Zona de fumadores",
+      "accessPoints": [
+        {
+          "id": "A015",
+          "x": 55,
+          "y": 774,
+          "tipo": "ENTRADA_SALIDA",
+          "graphNodeIds": [
+            "N55"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "cancha_basquetbol_ia",
+      "name": "Cancha de básquetbol",
+      "accessPoints": [
+        {
+          "id": "A016",
+          "x": 160,
+          "y": 856,
+          "tipo": "ENTRADA_SALIDA",
+          "graphNodeIds": [
+            "N62"
+          ]
+        },
+        {
+          "id": "A120",
+          "x": 205,
+          "y": 826,
+          "tipo": "ENTRADA_SALIDA",
+          "graphNodeIds": [
+            "N58"
+          ]
+        },
+        {
+          "id": "A121",
+          "x": 220,
+          "y": 826,
+          "tipo": "ENTRADA_SALIDA",
+          "graphNodeIds": [
+            "N59"
+          ]
+        },
+        {
+          "id": "A124",
+          "x": 160,
+          "y": 922,
+          "tipo": "ENTRADA_SALIDA",
+          "graphNodeIds": [
+            "N71"
+          ]
+        },
+        {
+          "id": "A125",
+          "x": 220,
+          "y": 926,
+          "tipo": "ENTRADA_SALIDA",
+          "graphNodeIds": [
+            "N72"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "canchas_basquetbol_norte",
+      "name": "Canchas de básquetbol",
+      "accessPoints": [
+        {
+          "id": "A017",
+          "x": 106,
+          "y": 208,
+          "tipo": "ENTRADA_SALIDA",
+          "graphNodeIds": [
+            "N85"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "cancha_futbol_11",
+      "name": "Cancha de fútbol 11",
+      "accessPoints": [
+        {
+          "id": "A018",
+          "x": 775,
+          "y": 306,
+          "tipo": "ENTRADA_SALIDA",
+          "graphNodeIds": [
+            "N101"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "cancha_futbol_7",
+      "name": "Cancha de fútbol 7",
+      "accessPoints": [
+        {
+          "id": "A019",
+          "x": 1058,
+          "y": 262,
+          "tipo": "ENTRADA_SALIDA",
+          "graphNodeIds": [
+            "N102"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "mesas_ping_pong",
+      "name": "Mesas de ping pong",
+      "accessPoints": [
+        {
+          "id": "A020",
+          "x": 37,
+          "y": 695,
+          "tipo": "ENTRADA_SALIDA",
+          "graphNodeIds": [
+            "N55"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "zona_actividades",
+      "name": "Zona de actividades",
+      "accessPoints": [
+        {
+          "id": "A021",
+          "x": 37,
+          "y": 588,
+          "tipo": "ENTRADA_SALIDA",
+          "graphNodeIds": [
+            "N103"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "area_estudio_biblioteca",
+      "name": "Área de estudio de biblioteca",
+      "accessPoints": [
+        {
+          "id": "A022",
+          "x": 365,
+          "y": 280,
+          "tipo": "ENTRADA_SALIDA",
+          "graphNodeIds": [
+            "N22"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "palapas_gestion",
+      "name": "Palapas de Gestión",
+      "accessPoints": [
+        {
+          "id": "A023",
+          "x": 181,
+          "y": 311,
+          "tipo": "ENTRADA_SALIDA",
+          "graphNodeIds": [
+            "N24"
+          ]
+        },
+        {
+          "id": "A106",
+          "x": 135,
+          "y": 208,
+          "tipo": "ENTRADA_SALIDA",
+          "graphNodeIds": [
+            "N85"
+          ]
+        },
+        {
+          "id": "A107",
+          "x": 135,
+          "y": 253,
+          "tipo": "ENTRADA_SALIDA",
+          "graphNodeIds": [
+            "N86"
+          ]
+        },
+        {
+          "id": "A108",
+          "x": 135,
+          "y": 298,
+          "tipo": "ENTRADA_SALIDA",
+          "graphNodeIds": [
+            "N87"
+          ]
+        },
+        {
+          "id": "A109",
+          "x": 135,
+          "y": 200,
+          "tipo": "ENTRADA_SALIDA",
+          "graphNodeIds": [
+            "N09"
+          ]
+        },
+        {
+          "id": "A110",
+          "x": 161,
+          "y": 200,
+          "tipo": "ENTRADA_SALIDA",
+          "graphNodeIds": [
+            "N10"
+          ]
+        },
+        {
+          "id": "A111",
+          "x": 181,
+          "y": 200,
+          "tipo": "ENTRADA_SALIDA",
+          "graphNodeIds": [
+            "N12"
+          ]
+        },
+        {
+          "id": "A112",
+          "x": 181,
+          "y": 229,
+          "tipo": "ENTRADA_SALIDA",
+          "graphNodeIds": [
+            "N16"
+          ]
+        },
+        {
+          "id": "A113",
+          "x": 181,
+          "y": 300,
+          "tipo": "ENTRADA_SALIDA",
+          "graphNodeIds": [
+            "N28"
+          ]
+        },
+        {
+          "id": "A114",
+          "x": 181,
+          "y": 318,
+          "tipo": "ENTRADA_SALIDA",
+          "graphNodeIds": [
+            "N105"
+          ]
+        },
+        {
+          "id": "A115",
+          "x": 135,
+          "y": 325,
+          "tipo": "ENTRADA_SALIDA",
+          "graphNodeIds": [
+            "N23"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "palapas_ia",
+      "name": "Palapas de IA",
+      "accessPoints": [
+        {
+          "id": "A024",
+          "x": 408,
+          "y": 830,
+          "tipo": "ENTRADA_SALIDA",
+          "graphNodeIds": [
+            "N60"
+          ]
+        },
+        {
+          "id": "A116",
+          "x": 396,
+          "y": 830,
+          "tipo": "ENTRADA_SALIDA",
+          "graphNodeIds": [
+            "N61"
+          ]
+        },
+        {
+          "id": "A117",
+          "x": 396,
+          "y": 935,
+          "tipo": "ENTRADA_SALIDA",
+          "graphNodeIds": [
+            "N73"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "alumnos_consejeros",
+      "name": "Alumnos consejeros",
+      "accessPoints": [
+        {
+          "id": "A025",
+          "x": 236,
+          "y": 319,
+          "tipo": "ENTRADA_SALIDA",
+          "graphNodeIds": [
+            "N107"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "barra_cafe_ia_ed5",
+      "name": "Barra de café de Edificio 5",
+      "accessPoints": [
+        {
+          "id": "A026",
+          "x": 353,
+          "y": 930,
+          "tipo": "ENTRADA_SALIDA",
+          "graphNodeIds": [
+            "N70",
+            "N52"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "barra_cafe_norte",
+      "name": "Barra de café norte",
+      "accessPoints": [
+        {
+          "id": "A027",
+          "x": 127,
+          "y": 298,
+          "tipo": "ENTRADA_SALIDA",
+          "graphNodeIds": [
+            "N87"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "bebederos_norte",
+      "name": "Bebederos norte",
+      "accessPoints": [
+        {
+          "id": "A028",
+          "x": 159,
+          "y": 321,
+          "tipo": "ENTRADA_SALIDA",
+          "graphNodeIds": [
+            "N105"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "bebederos_sur",
+      "name": "Bebederos sur",
+      "accessPoints": [
+        {
+          "id": "A029",
+          "x": 404,
+          "y": 793,
+          "tipo": "ENTRADA_SALIDA",
+          "graphNodeIds": [
+            "N106"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "cafeteria",
+      "name": "Cafetería",
+      "accessPoints": [
+        {
+          "id": "A030",
+          "x": 95,
+          "y": 897,
+          "tipo": "ENTRADA_SALIDA",
+          "graphNodeIds": [
+            "N64"
+          ]
+        },
+        {
+          "id": "A126",
+          "x": 95,
+          "y": 922,
+          "tipo": "ENTRADA_SALIDA",
+          "graphNodeIds": [
+            "N66"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "cajero_bbva",
+      "name": "Cajero BBVA",
+      "accessPoints": [
+        {
+          "id": "A031",
+          "x": 322,
+          "y": 387,
+          "tipo": "ENTRADA_SALIDA",
+          "graphNodeIds": [
+            "N116"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "papeleria_ed5",
+      "name": "Papelería",
+      "accessPoints": [
+        {
+          "id": "A032",
+          "x": 266,
+          "y": 933,
+          "tipo": "ENTRADA_SALIDA",
+          "graphNodeIds": [
+            "N68"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "servicio_odontologia",
+      "name": "Servicio de odontología",
+      "accessPoints": [
+        {
+          "id": "A033",
+          "x": 257,
+          "y": 314,
+          "tipo": "ENTRADA_SALIDA",
+          "graphNodeIds": [
+            "N107"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "servicio_psicologia",
+      "name": "Servicio de psicología",
+      "accessPoints": [
+        {
+          "id": "A034",
+          "x": 257,
+          "y": 308,
+          "tipo": "ENTRADA_SALIDA",
+          "graphNodeIds": [
+            "N107"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "servicio_medico",
+      "name": "Servicio médico",
+      "accessPoints": [
+        {
+          "id": "A035",
+          "x": 255,
+          "y": 319,
+          "tipo": "ENTRADA_SALIDA",
+          "graphNodeIds": [
+            "N107"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "biblioteca",
+      "name": "Biblioteca",
+      "accessPoints": [
+        {
+          "id": "A036",
+          "x": 365,
+          "y": 302,
+          "tipo": "ENTRADA_SALIDA",
+          "graphNodeIds": [
+            "N22"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "auditorio",
+      "name": "Auditorio",
+      "accessPoints": [
+        {
+          "id": "A037",
+          "x": 307,
+          "y": 261,
+          "tipo": "ENTRADA_SALIDA",
+          "graphNodeIds": [
+            "N92"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "gestion_escolar",
+      "name": "Gestión Escolar",
+      "accessPoints": [
+        {
+          "id": "A038",
+          "x": 237,
+          "y": 280,
+          "tipo": "ENTRADA_SALIDA",
+          "graphNodeIds": [
+            "N20"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "data_urban_island",
+      "name": "Data Urban Island",
+      "accessPoints": [
+        {
+          "id": "A039",
+          "x": 27,
+          "y": 763,
+          "tipo": "ENTRADA_SALIDA",
+          "graphNodeIds": [
+            "N55"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "explanada",
+      "name": "Explanada",
+      "accessPoints": [
+        {
+          "id": "A040",
+          "x": 307,
+          "y": 397,
+          "tipo": "ENTRADA_SALIDA",
+          "graphNodeIds": [
+            "N82"
+          ]
+        },
+        {
+          "id": "A131",
+          "x": 260,
+          "y": 459,
+          "tipo": "ENTRADA_SALIDA",
+          "graphNodeIds": [
+            "N37"
+          ]
+        },
+        {
+          "id": "A132",
+          "x": 356,
+          "y": 459,
+          "tipo": "ENTRADA_SALIDA",
+          "graphNodeIds": [
+            "N38"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "letras_escom",
+      "name": "Letras de ESCOM",
+      "accessPoints": [
+        {
+          "id": "A041",
+          "x": 278,
+          "y": 494,
+          "tipo": "ENTRADA_SALIDA",
+          "graphNodeIds": [
+            "N37"
+          ]
+        },
+        {
+          "id": "A118",
+          "x": 338,
+          "y": 494,
+          "tipo": "ENTRADA_SALIDA",
+          "graphNodeIds": [
+            "N38"
+          ]
+        },
+        {
+          "id": "A119",
+          "x": 307,
+          "y": 494,
+          "tipo": "ENTRADA_SALIDA",
+          "graphNodeIds": [
+            "N82"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "banos_hombres_ed1",
+      "name": "Baño de hombres - Edificio 1",
+      "accessPoints": [
+        {
+          "id": "A042",
+          "x": 174,
+          "y": 554,
+          "tipo": "ENTRADA_SALIDA",
+          "graphNodeIds": [
+            "N41"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "banos_mujeres_ed1",
+      "name": "Baño de mujeres - Edificio 1",
+      "accessPoints": [
+        {
+          "id": "A043",
+          "x": 192,
+          "y": 554,
+          "tipo": "ENTRADA_SALIDA",
+          "graphNodeIds": [
+            "N41"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "banos_hombres_ed2",
+      "name": "Baño de hombres - Edificio 2",
+      "accessPoints": [
+        {
+          "id": "A044",
+          "x": 441,
+          "y": 554,
+          "tipo": "ENTRADA_SALIDA",
+          "graphNodeIds": [
+            "N133"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "banos_mujeres_ed2",
+      "name": "Baño de mujeres - Edificio 2",
+      "accessPoints": [
+        {
+          "id": "A045",
+          "x": 423,
+          "y": 554,
+          "tipo": "ENTRADA_SALIDA",
+          "graphNodeIds": [
+            "N133"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "banos_hombres_ed3",
+      "name": "Baño de hombres - Edificio 3",
+      "accessPoints": [
+        {
+          "id": "A046",
+          "x": 174,
+          "y": 772,
+          "tipo": "ENTRADA_SALIDA",
+          "graphNodeIds": [
+            "N53",
+            "N56"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "banos_mujeres_ed3",
+      "name": "Baño de mujeres - Edificio 3",
+      "accessPoints": [
+        {
+          "id": "A047",
+          "x": 192,
+          "y": 772,
+          "tipo": "ENTRADA_SALIDA",
+          "graphNodeIds": [
+            "N53",
+            "N56"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "banos_hombres_ed4",
+      "name": "Baño de hombres - Edificio 4",
+      "accessPoints": [
+        {
+          "id": "A048",
+          "x": 441,
+          "y": 772,
+          "tipo": "ENTRADA_SALIDA",
+          "graphNodeIds": [
+            "N137"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "banos_mujeres_ed4",
+      "name": "Baño de mujeres - Edificio 4",
+      "accessPoints": [
+        {
+          "id": "A049",
+          "x": 423,
+          "y": 772,
+          "tipo": "ENTRADA_SALIDA",
+          "graphNodeIds": [
+            "N137",
+            "N54"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "banos_hombres_ed5_1",
+      "name": "Baño de hombres - Edificio 5 zona norte",
+      "accessPoints": [
+        {
+          "id": "A050",
+          "x": 288,
+          "y": 748,
+          "tipo": "ENTRADA_SALIDA",
+          "graphNodeIds": [
+            "N50",
+            "N51"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "banos_hombres_ed5_2",
+      "name": "Baño de hombres - Edificio 5 zona sur",
+      "accessPoints": [
+        {
+          "id": "A051",
+          "x": 288,
+          "y": 931,
+          "tipo": "ENTRADA_SALIDA",
+          "graphNodeIds": [
+            "N68",
+            "N96"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "banos_mujeres_ed5_1",
+      "name": "Baño de mujeres - Edificio 5 zona norte",
+      "accessPoints": [
+        {
+          "id": "A052",
+          "x": 332,
+          "y": 747,
+          "tipo": "ENTRADA_SALIDA",
+          "graphNodeIds": [
+            "N52",
+            "N51"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "banos_mujeres_ed5_2",
+      "name": "Baño de mujeres - Edificio 5 zona sur",
+      "accessPoints": [
+        {
+          "id": "A053",
+          "x": 331,
+          "y": 930,
+          "tipo": "ENTRADA_SALIDA",
+          "graphNodeIds": [
+            "N96"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "banos_hombres_ed_gobierno",
+      "name": "Baño de hombres - Edificio de Gobierno",
+      "accessPoints": [
+        {
+          "id": "A054",
+          "x": 334,
+          "y": 279,
+          "tipo": "ENTRADA_SALIDA",
+          "graphNodeIds": [
+            "N92"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "banos_mujeres_ed_gobierno",
+      "name": "Baño de mujeres - Edificio de Gobierno",
+      "accessPoints": [
+        {
+          "id": "A055",
+          "x": 282,
+          "y": 279,
+          "tipo": "ENTRADA_SALIDA",
+          "graphNodeIds": [
+            "N92"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "unidad_tecnologia_educativa_1001",
+      "name": "1001 · Unidad de Tecnología Educativa y Campus Virtual",
+      "accessPoints": [
+        {
+          "id": "A056",
+          "x": 201,
+          "y": 366,
+          "tipo": "ENTRADA_SALIDA",
+          "graphNodeIds": [
+            "N33",
+            "N24",
+            "N37",
+            "N41"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "cubiculos_tecnologia_educativa_1002",
+      "name": "1002 · Cubículos de apoyo de Tecnología Educativa",
+      "accessPoints": [
+        {
+          "id": "A057",
+          "x": 201,
+          "y": 389,
+          "tipo": "ENTRADA_SALIDA",
+          "graphNodeIds": [
+            "N41"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "area_institucional_1003",
+      "name": "1003",
+      "accessPoints": [
+        {
+          "id": "A058",
+          "x": 201,
+          "y": 413,
+          "tipo": "ENTRADA_SALIDA",
+          "graphNodeIds": [
+            "N41"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "laboratorio_alirob_lccomp_1004",
+      "name": "1004 · ALIROB / LCCOMP",
+      "accessPoints": [
+        {
+          "id": "A059",
+          "x": 201,
+          "y": 437,
+          "tipo": "ENTRADA_SALIDA",
+          "graphNodeIds": [
+            "N41"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "coordinacion_ingles_celex_1005",
+      "name": "1005 · Coordinación de Inglés CELEX",
+      "accessPoints": [
+        {
+          "id": "A060",
+          "x": 201,
+          "y": 481,
+          "tipo": "ENTRADA_SALIDA",
+          "graphNodeIds": [
+            "N41"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "salon_1006",
+      "name": "1006",
+      "accessPoints": [
+        {
+          "id": "A061",
+          "x": 201,
+          "y": 505,
+          "tipo": "ENTRADA_SALIDA",
+          "graphNodeIds": [
+            "N41"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "salon_1007",
+      "name": "1007",
+      "accessPoints": [
+        {
+          "id": "A062",
+          "x": 201,
+          "y": 529,
+          "tipo": "ENTRADA_SALIDA",
+          "graphNodeIds": [
+            "N41"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "club_biorobotica_1008",
+      "name": "1008 · Club de Bio-Robótica",
+      "accessPoints": [
+        {
+          "id": "A063",
+          "x": 201,
+          "y": 584,
+          "tipo": "ENTRADA_SALIDA",
+          "graphNodeIds": [
+            "N41",
+            "N46",
+            "N48",
+            "N53"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "sala_marco_antonio_dorantes_1009",
+      "name": "1009 · Sala Dr. Marco Antonio Dorantes González",
+      "accessPoints": [
+        {
+          "id": "A064",
+          "x": 201,
+          "y": 607,
+          "tipo": "ENTRADA_SALIDA",
+          "graphNodeIds": [
+            "N53"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "salon_1010",
+      "name": "1010",
+      "accessPoints": [
+        {
+          "id": "A065",
+          "x": 201,
+          "y": 631,
+          "tipo": "ENTRADA_SALIDA",
+          "graphNodeIds": [
+            "N53"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "salon_1011",
+      "name": "1011",
+      "accessPoints": [
+        {
+          "id": "A066",
+          "x": 201,
+          "y": 655,
+          "tipo": "ENTRADA_SALIDA",
+          "graphNodeIds": [
+            "N53"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "salon_1012",
+      "name": "1012",
+      "accessPoints": [
+        {
+          "id": "A067",
+          "x": 201,
+          "y": 699,
+          "tipo": "ENTRADA_SALIDA",
+          "graphNodeIds": [
+            "N53"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "salon_1013",
+      "name": "1013",
+      "accessPoints": [
+        {
+          "id": "A068",
+          "x": 201,
+          "y": 723,
+          "tipo": "ENTRADA_SALIDA",
+          "graphNodeIds": [
+            "N53"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "salon_1014",
+      "name": "1014",
+      "accessPoints": [
+        {
+          "id": "A069",
+          "x": 201,
+          "y": 747,
+          "tipo": "ENTRADA_SALIDA",
+          "graphNodeIds": [
+            "N53"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "area_institucional_2001",
+      "name": "2001 · Área restringida",
+      "accessPoints": [
+        {
+          "id": "A070",
+          "x": 414,
+          "y": 366,
+          "tipo": "ENTRADA_SALIDA",
+          "graphNodeIds": [
+            "N25",
+            "N34",
+            "N38",
+            "N44"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "salon_2002",
+      "name": "2002",
+      "accessPoints": [
+        {
+          "id": "A071",
+          "x": 414,
+          "y": 389,
+          "tipo": "ENTRADA_SALIDA",
+          "graphNodeIds": [
+            "N44"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "salon_2003",
+      "name": "2003",
+      "accessPoints": [
+        {
+          "id": "A072",
+          "x": 414,
+          "y": 413,
+          "tipo": "ENTRADA_SALIDA",
+          "graphNodeIds": [
+            "N44"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "salon_2004",
+      "name": "2004",
+      "accessPoints": [
+        {
+          "id": "A073",
+          "x": 414,
+          "y": 437,
+          "tipo": "ENTRADA_SALIDA",
+          "graphNodeIds": [
+            "N44"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "salon_2005",
+      "name": "2005",
+      "accessPoints": [
+        {
+          "id": "A074",
+          "x": 414,
+          "y": 481,
+          "tipo": "ENTRADA_SALIDA",
+          "graphNodeIds": [
+            "N44"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "salon_2006",
+      "name": "2006",
+      "accessPoints": [
+        {
+          "id": "A075",
+          "x": 414,
+          "y": 505,
+          "tipo": "ENTRADA_SALIDA",
+          "graphNodeIds": [
+            "N44"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "salon_2007",
+      "name": "2007",
+      "accessPoints": [
+        {
+          "id": "A076",
+          "x": 414,
+          "y": 529,
+          "tipo": "ENTRADA_SALIDA",
+          "graphNodeIds": [
+            "N44"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "sepi_2008",
+      "name": "2008 · Sección de Estudios de Posgrado e Investigación",
+      "accessPoints": [
+        {
+          "id": "A077",
+          "x": 414,
+          "y": 588,
+          "tipo": "ENTRADA_SALIDA",
+          "graphNodeIds": [
+            "N44",
+            "N47",
+            "N49",
+            "N54"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "aula_computo_posgrado_2009",
+      "name": "2009 · Aula de Cómputo de Posgrado",
+      "accessPoints": [
+        {
+          "id": "A078",
+          "x": 414,
+          "y": 619,
+          "tipo": "ENTRADA_SALIDA",
+          "graphNodeIds": [
+            "N54"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "aula_maestria_2010",
+      "name": "2010 · Aula de Maestría",
+      "accessPoints": [
+        {
+          "id": "A079",
+          "x": 414,
+          "y": 651,
+          "tipo": "ENTRADA_SALIDA",
+          "graphNodeIds": [
+            "N54"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "area_institucional_2011",
+      "name": "2011",
+      "accessPoints": [
+        {
+          "id": "A080",
+          "x": 414,
+          "y": 711,
+          "tipo": "ENTRADA_SALIDA",
+          "graphNodeIds": [
+            "N54"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "laboratorio_sistemas_automotrices_2012",
+      "name": "2012 · Laboratorio de Ingeniería en Sistemas Automotrices",
+      "accessPoints": [
+        {
+          "id": "A081",
+          "x": 414,
+          "y": 747,
+          "tipo": "ENTRADA_SALIDA",
+          "graphNodeIds": [
+            "N54"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "subestacion_electrica_3001",
+      "name": "3001",
+      "accessPoints": [
+        {
+          "id": "A082",
+          "x": 283,
+          "y": 546,
+          "tipo": "ENTRADA_SALIDA",
+          "graphNodeIds": [
+            "N42"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "club_minirobotica_3002",
+      "name": "3002 · Club de MiniRobótica",
+      "accessPoints": [
+        {
+          "id": "A083",
+          "x": 277,
+          "y": 574,
+          "tipo": "ENTRADA_SALIDA",
+          "graphNodeIds": [
+            "N42",
+            "N50"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "laboratorio_electronica_1_3003",
+      "name": "3003 · Laboratorio de Electrónica 1",
+      "accessPoints": [
+        {
+          "id": "A084",
+          "x": 277,
+          "y": 604,
+          "tipo": "ENTRADA_SALIDA",
+          "graphNodeIds": [
+            "N50"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "laboratorio_electronica_2_3004_3005",
+      "name": "3004-3005 · Laboratorio de Electrónica 2",
+      "accessPoints": [
+        {
+          "id": "A085",
+          "x": 277,
+          "y": 651,
+          "tipo": "ENTRADA_SALIDA",
+          "graphNodeIds": [
+            "N50"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "laboratorio_sistemas_digitales_1_3006_3007",
+      "name": "3006-3007 · Laboratorio de Sistemas Digitales 1",
+      "accessPoints": [
+        {
+          "id": "A086",
+          "x": 277,
+          "y": 698,
+          "tipo": "ENTRADA_SALIDA",
+          "graphNodeIds": [
+            "N50"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "salon_3008",
+      "name": "3008",
+      "accessPoints": [
+        {
+          "id": "A087",
+          "x": 277,
+          "y": 782,
+          "tipo": "ENTRADA_SALIDA",
+          "graphNodeIds": [
+            "N50",
+            "N68"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "salon_3009",
+      "name": "3009",
+      "accessPoints": [
+        {
+          "id": "A088",
+          "x": 277,
+          "y": 804,
+          "tipo": "ENTRADA_SALIDA",
+          "graphNodeIds": [
+            "N68"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "salon_3010",
+      "name": "3010",
+      "accessPoints": [
+        {
+          "id": "A089",
+          "x": 277,
+          "y": 828,
+          "tipo": "ENTRADA_SALIDA",
+          "graphNodeIds": [
+            "N68"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "salon_3011",
+      "name": "3011",
+      "accessPoints": [
+        {
+          "id": "A090",
+          "x": 277,
+          "y": 851,
+          "tipo": "ENTRADA_SALIDA",
+          "graphNodeIds": [
+            "N68"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "laboratorio_ciencia_datos_1_3012",
+      "name": "3012 · Laboratorio de Ciencia de Datos 1",
+      "accessPoints": [
+        {
+          "id": "A091",
+          "x": 277,
+          "y": 874,
+          "tipo": "ENTRADA_SALIDA",
+          "graphNodeIds": [
+            "N68"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "laboratorio_ciencia_datos_2_3013",
+      "name": "3013 · Laboratorio de Ciencia de Datos 2",
+      "accessPoints": [
+        {
+          "id": "A092",
+          "x": 277,
+          "y": 896,
+          "tipo": "ENTRADA_SALIDA",
+          "graphNodeIds": [
+            "N68"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "mdf_3014",
+      "name": "3014 · MDF",
+      "accessPoints": [
+        {
+          "id": "A093",
+          "x": 277,
+          "y": 911,
+          "tipo": "ENTRADA_SALIDA",
+          "graphNodeIds": [
+            "N68"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "actividades_culturales_deportivas_4001",
+      "name": "4001",
+      "accessPoints": [
+        {
+          "id": "A094",
+          "x": 336,
+          "y": 545,
+          "tipo": "ENTRADA_SALIDA",
+          "graphNodeIds": [
+            "N43"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "laboratorio_fisica_4002",
+      "name": "4002 · Laboratorio de Física",
+      "accessPoints": [
+        {
+          "id": "A095",
+          "x": 343,
+          "y": 591,
+          "tipo": "ENTRADA_SALIDA",
+          "graphNodeIds": [
+            "N43",
+            "N52"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "area_profesores_4003",
+      "name": "4003",
+      "accessPoints": [
+        {
+          "id": "A096",
+          "x": 343,
+          "y": 621,
+          "tipo": "ENTRADA_SALIDA",
+          "graphNodeIds": [
+            "N52"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "sindicato_trabajadores_apoyo_4004",
+      "name": "4004 · Sindicato de Trabajadores de Apoyo y Asistencia a la Educación",
+      "accessPoints": [
+        {
+          "id": "A097",
+          "x": 343,
+          "y": 639,
+          "tipo": "ENTRADA_SALIDA",
+          "graphNodeIds": [
+            "N52"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "area_profesores_4005",
+      "name": "4005 · Área para profesores",
+      "accessPoints": [
+        {
+          "id": "A098",
+          "x": 343,
+          "y": 662,
+          "tipo": "ENTRADA_SALIDA",
+          "graphNodeIds": [
+            "N52"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "laboratorio_sistemas_digitales_2_4006_4007",
+      "name": "4006-4007 · Laboratorio de Sistemas Digitales 2",
+      "accessPoints": [
+        {
+          "id": "A099",
+          "x": 343,
+          "y": 698,
+          "tipo": "ENTRADA_SALIDA",
+          "graphNodeIds": [
+            "N52"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "salon_4008",
+      "name": "4008",
+      "accessPoints": [
+        {
+          "id": "A100",
+          "x": 343,
+          "y": 782,
+          "tipo": "ENTRADA_SALIDA",
+          "graphNodeIds": [
+            "N52",
+            "N70"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "salon_4009",
+      "name": "4009",
+      "accessPoints": [
+        {
+          "id": "A101",
+          "x": 343,
+          "y": 804,
+          "tipo": "ENTRADA_SALIDA",
+          "graphNodeIds": [
+            "N70"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "salon_4010",
+      "name": "4010",
+      "accessPoints": [
+        {
+          "id": "A102",
+          "x": 343,
+          "y": 828,
+          "tipo": "ENTRADA_SALIDA",
+          "graphNodeIds": [
+            "N70"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "salon_4011",
+      "name": "4011",
+      "accessPoints": [
+        {
+          "id": "A103",
+          "x": 343,
+          "y": 851,
+          "tipo": "ENTRADA_SALIDA",
+          "graphNodeIds": [
+            "N70"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "laboratorio_inteligencia_artificial_1_4012",
+      "name": "4012 · Laboratorio de Inteligencia Artificial 1",
+      "accessPoints": [
+        {
+          "id": "A104",
+          "x": 343,
+          "y": 874,
+          "tipo": "ENTRADA_SALIDA",
+          "graphNodeIds": [
+            "N70"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "laboratorio_inteligencia_artificial_2_4013",
+      "name": "4013 · Laboratorio de Inteligencia Artificial 2",
+      "accessPoints": [
+        {
+          "id": "A105",
+          "x": 343,
+          "y": 896,
+          "tipo": "ENTRADA_SALIDA",
+          "graphNodeIds": [
+            "N70"
+          ]
+        }
+      ]
+    }
+  ]
+}

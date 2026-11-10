@@ -1,0 +1,249 @@
+{
+  "schemaVersion": 1,
+  "id": "dae_reposicion_credencial_institucional",
+  "type": "PROCEDURE",
+  "category": "SERVICIOS_ESCOLARES",
+  "name": "Reposición de Credencial Institucional",
+  "shortDescription": "Trámite para reponer la credencial institucional del Instituto Politécnico Nacional.",
+  "description": "La credencial institucional identifica al estudiante como integrante del Instituto Politécnico Nacional y facilita el acceso a unidades académicas y a servicios institucionales, incluyendo actividades culturales, deportivas y de transporte durante periodos vacacionales.",
+  "aliases": [
+    "credencial escolar",
+    "credencial institucional",
+    "reposición de credencial",
+    "reponer credencial",
+    "credencial ipn"
+  ],
+  "keywords": [
+    "credencial",
+    "reposición",
+    "ipn",
+    "dae",
+    "identificación",
+    "alumno"
+  ],
+  "audience": [
+    "ESTUDIANTE"
+  ],
+  "requirements": [
+    "Estar inscrito al semestre en curso.",
+    "No contar con adeudo de pago de credencial."
+  ],
+  "documents": [
+    {
+      "id": "identificacion_oficial_fotografia",
+      "name": "Identificación oficial con fotografía",
+      "required": true,
+      "verification": "OFFICIAL"
+    },
+    {
+      "id": "comprobante_pago",
+      "name": "Comprobante de pago",
+      "required": true,
+      "verification": "OFFICIAL"
+    }
+  ],
+  "channels": [
+    {
+      "id": "dae_presencial",
+      "type": "IN_PERSON",
+      "name": "Trámite presencial en DAE",
+      "recommended": false,
+      "payment": {
+        "amount": 166.0,
+        "currency": "MXN",
+        "displayText": "$166.00 MXN",
+        "method": "BANK_COUNTER",
+        "bank": "BANORTE",
+        "beneficiary": "IPN DIRECCION DE ADMINISTRACION ESCOLAR",
+        "agreement": "CEP #5960",
+        "validity": {
+          "value": 90,
+          "unit": "CALENDAR_DAYS",
+          "displayText": "El depósito tiene vigencia de 90 días naturales a partir de la fecha en que el pago ingresa al banco."
+        }
+      },
+      "requirements": [
+        "Realizar el pago correspondiente.",
+        "Presentar una identificación oficial con fotografía."
+      ],
+      "requiredDocuments": [
+        {
+          "id": "comprobante_pago",
+          "name": "Comprobante de pago",
+          "required": true
+        },
+        {
+          "id": "identificacion_oficial_fotografia",
+          "name": "Identificación oficial con fotografía",
+          "required": true
+        }
+      ],
+      "estimatedTime": {
+        "type": "UNSPECIFIED",
+        "displayText": "La fuente oficial consultada no publica un plazo específico de entrega para el trámite presencial.",
+        "official": true,
+        "basis": "OFFICIAL"
+      },
+      "steps": [
+        {
+          "order": 1,
+          "description": "Realizar el pago de $166.00 MXN mediante depósito en ventanilla bancaria."
+        },
+        {
+          "order": 2,
+          "description": "Canjear el comprobante de pago en el Módulo 3 (Caja)."
+        },
+        {
+          "order": 3,
+          "description": "Acudir al Módulo 5 (Credenciales) con el comprobante."
+        },
+        {
+          "order": 4,
+          "description": "Mostrar una identificación oficial con fotografía."
+        },
+        {
+          "order": 5,
+          "description": "Recoger la credencial."
+        }
+      ]
+    },
+    {
+      "id": "dae_en_linea",
+      "type": "WEB_FORM",
+      "name": "Trámite en línea DAE",
+      "recommended": true,
+      "url": "https://servicios.dae.ipn.mx/credenciales/",
+      "payment": {
+        "amount": 166.0,
+        "currency": "MXN",
+        "displayText": "$166.00 MXN",
+        "method": "BANK_TRANSFER",
+        "bank": "BANORTE",
+        "beneficiary": "IPN DIRECCION DE ADMINISTRACION ESCOLAR",
+        "clabe": "072180075000423078",
+        "displayClabe": "072 180 07500042307 8",
+        "reference": "0005960",
+        "referenceRequired": true,
+        "validity": {
+          "value": 90,
+          "unit": "CALENDAR_DAYS",
+          "displayText": "El depósito tiene vigencia de 90 días naturales a partir de la fecha en que el pago ingresa al banco."
+        },
+        "notes": [
+          "Para transferencias bancarias debe adjuntarse la impresión del Comprobante Electrónico de Pago (CEP) emitido por Banxico, con el detalle del cargo efectuado."
+        ]
+      },
+      "requirements": [
+        "Realizar el pago correspondiente.",
+        "Escanear el comprobante de pago.",
+        "Escanear una identificación oficial con fotografía."
+      ],
+      "requiredDocuments": [
+        {
+          "id": "comprobante_pago_escaneado",
+          "name": "Comprobante de pago escaneado",
+          "required": true
+        },
+        {
+          "id": "identificacion_oficial_escaneada",
+          "name": "Identificación oficial con fotografía escaneada",
+          "required": true
+        },
+        {
+          "id": "cep_banxico",
+          "name": "Comprobante Electrónico de Pago (CEP) emitido por Banxico",
+          "required": true,
+          "condition": "Requerido cuando el depósito se realiza mediante transferencia bancaria."
+        }
+      ],
+      "estimatedTime": {
+        "type": "UNSPECIFIED",
+        "displayText": "La fuente oficial consultada no publica un plazo específico. La cita para recoger la credencial se envía por correo electrónico.",
+        "official": true,
+        "basis": "OFFICIAL"
+      },
+      "steps": [
+        {
+          "order": 1,
+          "description": "Realizar el pago de $166.00 MXN mediante transferencia bancaria."
+        },
+        {
+          "order": 2,
+          "description": "Escanear el comprobante de pago y una identificación oficial con fotografía."
+        },
+        {
+          "order": 3,
+          "description": "Ingresar al formulario de reposición de credencial de la DAE."
+        },
+        {
+          "order": 4,
+          "description": "Capturar la información solicitada y adjuntar los documentos escaneados."
+        },
+        {
+          "order": 5,
+          "description": "Esperar el correo electrónico con la cita para recoger la credencial."
+        },
+        {
+          "order": 6,
+          "description": "Acudir a recoger la credencial conforme a las indicaciones recibidas."
+        }
+      ],
+      "notes": [
+        "En el trámite en línea no se realizan cambios de fotografía."
+      ],
+      "tracking": {
+        "available": true,
+        "method": "EMAIL",
+        "notes": [
+          "La DAE envía por correo electrónico la cita para recoger la credencial."
+        ]
+      }
+    }
+  ],
+  "location": {
+    "mapLocationId": null,
+    "displayName": "Dirección de Administración Escolar (DAE), IPN"
+  },
+  "archetype": "PROCEDURE",
+  "cost": {
+    "amount": 166.0,
+    "currency": "MXN",
+    "displayText": "$166.00 MXN"
+  },
+  "schedule": "Atención presencial en DAE Zacatenco en días hábiles de 09:00 a 14:00 y de 16:00 a 18:00",
+  "faqs": [
+    {
+      "question": "¿Dónde se realiza el pago de reposición?",
+      "answer": "Mediante depósito en ventanilla bancaria Banorte al convenio CEP #5960 a nombre de IPN DAE."
+    },
+    {
+      "question": "¿Cuánto tiempo de vigencia tiene el comprobante de pago?",
+      "answer": "El depósito bancario tiene una vigencia de 90 días naturales a partir de la fecha de pago."
+    }
+  ],
+  "notes": [
+    "En el trámite en línea no se realizan cambios de fotografía.",
+    "Se valida que el estudiante esté inscrito al semestre en curso y que no cuente con adeudo de pago de credencial.",
+    "El depósito tiene vigencia de 90 días naturales a partir de la fecha en que ingresa al banco.",
+    "Para transferencias bancarias debe adjuntarse el CEP emitido por Banxico."
+  ],
+  "sources": [
+    {
+      "name": "IPN - Dirección de Administración Escolar - Credencial Institucional",
+      "url": "https://www.ipn.mx/dae/tramites/credencial-institucional.html",
+      "type": "OFFICIAL_WEB"
+    },
+    {
+      "name": "IPN - Dirección de Administración Escolar - Precios de servicios",
+      "url": "https://www.ipn.mx/dae/precios.html",
+      "type": "OFFICIAL_WEB"
+    }
+  ],
+  "informationStatus": {
+    "verification": "OFFICIAL",
+    "notes": [
+      "El procedimiento, requisitos generales, costo, formas de pago y vigencia del depósito fueron verificados en fuentes oficiales del IPN."
+    ]
+  },
+  "lastReviewed": "2026-08-24"
+}

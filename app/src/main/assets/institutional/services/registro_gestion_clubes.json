@@ -1,0 +1,101 @@
+{
+  "schemaVersion": 1,
+  "id": "servicios_estudiantiles_registro_clubes",
+  "type": "PROCEDURE",
+  "category": "CULTURA",
+  "archetype": "PROCEDURE",
+  "name": "Registro y Gestión de Clubes Estudiantiles",
+  "shortDescription": "Procedimiento oficial para registrar un nuevo club académico, cultural o deportivo y solicitar materiales.",
+  "description": "Procedimiento institucional mediante el cual un grupo organizado de estudiantes solicita el reconocimiento oficial de un club ante la Subdirección de Servicios Estudiantiles e Integración Social de ESCOM, permitiendo la asignación de espacios, préstamo de material y difusión oficial.",
+  "aliases": [
+    "registro de clubes",
+    "crear un club",
+    "registrar un club",
+    "gestion de clubes",
+    "solicitud de material para club",
+    "clubes escom"
+  ],
+  "keywords": [
+    "clubes",
+    "registro",
+    "materiales",
+    "procedimiento",
+    "estudiantil",
+    "asesor",
+    "plan de trabajo"
+  ],
+  "audience": [
+    "ESTUDIANTE"
+  ],
+  "requirements": [
+    "Conformar una mesa directiva estudiantil.",
+    "Contar con un/a profesor/a de la ESCOM que funja como tutor/a o asesor/a del club.",
+    "Elaborar y presentar el Plan de Trabajo Semestral y la lista de integrantes iniciales."
+  ],
+  "documents": [
+    {
+      "id": "procedimiento_registro_clubes",
+      "name": "Procedimiento de registro y gestión de un Club Académico, Cultural o Deportivo (PDF)",
+      "type": "PDF",
+      "url": "https://www.escom.ipn.mx/SSEIS/serviciosestudiantiles/documentos/SSEIS_ProcedimientoClubes_2022.pdf",
+      "required": true
+    },
+    {
+      "id": "formato_solicitud_materiales",
+      "name": "Formato para Solicitud de material de un Club Académico, Cultural o Deportivo (XLSX)",
+      "type": "XLSX",
+      "url": "https://www.escom.ipn.mx/SSEIS/serviciosestudiantiles/documentos/FormatoSolicitudMateriales.xlsx",
+      "required": false
+    }
+  ],
+  "location": {
+    "mapLocationId": "actividades_culturales_deportivas_4001",
+    "displayName": "Oficina de Cultura y Deportes (Salón 4001, Edificio de Laboratorios, Planta Baja)"
+  },
+  "cost": {
+    "displayText": "Trámite gratuito"
+  },
+  "schedule": "Atención para registro de clubes: Lunes a Viernes de 09:00 a 14:00 y de 16:00 a 19:00 hrs",
+  "steps": [
+    {
+      "order": 1,
+      "title": "Descarga de Documentación",
+      "description": "Descargar el Procedimiento oficial de registro y el Formato de solicitud de materiales desde el portal de Servicios Estudiantiles."
+    },
+    {
+      "order": 2,
+      "title": "Elaboración del Plan",
+      "description": "Definir objetivos, cronograma semestral y recabar la firma de aceptación del profesor asesor."
+    },
+    {
+      "order": 3,
+      "title": "Entrega en Salón 4001",
+      "description": "Entregar la carpeta del club en la oficina de Cultura y Deportes para su revisión y visto bueno de la Subdirección."
+    },
+    {
+      "order": 4,
+      "title": "Dictamen y Operación",
+      "description": "Una vez aprobado el registro, el club queda facultado para solicitar espacios, mobiliario y difusión en medios de ESCOM."
+    }
+  ],
+  "faqs": [
+    {
+      "question": "¿Quién puede ser asesor de un club estudiantil?",
+      "answer": "Cualquier profesor o profesora en activo de la ESCOM que acepte supervisar y respaldar las actividades académicas o recreativas del club."
+    }
+  ],
+  "sources": [
+    {
+      "name": "ESCOM - Procedimiento Oficial para Clubes",
+      "url": "https://www.escom.ipn.mx/SSEIS/serviciosestudiantiles/documentos/SSEIS_ProcedimientoClubes_2022.pdf",
+      "type": "OFFICIAL_DOCUMENT"
+    }
+  ],
+  "informationStatus": {
+    "verification": "OFFICIAL",
+    "notes": [
+      "Procedimiento formal y formato de solicitud en Excel verificados y publicados en el portal oficial de la ESCOM."
+    ]
+  },
+  "lastReviewed": "2026-10-22"
+}

@@ -1,0 +1,2968 @@
+{
+  "floor": {
+    "id": "PB",
+    "name": "Planta Baja",
+    "imageResName": "escom_mapa_pb"
+  },
+  "places": [
+    {
+      "id": "barras_ejercicio",
+      "code": null,
+      "codes": [],
+      "name": "Barras de ejercicio",
+      "aliases": [
+        "barras",
+        "barras ejercicio",
+        "barras de ejercicio",
+        "ejercicio"
+      ],
+      "tipo": "AREA_DEPORTIVA",
+      "building": "Exterior",
+      "acceso": "PUBLICO",
+      "description": "Área exterior con barras de ejercicio para acondicionamiento físico.",
+      "navigationNodeId": null,
+      "bounds": [
+        {
+          "left": 0.0206,
+          "top": 0.1394,
+          "right": 0.0524,
+          "bottom": 0.1581
+        }
+      ]
+    },
+    {
+      "id": "cisterna",
+      "code": null,
+      "codes": [],
+      "name": "Cisterna",
+      "aliases": [
+        "cisterna",
+        "bomba de agua",
+        "cisterna escuela",
+        "cisterna escom",
+        "referencia cisterna"
+      ],
+      "tipo": "REFERENCIA",
+      "building": "Exterior",
+      "acceso": "RESTRINGIDO",
+      "description": "Cisterna de la escuela. No es un espacio de acceso general, pero puede funcionar como punto de referencia.",
+      "navigationNodeId": null,
+      "bounds": [
+        {
+          "left": 0.0794,
+          "top": 0.325,
+          "right": 0.0952,
+          "bottom": 0.3438
+        }
+      ]
+    },
+    {
+      "id": "entrada_institucion_vehicular_ipn",
+      "code": null,
+      "codes": [],
+      "name": "Entrada institucional y vehicular",
+      "aliases": [
+        "entrada institucional",
+        "entrada vehicular",
+        "acceso vehicular",
+        "entrada ipn",
+        "entrada al ipn",
+        "entrada al instituto politecnico nacional",
+        "entrada al instituto politécnico nacional",
+        "acceso al ipn",
+        "acceso institucional",
+        "entrada antes de escom"
+      ],
+      "tipo": "ENTRADA",
+      "building": "Acceso IPN",
+      "acceso": "PUBLICO",
+      "description": "Acceso institucional y vehicular al Instituto Politécnico Nacional.",
+      "navigationNodeId": null,
+      "bounds": [
+        {
+          "left": 0.5119,
+          "top": 0.0744,
+          "right": 0.5587,
+          "bottom": 0.09
+        }
+      ]
+    },
+    {
+      "id": "entrada_principal",
+      "code": null,
+      "codes": [],
+      "name": "Entrada principal",
+      "aliases": [
+        "entrada",
+        "acceso principal",
+        "entrada escom",
+        "puerta principal"
+      ],
+      "tipo": "ENTRADA",
+      "building": "Acceso ESCOM",
+      "acceso": "PUBLICO",
+      "description": "Acceso principal al plantel. Punto de referencia inicial para la orientación dentro de ESCOM.",
+      "navigationNodeId": null,
+      "bounds": [
+        {
+          "left": 0.1015,
+          "top": 0.6143,
+          "right": 0.107,
+          "bottom": 0.6186
+        }
+      ]
+    },
+    {
+      "id": "entrada_secundaria_plaza_torres",
+      "code": null,
+      "codes": [],
+      "name": "Entrada secundaria",
+      "aliases": [
+        "entrada secundaria",
+        "salida secundaria",
+        "entrada plaza torres",
+        "salida plaza torres",
+        "plaza torres",
+        "entrada estacionamiento",
+        "salida estacionamiento",
+        "acceso secundario",
+        "acceso a plaza torres"
+      ],
+      "tipo": "ENTRADA",
+      "building": "Acceso ESCOM",
+      "acceso": "PUBLICO",
+      "description": "Entrada secundaria del plantel con salida hacia Plaza Torres o hacia la zona de estacionamiento.",
+      "navigationNodeId": null,
+      "bounds": [
+        {
+          "left": 0.3714,
+          "top": 0.2125,
+          "right": 0.3794,
+          "bottom": 0.2213
+        }
+      ]
+    },
+    {
+      "id": "entrada_sur_metro",
+      "code": null,
+      "codes": [],
+      "name": "Entrada sur",
+      "aliases": [
+        "entrada sur",
+        "entrada lado metro",
+        "entrada metro",
+        "entrada vehicular sur",
+        "entrada peatonal sur",
+        "entrada vehicular y peatonal sur",
+        "acceso sur",
+        "acceso lado metro",
+        "entrada por metro"
+      ],
+      "tipo": "ENTRADA",
+      "building": "Área exterior",
+      "acceso": "PUBLICO",
+      "description": "Entrada vehicular y peatonal ubicada al sur de la escuela, del lado del Metro.",
+      "navigationNodeId": null,
+      "bounds": [
+        {
+          "left": 0.0135,
+          "top": 0.9963,
+          "right": 0.0183,
+          "bottom": 1.0
+        }
+      ]
+    },
+    {
+      "id": "elevador_pcd_gobierno",
+      "code": null,
+      "codes": [],
+      "name": "Elevador PCD",
+      "aliases": [
+        "elevador",
+        "ascensor",
+        "elevador pcd",
+        "accesibilidad"
+      ],
+      "tipo": "ACCESIBILIDAD",
+      "building": "Edificio de Gobierno",
+      "acceso": "PUBLICO",
+      "description": "Elevador de accesibilidad para personas con discapacidad ubicado en Edificio de Gobierno.",
+      "navigationNodeId": null,
+      "bounds": [
+        {
+          "left": 0.2659,
+          "top": 0.1844,
+          "right": 0.2714,
+          "bottom": 0.1888
+        }
+      ]
+    },
+    {
+      "id": "elevador_pcd_norte_ed5",
+      "code": null,
+      "codes": [],
+      "name": "Elevador PCD",
+      "aliases": [
+        "elevador",
+        "ascensor",
+        "elevador pcd",
+        "accesibilidad"
+      ],
+      "tipo": "ACCESIBILIDAD",
+      "building": "Edificio 5",
+      "acceso": "PUBLICO",
+      "description": "Elevador de accesibilidad para personas con discapacidad ubicado en Edificio 5.",
+      "navigationNodeId": null,
+      "bounds": [
+        {
+          "left": 0.2437,
+          "top": 0.4669,
+          "right": 0.2484,
+          "bottom": 0.4744
+        }
+      ]
+    },
+    {
+      "id": "elevador_pcd_sur_ed5",
+      "code": null,
+      "codes": [],
+      "name": "Elevador PCD",
+      "aliases": [
+        "elevador",
+        "ascensor",
+        "elevador pcd",
+        "accesibilidad"
+      ],
+      "tipo": "ACCESIBILIDAD",
+      "building": "Edificio 5",
+      "acceso": "PUBLICO",
+      "description": "Elevador de accesibilidad para personas con discapacidad ubicado en Edificio 5.",
+      "navigationNodeId": null,
+      "bounds": [
+        {
+          "left": 0.2437,
+          "top": 0.5744,
+          "right": 0.2484,
+          "bottom": 0.5819
+        }
+      ]
+    },
+    {
+      "id": "estacionamiento_principal",
+      "code": null,
+      "codes": [],
+      "name": "Estacionamiento principal",
+      "aliases": [
+        "estacionamiento principal",
+        "estacionamiento alumnos",
+        "estacionamiento profesores",
+        "estacionamiento pavimentado",
+        "parking principal",
+        "estacionamiento de alumnos",
+        "estacionamiento de profesores"
+      ],
+      "tipo": "ESTACIONAMIENTO",
+      "building": "Área exterior",
+      "acceso": "PUBLICO",
+      "description": "Estacionamiento principal para alumnos y profesores.",
+      "navigationNodeId": null,
+      "bounds": [
+        {
+          "left": 0.3794,
+          "top": 0.1269,
+          "right": 0.5238,
+          "bottom": 0.4231
+        }
+      ]
+    },
+    {
+      "id": "estacionamiento_secundario",
+      "code": null,
+      "codes": [],
+      "name": "Estacionamiento secundario",
+      "aliases": [
+        "estacionamiento secundario",
+        "estacionamiento de terraceria",
+        "estacionamiento de terracería",
+        "terraceria",
+        "terracería",
+        "estacionamiento alumnos terraceria",
+        "estacionamiento profesores terraceria",
+        "parking secundario"
+      ],
+      "tipo": "ESTACIONAMIENTO",
+      "building": "Área exterior",
+      "acceso": "PUBLICO",
+      "description": "Estacionamiento secundario de terracería para alumnos y profesores.",
+      "navigationNodeId": null,
+      "bounds": [
+        {
+          "left": 0.3794,
+          "top": 0.4475,
+          "right": 0.5238,
+          "bottom": 0.6188
+        }
+      ]
+    },
+    {
+      "id": "invernaderos_escom",
+      "code": null,
+      "codes": [],
+      "name": "Invernaderos de ESCOM",
+      "aliases": [
+        "invernaderos",
+        "invernaderos escom",
+        "invernadero",
+        "area de invernaderos",
+        "área de invernaderos",
+        "zona de invernaderos"
+      ],
+      "tipo": "AREA_VERDE",
+      "building": "Área exterior",
+      "acceso": "RESTRINGIDO",
+      "description": "Área de invernaderos de ESCOM ubicada en la zona exterior del plantel.",
+      "navigationNodeId": null,
+      "bounds": [
+        {
+          "left": 0.61,
+          "top": 0.33,
+          "right": 0.66,
+          "bottom": 0.38
+        }
+      ]
+    },
+    {
+      "id": "pastos_alumnos",
+      "code": null,
+      "codes": [],
+      "name": "Pastos",
+      "aliases": [
+        "pastos",
+        "areas verdes",
+        "áreas verdes",
+        "zona de pastos",
+        "zona verde",
+        "pastos alumnos",
+        "zona para alumnos",
+        "area de descanso",
+        "área de descanso",
+        "punto de reunion",
+        "punto de reunión"
+      ],
+      "tipo": "AREA_VERDE",
+      "building": "Área exterior",
+      "acceso": "PUBLICO",
+      "description": "Zona de pastos utilizada por estudiantes como área de descanso, reunión y convivencia.",
+      "navigationNodeId": null,
+      "markerPerBound": true,
+      "bounds": [
+        {
+          "left": 0.0294,
+          "top": 0.35,
+          "right": 0.1016,
+          "bottom": 0.4769
+        },
+        {
+          "left": 0.0294,
+          "top": 0.2081,
+          "right": 0.1016,
+          "bottom": 0.325
+        }
+      ]
+    },
+    {
+      "id": "zona_fumadores",
+      "code": null,
+      "codes": [],
+      "name": "Zona de fumadores",
+      "aliases": [
+        "zona de fumadores",
+        "area de fumadores",
+        "área de fumadores",
+        "fumadores",
+        "zona para fumar",
+        "area para fumar",
+        "área para fumar"
+      ],
+      "tipo": "AREA_FUMADORES",
+      "building": "Área exterior",
+      "acceso": "ESTUDIANTES",
+      "description": "Zona exterior destinada como punto de estancia para fumadores.",
+      "navigationNodeId": null,
+      "bounds": [
+        {
+          "left": 0.0238,
+          "top": 0.4769,
+          "right": 0.0437,
+          "bottom": 0.4925
+        }
+      ]
+    },
+    {
+      "id": "cancha_basquetbol_ia",
+      "code": null,
+      "codes": [],
+      "name": "Cancha de básquetbol",
+      "aliases": [
+        "cancha de basquetbol",
+        "cancha de básquetbol",
+        "cancha de ia",
+        "cancha ia",
+        "cancha edificio 5",
+        "cancha de edificio 5",
+        "cancha grande",
+        "cancha de futbol ia",
+        "cancha de fútbol ia",
+        "cancha de volleybol",
+        "cancha de voleibol",
+        "basquet ia",
+        "básquet ia",
+        "futbol ia",
+        "fútbol ia",
+        "volleybol ia",
+        "voleibol ia"
+      ],
+      "tipo": "AREA_DEPORTIVA",
+      "building": "Área sur",
+      "acceso": "ESTUDIANTES",
+      "description": "Cancha ubicada cerca del Edificio 5. Se utiliza para actividades deportivas como básquetbol, fútbol y voleibol.",
+      "navigationNodeId": null,
+      "bounds": [
+        {
+          "left": 0.127,
+          "top": 0.5162,
+          "right": 0.1746,
+          "bottom": 0.5787
+        }
+      ]
+    },
+    {
+      "id": "canchas_basquetbol_norte",
+      "code": null,
+      "codes": [],
+      "name": "Canchas de básquetbol",
+      "aliases": [
+        "cancha norte",
+        "cancha de basquetbol norte",
+        "cancha de básquetbol norte",
+        "cancha de gestion",
+        "cancha de gestión",
+        "cancha norte de gestion",
+        "cancha norte de gestión",
+        "cancha de futbol norte",
+        "cancha de fútbol norte",
+        "basquet norte",
+        "básquet norte",
+        "futbol norte",
+        "fútbol norte"
+      ],
+      "tipo": "AREA_DEPORTIVA",
+      "building": "Área norte",
+      "acceso": "ESTUDIANTES",
+      "description": "Canchas ubicadas en la zona norte, cercanas a Gestión Escolar. Se utilizan principalmente para básquetbol y futbol.",
+      "navigationNodeId": null,
+      "bounds": [
+        {
+          "left": 0.0206,
+          "top": 0.0675,
+          "right": 0.0841,
+          "bottom": 0.13
+        }
+      ]
+    },
+    {
+      "id": "cancha_futbol_11",
+      "code": null,
+      "codes": [],
+      "name": "Cancha de fútbol 11",
+      "aliases": [
+        "cancha de futbol",
+        "cancha de fútbol",
+        "cancha futbol",
+        "cancha fútbol",
+        "canchas de futbol",
+        "canchas futbol",
+        "futbol",
+        "fútbol",
+        "cancha de futbol 11",
+        "cancha de fútbol 11",
+        "futbol 11",
+        "fútbol 11",
+        "cancha grande de futbol",
+        "cancha grande de fútbol",
+        "campo de futbol",
+        "campo de fútbol"
+      ],
+      "tipo": "AREA_DEPORTIVA",
+      "building": "Área exterior",
+      "acceso": "ESTUDIANTES",
+      "description": "Cancha de fútbol 11 ubicada en el área exterior del plantel.",
+      "navigationNodeId": null,
+      "bounds": [
+        {
+          "left": 0.6111,
+          "top": 0.1113,
+          "right": 0.7619,
+          "bottom": 0.2969
+        }
+      ]
+    },
+    {
+      "id": "cancha_futbol_7",
+      "code": null,
+      "codes": [],
+      "name": "Cancha de fútbol 7",
+      "aliases": [
+        "cancha de futbol 7",
+        "cancha de fútbol 7",
+        "futbol 7",
+        "fútbol 7",
+        "cancha chica de futbol",
+        "cancha chica de fútbol",
+        "campo de futbol 7",
+        "campo de fútbol 7"
+      ],
+      "tipo": "AREA_DEPORTIVA",
+      "building": "Área exterior",
+      "acceso": "ESTUDIANTES",
+      "description": "Cancha de fútbol 7 ubicada en el área exterior del plantel.",
+      "navigationNodeId": null,
+      "bounds": [
+        {
+          "left": 0.8373,
+          "top": 0.1625,
+          "right": 0.9159,
+          "bottom": 0.2838
+        }
+      ]
+    },
+    {
+      "id": "mesas_ping_pong",
+      "code": null,
+      "codes": [],
+      "name": "Mesas de ping pong",
+      "aliases": [
+        "mesas de ping pong sur",
+        "ping pong sur",
+        "mesas de ping pong ia",
+        "ping pong ia",
+        "zona de ping pong",
+        "zona de ping pong sur",
+        "domo sur",
+        "zona techada sur",
+        "mesas fijas",
+        "mesas fijas de ping pong"
+      ],
+      "tipo": "AREA_RECREATIVA",
+      "building": "Área exterior sur",
+      "acceso": "ESTUDIANTES",
+      "description": "Zona techada con mesas fijas utilizada principalmente para jugar ping pong.",
+      "navigationNodeId": null,
+      "bounds": [
+        {
+          "left": 0.0135,
+          "top": 0.4031,
+          "right": 0.0294,
+          "bottom": 0.4344
+        }
+      ]
+    },
+    {
+      "id": "zona_actividades",
+      "code": null,
+      "codes": [],
+      "name": "Zona de actividades",
+      "aliases": [
+        "mesas de ping pong norte",
+        "ping pong norte",
+        "zona de actividades",
+        "zona de actividades norte",
+        "domo norte",
+        "zona techada norte",
+        "area recreativa norte",
+        "área recreativa norte",
+        "taekwondo",
+        "baile",
+        "clubes",
+        "actividades recreativas"
+      ],
+      "tipo": "AREA_RECREATIVA",
+      "building": "Área exterior norte",
+      "acceso": "ESTUDIANTES",
+      "description": "Zona techada utilizada para actividades recreativas, actividades de clubes y prácticas como taekwondo, baile o ping pong.",
+      "navigationNodeId": null,
+      "bounds": [
+        {
+          "left": 0.0135,
+          "top": 0.3675,
+          "right": 0.0294,
+          "bottom": 0.3987
+        }
+      ]
+    },
+    {
+      "id": "area_estudio_biblioteca",
+      "code": null,
+      "codes": [],
+      "name": "Área de estudio de biblioteca",
+      "aliases": [
+        "area de estudio biblioteca",
+        "área de estudio biblioteca",
+        "zona de estudio biblioteca",
+        "estudio biblioteca",
+        "mesas biblioteca",
+        "area de lectura",
+        "área de lectura",
+        "sala de lectura",
+        "biblioteca estudio"
+      ],
+      "tipo": "AREA_ESTUDIO",
+      "building": "Edificio de Gobierno",
+      "acceso": "ESTUDIANTES",
+      "description": "Área de estudio asociada a la biblioteca.",
+      "navigationNodeId": null,
+      "bounds": [
+        {
+          "left": 0.2778,
+          "top": 0.16,
+          "right": 0.3016,
+          "bottom": 0.1825
+        }
+      ]
+    },
+    {
+      "id": "palapas_gestion",
+      "code": null,
+      "codes": [],
+      "name": "Palapas de Gestión",
+      "aliases": [
+        "palapas gestion",
+        "palapas gestión",
+        "palapas de gestion",
+        "palapas de gestión",
+        "area de estudio norte",
+        "área de estudio norte",
+        "area de estudio gestion",
+        "área de estudio gestión",
+        "zona de estudio norte",
+        "zona de estudio gestion",
+        "zona de estudio gestión",
+        "palapas norte"
+      ],
+      "tipo": "AREA_ESTUDIO",
+      "building": "Área exterior norte",
+      "acceso": "ESTUDIANTES",
+      "description": "Área de estudio exterior conocida como Palapas de Gestión, ubicada en la zona norte del plantel.",
+      "navigationNodeId": null,
+      "bounds": [
+        {
+          "left": 0.1071,
+          "top": 0.125,
+          "right": 0.1437,
+          "bottom": 0.2031
+        }
+      ]
+    },
+    {
+      "id": "palapas_ia",
+      "code": null,
+      "codes": [],
+      "name": "Palapas de IA",
+      "aliases": [
+        "palapas ia",
+        "palapas de ia",
+        "palapas edificio 5",
+        "palapas de edificio 5",
+        "area de estudio sur",
+        "área de estudio sur",
+        "area de estudio ia",
+        "área de estudio ia",
+        "zona de estudio sur",
+        "zona de estudio ia",
+        "palapas sur"
+      ],
+      "tipo": "AREA_ESTUDIO",
+      "building": "Área exterior sur",
+      "acceso": "ESTUDIANTES",
+      "description": "Área de estudio exterior conocida como Palapas de IA, ubicada cerca del Edificio 5.",
+      "navigationNodeId": null,
+      "bounds": [
+        {
+          "left": 0.3143,
+          "top": 0.5188,
+          "right": 0.3556,
+          "bottom": 0.5844
+        }
+      ]
+    },
+    {
+      "id": "alumnos_consejeros",
+      "code": null,
+      "codes": [],
+      "name": "Alumnos consejeros",
+      "aliases": [
+        "alumnos consejeros",
+        "consejeros",
+        "alumno consejero",
+        "consejero alumno",
+        "representantes alumnos",
+        "representantes estudiantiles",
+        "consejo estudiantil"
+      ],
+      "tipo": "SERVICIO",
+      "building": "Edificio de Gobierno",
+      "acceso": "ESTUDIANTES",
+      "description": "Espacio asociado a alumnos consejeros y representación estudiantil.",
+      "navigationNodeId": null,
+      "bounds": [
+        {
+          "left": 0.1873,
+          "top": 0.1994,
+          "right": 0.2024,
+          "bottom": 0.2056
+        }
+      ]
+    },
+    {
+      "id": "barra_cafe_ia_ed5",
+      "code": null,
+      "codes": [],
+      "name": "Barra de café de Edificio 5",
+      "aliases": [
+        "barra de cafe",
+        "barra de café",
+        "barra de ia",
+        "barra ia",
+        "barra de cafe ia",
+        "barra de café ia",
+        "barra de cafe de ia",
+        "barra de café de ia",
+        "cafeteria ia",
+        "cafetería ia",
+        "cafe ia",
+        "café ia",
+        "barra edificio 5",
+        "barra de cafe edificio 5",
+        "barra de café edificio 5"
+      ],
+      "tipo": "SERVICIO",
+      "building": "Edificio 5",
+      "acceso": "ESTUDIANTES",
+      "description": "Barra de café ubicada en el Edificio 5, conocida informalmente como barra de IA.",
+      "navigationNodeId": null,
+      "bounds": [
+        {
+          "left": 0.2802,
+          "top": 0.5575,
+          "right": 0.3,
+          "bottom": 0.5906
+        }
+      ]
+    },
+    {
+      "id": "barra_cafe_norte",
+      "code": null,
+      "codes": [],
+      "name": "Barra de café norte",
+      "aliases": [
+        "barra de cafe",
+        "barra de café",
+        "barra de cafe norte",
+        "barra de café norte",
+        "barra de gestion",
+        "barra de gestión",
+        "barra de cafe de gestion",
+        "barra de café de gestión",
+        "cafe norte",
+        "café norte",
+        "cafeteria norte",
+        "cafetería norte",
+        "barra junto a gestion",
+        "barra junto a gestión"
+      ],
+      "tipo": "SERVICIO",
+      "building": "Área exterior norte",
+      "acceso": "ESTUDIANTES",
+      "description": "Barra de café ubicada en la zona norte, cercana a Gestión Escolar.",
+      "navigationNodeId": null,
+      "bounds": [
+        {
+          "left": 0.081,
+          "top": 0.1794,
+          "right": 0.1016,
+          "bottom": 0.1956
+        }
+      ]
+    },
+    {
+      "id": "bebederos_norte",
+      "code": null,
+      "codes": [],
+      "name": "Bebederos norte",
+      "aliases": [
+        "bebederos norte",
+        "bebedero norte",
+        "bebederos gestion",
+        "bebederos gestión",
+        "bebedero gestion",
+        "bebedero gestión",
+        "agua norte",
+        "agua gestion",
+        "agua gestión",
+        "tomar agua norte"
+      ],
+      "tipo": "SERVICIO",
+      "building": "Área exterior norte",
+      "acceso": "PUBLICO",
+      "description": "Bebederos ubicados en la zona norte, cerca de Gestión Escolar.",
+      "navigationNodeId": null,
+      "bounds": [
+        {
+          "left": 0.1222,
+          "top": 0.2,
+          "right": 0.1262,
+          "bottom": 0.2031
+        }
+      ]
+    },
+    {
+      "id": "bebederos_sur",
+      "code": null,
+      "codes": [],
+      "name": "Bebederos sur",
+      "aliases": [
+        "bebederos sur",
+        "bebedero sur",
+        "bebederos ia",
+        "bebedero ia",
+        "bebederos edificio 5",
+        "bebedero edificio 5",
+        "agua sur",
+        "agua ia",
+        "tomar agua sur",
+        "tomar agua ia"
+      ],
+      "tipo": "SERVICIO",
+      "building": "Área exterior sur",
+      "acceso": "PUBLICO",
+      "description": "Bebederos ubicados en la zona sur, cerca del Edificio 5.",
+      "navigationNodeId": null,
+      "bounds": [
+        {
+          "left": 0.3167,
+          "top": 0.4925,
+          "right": 0.3206,
+          "bottom": 0.4956
+        }
+      ]
+    },
+    {
+      "id": "cafeteria",
+      "code": null,
+      "codes": [],
+      "name": "Cafetería",
+      "aliases": [
+        "cafeteria",
+        "cafetería",
+        "comedor",
+        "comida"
+      ],
+      "tipo": "SERVICIO",
+      "building": "Área común",
+      "acceso": "PUBLICO",
+      "description": "Área de cafetería y comedor de la escuela.",
+      "navigationNodeId": null,
+      "bounds": [
+        {
+          "left": 0.0357,
+          "top": 0.55,
+          "right": 0.0754,
+          "bottom": 0.5913
+        }
+      ]
+    },
+    {
+      "id": "cajero_bbva",
+      "code": null,
+      "codes": [],
+      "name": "Cajero BBVA",
+      "aliases": [
+        "cajero",
+        "atm",
+        "bbva",
+        "banco",
+        "cajero automatico",
+        "cajero automático",
+        "cajero bbva"
+      ],
+      "tipo": "SERVICIO",
+      "building": "Edificio de Gobierno",
+      "acceso": "PUBLICO",
+      "description": "Cajero automático BBVA ubicado en planta baja de Edificio de Gobierno.",
+      "navigationNodeId": null,
+      "bounds": [
+        {
+          "left": 0.2556,
+          "top": 0.2363,
+          "right": 0.2627,
+          "bottom": 0.2419
+        }
+      ]
+    },
+    {
+      "id": "papeleria_ed5",
+      "code": null,
+      "codes": [],
+      "name": "Papelería",
+      "aliases": [
+        "papeleria",
+        "papelería",
+        "copias",
+        "impresiones",
+        "impresion",
+        "impresión",
+        "material escolar",
+        "papeleria edificio 5",
+        "papelería edificio 5",
+        "copias edificio 5",
+        "impresiones edificio 5",
+        "articulos escolares",
+        "artículos escolares"
+      ],
+      "tipo": "SERVICIO",
+      "building": "Edificio 5",
+      "acceso": "ESTUDIANTES",
+      "description": "Papelería ubicada en el Edificio 5 para servicios de copias, impresiones y material escolar.",
+      "navigationNodeId": null,
+      "bounds": [
+        {
+          "left": 0.1897,
+          "top": 0.5575,
+          "right": 0.2119,
+          "bottom": 0.5906
+        }
+      ]
+    },
+    {
+      "id": "servicio_odontologia",
+      "code": null,
+      "codes": [],
+      "name": "Servicio de odontología",
+      "aliases": [
+        "servicio de odontologia",
+        "servicio de odontología",
+        "odontologia",
+        "odontología",
+        "dentista",
+        "dental",
+        "atencion dental",
+        "atención dental",
+        "servicio dental",
+        "consultorio dental"
+      ],
+      "tipo": "SERVICIO",
+      "building": "Edificio de Gobierno",
+      "acceso": "ESTUDIANTES",
+      "description": "Área de atención odontológica para estudiantes.",
+      "navigationNodeId": null,
+      "bounds": [
+        {
+          "left": 0.2048,
+          "top": 0.195,
+          "right": 0.2175,
+          "bottom": 0.1994
+        }
+      ]
+    },
+    {
+      "id": "servicio_psicologia",
+      "code": null,
+      "codes": [],
+      "name": "Servicio de psicología",
+      "aliases": [
+        "servicio de psicologia",
+        "servicio de psicología",
+        "psicologia",
+        "psicología",
+        "psicologo",
+        "psicólogo",
+        "psicologa",
+        "psicóloga",
+        "atencion psicologica",
+        "atención psicológica",
+        "orientacion psicologica",
+        "orientación psicológica"
+      ],
+      "tipo": "SERVICIO",
+      "building": "Edificio de Gobierno",
+      "acceso": "ESTUDIANTES",
+      "description": "Área de atención psicológica para estudiantes.",
+      "navigationNodeId": null,
+      "bounds": [
+        {
+          "left": 0.2048,
+          "top": 0.1906,
+          "right": 0.2175,
+          "bottom": 0.195
+        }
+      ]
+    },
+    {
+      "id": "servicio_medico",
+      "code": null,
+      "codes": [],
+      "name": "Servicio Médico",
+      "aliases": [
+        "servicio medico",
+        "servicio médico",
+        "enfermeria",
+        "enfermería",
+        "consultorio"
+      ],
+      "tipo": "SERVICIO",
+      "building": "Edificio de Gobierno",
+      "acceso": "ESTUDIANTES",
+      "description": "Área de servicio médico para atención primaria y primeros auxilios de la comunidad.",
+      "navigationNodeId": null,
+      "bounds": [
+        {
+          "left": 0.2024,
+          "top": 0.1994,
+          "right": 0.2175,
+          "bottom": 0.2056
+        }
+      ]
+    },
+    {
+      "id": "biblioteca",
+      "code": null,
+      "codes": [],
+      "name": "Biblioteca",
+      "aliases": [
+        "biblioteca",
+        "centro de informacion",
+        "prestamo de libros",
+        "sala de lectura"
+      ],
+      "tipo": "BIBLIOTECA",
+      "building": "Edificio de Gobierno",
+      "acceso": "PUBLICO",
+      "description": "Biblioteca y centro de consulta documental de ESCOM.",
+      "navigationNodeId": null,
+      "bounds": [
+        {
+          "left": 0.1873,
+          "top": 0.2056,
+          "right": 0.2325,
+          "bottom": 0.2419
+        },
+        {
+          "left": 0.2325,
+          "top": 0.2056,
+          "right": 0.2556,
+          "bottom": 0.2244
+        },
+        {
+          "left": 0.2556,
+          "top": 0.2056,
+          "right": 0.3016,
+          "bottom": 0.2363
+        },
+        {
+          "left": 0.2627,
+          "top": 0.2363,
+          "right": 0.3016,
+          "bottom": 0.2419
+        },
+        {
+          "left": 0.2714,
+          "top": 0.1888,
+          "right": 0.3016,
+          "bottom": 0.2056
+        }
+      ]
+    },
+    {
+      "id": "auditorio",
+      "code": null,
+      "codes": [],
+      "name": "Auditorio",
+      "aliases": [
+        "auditorio",
+        "auditorio principal",
+        "auditorio escom"
+      ],
+      "tipo": "AUDITORIO",
+      "building": "Área común",
+      "acceso": "PUBLICO",
+      "description": "Auditorio principal de ESCOM utilizado para actividades académicas, conferencias y eventos institucionales.",
+      "navigationNodeId": "N84",
+      "bounds": [
+        {
+          "left": 0.2103,
+          "top": 0.1313,
+          "right": 0.2786,
+          "bottom": 0.1556
+        }
+      ]
+    },
+    {
+      "id": "gestion_escolar",
+      "code": null,
+      "codes": [],
+      "name": "Gestión Escolar",
+      "aliases": [
+        "gestion escolar",
+        "gestión escolar",
+        "ventanillas",
+        "tramites",
+        "trámites",
+        "saes"
+      ],
+      "tipo": "AREA_ADMINISTRATIVA",
+      "building": "Edificio de Gobierno",
+      "acceso": "PUBLICO",
+      "description": "Área de Gestión Escolar para la atención de trámites escolares y académicos.",
+      "navigationNodeId": null,
+      "bounds": [
+        {
+          "left": 0.1873,
+          "top": 0.16,
+          "right": 0.2175,
+          "bottom": 0.1725
+        },
+        {
+          "left": 0.1873,
+          "top": 0.1725,
+          "right": 0.2111,
+          "bottom": 0.1825
+        },
+        {
+          "left": 0.1873,
+          "top": 0.1825,
+          "right": 0.2175,
+          "bottom": 0.1906
+        }
+      ]
+    },
+    {
+      "id": "data_urban_island",
+      "code": null,
+      "codes": [],
+      "name": "Data Urban Island",
+      "aliases": [
+        "data urban island",
+        "dui",
+        "mesa solar",
+        "mesa con panel solar",
+        "panel solar",
+        "sensor airlink",
+        "airlink davis",
+        "sensor de contaminantes",
+        "medicion de contaminantes",
+        "medición de contaminantes",
+        "mesa para alumnos",
+        "mesa de estudio"
+      ],
+      "tipo": "REFERENCIA",
+      "building": "Área exterior",
+      "acceso": "ESTUDIANTES",
+      "description": "Mesa con panel solar utilizada como punto de estancia y como infraestructura para recolección de datos ambientales mediante sensor AirLink Davis.",
+      "navigationNodeId": null,
+      "bounds": [
+        {
+          "left": 0.0135,
+          "top": 0.4706,
+          "right": 0.0214,
+          "bottom": 0.4769
+        }
+      ]
+    },
+    {
+      "id": "explanada",
+      "code": null,
+      "codes": [],
+      "name": "Explanada",
+      "aliases": [
+        "explanada",
+        "plaza",
+        "areas abierta",
+        "áreas abierta",
+        "zona abierta",
+        "espacio abierto"
+      ],
+      "tipo": "REFERENCIA",
+      "building": "Área exterior",
+      "acceso": "PUBLICO",
+      "description": "Área central del plantel utilizada como zonas de tránsito, reunión y actividades escolares.",
+      "navigationNodeId": null,
+      "bounds": [
+        {
+          "left": 0.2063,
+          "top": 0.2481,
+          "right": 0.2825,
+          "bottom": 0.3088
+        }
+      ]
+    },
+    {
+      "id": "letras_escom",
+      "code": null,
+      "codes": [],
+      "name": "Letras de ESCOM",
+      "aliases": [
+        "letras escom",
+        "letras de escom",
+        "escom letras",
+        "letrero escom",
+        "punto de foto",
+        "foto escom",
+        "monumento escom"
+      ],
+      "tipo": "REFERENCIA",
+      "building": "Área exterior",
+      "acceso": "PUBLICO",
+      "description": "Punto de referencia exterior identificado por las letras de ESCOM.",
+      "navigationNodeId": null,
+      "bounds": [
+        {
+          "left": 0.2206,
+          "top": 0.3088,
+          "right": 0.2683,
+          "bottom": 0.3212
+        }
+      ]
+    },
+    {
+      "id": "banos_hombres_ed1",
+      "code": null,
+      "codes": [],
+      "name": "Baño de hombres",
+      "aliases": [
+        "bano hombres",
+        "baño hombres",
+        "sanitarios hombres",
+        "wc hombres",
+        "bano",
+        "baño",
+        "sanitarios"
+      ],
+      "tipo": "BANO",
+      "building": "Edificio 1",
+      "acceso": "PUBLICO",
+      "description": "Módulo de sanitarios para hombres ubicado en Edificio 1.",
+      "navigationNodeId": "pb_banos_hombres_ed1_entrada",
+      "bounds": [
+        {
+          "left": 0.131,
+          "top": 0.3381,
+          "right": 0.1452,
+          "bottom": 0.3463
+        }
+      ]
+    },
+    {
+      "id": "banos_mujeres_ed1",
+      "code": null,
+      "codes": [],
+      "name": "Baño de mujeres",
+      "aliases": [
+        "bano mujeres",
+        "baño mujeres",
+        "sanitarios mujeres",
+        "wc mujeres",
+        "bano",
+        "baño",
+        "sanitarios"
+      ],
+      "tipo": "BANO",
+      "building": "Edificio 1",
+      "acceso": "PUBLICO",
+      "description": "Módulo de sanitarios para mujeres ubicado en Edificio 1.",
+      "navigationNodeId": "pb_banos_mujeres_ed1_entrada",
+      "bounds": [
+        {
+          "left": 0.1452,
+          "top": 0.3381,
+          "right": 0.1595,
+          "bottom": 0.3463
+        }
+      ]
+    },
+    {
+      "id": "banos_hombres_ed2",
+      "code": null,
+      "codes": [],
+      "name": "Baño de hombres",
+      "aliases": [
+        "bano hombres",
+        "baño hombres",
+        "sanitarios hombres",
+        "wc hombres",
+        "bano",
+        "baño",
+        "sanitarios"
+      ],
+      "tipo": "BANO",
+      "building": "Edificio 2",
+      "acceso": "PUBLICO",
+      "description": "Módulo de sanitarios para hombres ubicado en Edificio 2.",
+      "navigationNodeId": "pb_banos_hombres_ed2_entrada",
+      "bounds": [
+        {
+          "left": 0.3429,
+          "top": 0.3381,
+          "right": 0.3571,
+          "bottom": 0.3463
+        }
+      ]
+    },
+    {
+      "id": "banos_mujeres_ed2",
+      "code": null,
+      "codes": [],
+      "name": "Baño de mujeres",
+      "aliases": [
+        "bano mujeres",
+        "baño mujeres",
+        "sanitarios mujeres",
+        "wc mujeres",
+        "bano",
+        "baño",
+        "sanitarios"
+      ],
+      "tipo": "BANO",
+      "building": "Edificio 2",
+      "acceso": "PUBLICO",
+      "description": "Módulo de sanitarios para mujeres ubicado en Edificio 2.",
+      "navigationNodeId": "pb_banos_mujeres_ed2_entrada",
+      "bounds": [
+        {
+          "left": 0.3286,
+          "top": 0.3381,
+          "right": 0.3429,
+          "bottom": 0.3463
+        }
+      ]
+    },
+    {
+      "id": "banos_hombres_ed3",
+      "code": null,
+      "codes": [],
+      "name": "Baño de hombres",
+      "aliases": [
+        "bano hombres",
+        "baño hombres",
+        "sanitarios hombres",
+        "wc hombres",
+        "bano",
+        "baño",
+        "sanitarios"
+      ],
+      "tipo": "BANO",
+      "building": "Edificio 3",
+      "acceso": "PUBLICO",
+      "description": "Módulo de sanitarios para hombres ubicado en Edificio 3.",
+      "navigationNodeId": "pb_banos_hombres_ed3_entrada",
+      "bounds": [
+        {
+          "left": 0.131,
+          "top": 0.4744,
+          "right": 0.1452,
+          "bottom": 0.4825
+        }
+      ]
+    },
+    {
+      "id": "banos_mujeres_ed3",
+      "code": null,
+      "codes": [],
+      "name": "Baño de mujeres",
+      "aliases": [
+        "bano mujeres",
+        "baño mujeres",
+        "sanitarios mujeres",
+        "wc mujeres",
+        "bano",
+        "baño",
+        "sanitarios"
+      ],
+      "tipo": "BANO",
+      "building": "Edificio 3",
+      "acceso": "PUBLICO",
+      "description": "Módulo de sanitarios para mujeres ubicado en Edificio 3.",
+      "navigationNodeId": "pb_banos_mujeres_ed3_entrada",
+      "bounds": [
+        {
+          "left": 0.1452,
+          "top": 0.4744,
+          "right": 0.1595,
+          "bottom": 0.4825
+        }
+      ]
+    },
+    {
+      "id": "banos_hombres_ed4",
+      "code": null,
+      "codes": [],
+      "name": "Baño de hombres",
+      "aliases": [
+        "bano hombres",
+        "baño hombres",
+        "sanitarios hombres",
+        "wc hombres",
+        "bano",
+        "baño",
+        "sanitarios"
+      ],
+      "tipo": "BANO",
+      "building": "Edificio 4",
+      "acceso": "PUBLICO",
+      "description": "Módulo de sanitarios para hombres ubicado en Edificio 4.",
+      "navigationNodeId": "pb_banos_hombres_ed4_entrada",
+      "bounds": [
+        {
+          "left": 0.3429,
+          "top": 0.4744,
+          "right": 0.3571,
+          "bottom": 0.4825
+        }
+      ]
+    },
+    {
+      "id": "banos_mujeres_ed4",
+      "code": null,
+      "codes": [],
+      "name": "Baño de mujeres",
+      "aliases": [
+        "bano mujeres",
+        "baño mujeres",
+        "sanitarios mujeres",
+        "wc mujeres",
+        "bano",
+        "baño",
+        "sanitarios"
+      ],
+      "tipo": "BANO",
+      "building": "Edificio 4",
+      "acceso": "PUBLICO",
+      "description": "Módulo de sanitarios para mujeres ubicado en Edificio 4.",
+      "navigationNodeId": "pb_banos_mujeres_ed4_entrada",
+      "bounds": [
+        {
+          "left": 0.3286,
+          "top": 0.4744,
+          "right": 0.3429,
+          "bottom": 0.4825
+        }
+      ]
+    },
+    {
+      "id": "banos_hombres_ed5_1",
+      "code": null,
+      "codes": [],
+      "name": "Baño de hombres",
+      "aliases": [
+        "bano hombres",
+        "baño hombres",
+        "sanitarios hombres",
+        "wc hombres",
+        "bano",
+        "baño",
+        "sanitarios"
+      ],
+      "tipo": "BANO",
+      "building": "Edificio 5",
+      "acceso": "PUBLICO",
+      "description": "Módulo de sanitarios para hombres ubicado en Edificio 5.",
+      "navigationNodeId": "pb_banos_hombres_ed5_1_entrada",
+      "bounds": [
+        {
+          "left": 0.2198,
+          "top": 0.4669,
+          "right": 0.2381,
+          "bottom": 0.4813
+        }
+      ]
+    },
+    {
+      "id": "banos_hombres_ed5_2",
+      "code": null,
+      "codes": [],
+      "name": "Baño de hombres",
+      "aliases": [
+        "bano hombres",
+        "baño hombres",
+        "sanitarios hombres",
+        "wc hombres",
+        "bano",
+        "baño",
+        "sanitarios"
+      ],
+      "tipo": "BANO",
+      "building": "Edificio 5",
+      "acceso": "PUBLICO",
+      "description": "Módulo de sanitarios para hombres ubicado en Edificio 5.",
+      "navigationNodeId": "pb_banos_hombres_ed5_2_entrada",
+      "bounds": [
+        {
+          "left": 0.2198,
+          "top": 0.5713,
+          "right": 0.2381,
+          "bottom": 0.5819
+        }
+      ]
+    },
+    {
+      "id": "banos_mujeres_ed5_1",
+      "code": null,
+      "codes": [],
+      "name": "Baño de mujeres",
+      "aliases": [
+        "bano mujeres",
+        "baño mujeres",
+        "sanitarios mujeres",
+        "wc mujeres",
+        "bano",
+        "baño",
+        "sanitarios"
+      ],
+      "tipo": "BANO",
+      "building": "Edificio 5",
+      "acceso": "PUBLICO",
+      "description": "Módulo de sanitarios para mujeres ubicado en Edificio 5.",
+      "navigationNodeId": "pb_banos_mujeres_ed5_1_entrada",
+      "bounds": [
+        {
+          "left": 0.254,
+          "top": 0.4669,
+          "right": 0.2722,
+          "bottom": 0.4813
+        }
+      ]
+    },
+    {
+      "id": "banos_mujeres_ed5_2",
+      "code": null,
+      "codes": [],
+      "name": "Baño de mujeres",
+      "aliases": [
+        "bano mujeres",
+        "baño mujeres",
+        "sanitarios mujeres",
+        "wc mujeres",
+        "bano",
+        "baño",
+        "sanitarios"
+      ],
+      "tipo": "BANO",
+      "building": "Edificio 5",
+      "acceso": "PUBLICO",
+      "description": "Módulo de sanitarios para mujeres ubicado en Edificio 5.",
+      "navigationNodeId": "pb_banos_mujeres_ed5_2_entrada",
+      "bounds": [
+        {
+          "left": 0.254,
+          "top": 0.5675,
+          "right": 0.2722,
+          "bottom": 0.5819
+        }
+      ]
+    },
+    {
+      "id": "banos_hombres_ed_gobierno",
+      "code": null,
+      "codes": [],
+      "name": "Baño de hombres",
+      "aliases": [
+        "bano hombres",
+        "baño hombres",
+        "sanitarios hombres",
+        "wc hombres",
+        "bano",
+        "baño",
+        "sanitarios"
+      ],
+      "tipo": "BANO",
+      "building": "Edificio de Gobierno",
+      "acceso": "PUBLICO",
+      "description": "Módulo de sanitarios para hombres ubicado en Edificio de Gobierno.",
+      "navigationNodeId": "pb_banos_hombres_ed_gobierno_entrada",
+      "bounds": [
+        {
+          "left": 0.2651,
+          "top": 0.1725,
+          "right": 0.2778,
+          "bottom": 0.1825
+        }
+      ]
+    },
+    {
+      "id": "banos_mujeres_ed_gobierno",
+      "code": null,
+      "codes": [],
+      "name": "Baño de mujeres",
+      "aliases": [
+        "bano mujeres",
+        "baño mujeres",
+        "sanitarios mujeres",
+        "wc mujeres",
+        "bano",
+        "baño",
+        "sanitarios"
+      ],
+      "tipo": "BANO",
+      "building": "Edificio de Gobierno",
+      "acceso": "PUBLICO",
+      "description": "Módulo de sanitarios para mujeres ubicado en Edificio de Gobierno.",
+      "navigationNodeId": "pb_banos_mujeres_ed_gobierno_entrada",
+      "bounds": [
+        {
+          "left": 0.2111,
+          "top": 0.1725,
+          "right": 0.2238,
+          "bottom": 0.1825
+        }
+      ]
+    },
+    {
+      "id": "unidad_tecnologia_educativa_1001",
+      "code": "1001",
+      "codes": [],
+      "name": "Unidad de Tecnología Educativa y Campus Virtual",
+      "aliases": [
+        "1001",
+        "salon 1001",
+        "salón 1001",
+        "ute",
+        "unidad de tecnologia educativa",
+        "campus virtual",
+        "ute y cv"
+      ],
+      "tipo": "AULA",
+      "building": "Edificio 1",
+      "acceso": "PERSONAL",
+      "description": "Área correspondiente a la Unidad de Tecnología Educativa y Campus Virtual de ESCOM. Funciona como referencia para estudiantes que necesiten localizar esta unidad institucional.",
+      "navigationNodeId": null,
+      "bounds": [
+        {
+          "left": 0.131,
+          "top": 0.2213,
+          "right": 0.1595,
+          "bottom": 0.2356
+        }
+      ]
+    },
+    {
+      "id": "cubiculos_tecnologia_educativa_1002",
+      "code": "1002",
+      "codes": [],
+      "name": "Cubículos asociados a la Unidad de Tecnología Educativa",
+      "aliases": [
+        "1002",
+        "salon 1002",
+        "salón 1002",
+        "cubiculos ute",
+        "cubículos ute"
+      ],
+      "tipo": "AULA",
+      "building": "Edificio 1",
+      "acceso": "PERSONAL",
+      "description": "Área de cubículos de trabajo asociados a la Unidad de Tecnología Educativa y Campus Virtual para atención docente y académica.",
+      "navigationNodeId": null,
+      "bounds": [
+        {
+          "left": 0.131,
+          "top": 0.2356,
+          "right": 0.1595,
+          "bottom": 0.2506
+        }
+      ]
+    },
+    {
+      "id": "area_institucional_1003",
+      "code": "1003",
+      "codes": [],
+      "name": "Área restringida 1003",
+      "aliases": [
+        "1003",
+        "area 1003",
+        "área 1003",
+        "restringido 1003",
+        "area restringida 1003",
+        "área restringida 1003"
+      ],
+      "tipo": "AULA",
+      "building": "Edificio 1",
+      "acceso": "RESTRINGIDO",
+      "description": "Espacio de uso interno con acceso restringido para estudiantes. Su función específica no se encuentra identificada dentro de la información disponible actualmente.",
+      "navigationNodeId": null,
+      "bounds": [
+        {
+          "left": 0.131,
+          "top": 0.2506,
+          "right": 0.1595,
+          "bottom": 0.2656
+        }
+      ]
+    },
+    {
+      "id": "laboratorio_alirob_lccomp_1004",
+      "code": "1004",
+      "codes": [],
+      "name": "Laboratorio de Vida Artificial y Robótica / LCCOMP",
+      "aliases": [
+        "1004",
+        "salon 1004",
+        "salón 1004",
+        "alirob",
+        "lccomp",
+        "vida artificial",
+        "robotica",
+        "robótica",
+        "lab alirob",
+        "lab lccomp"
+      ],
+      "tipo": "AULA",
+      "building": "Edificio 1",
+      "acceso": "ESTUDIANTES",
+      "description": "Laboratorio de Vida Artificial y Robótica (ALIROB) y Laboratorio de Ciencias de la Computación (LCCOMP). Destinado a actividades académicas y de investigación de este laboratorio.",
+      "navigationNodeId": null,
+      "bounds": [
+        {
+          "left": 0.131,
+          "top": 0.2656,
+          "right": 0.1595,
+          "bottom": 0.2806
+        }
+      ]
+    },
+    {
+      "id": "coordinacion_ingles_celex_1005",
+      "code": "1005",
+      "codes": [],
+      "name": "Coordinación de Inglés (CELEX)",
+      "aliases": [
+        "1005",
+        "salon 1005",
+        "salón 1005",
+        "celex",
+        "ingles",
+        "inglés",
+        "coordinacion de ingles",
+        "coordinación de inglés",
+        "informes ingles"
+      ],
+      "tipo": "AULA",
+      "building": "Edificio 1",
+      "acceso": "PUBLICO",
+      "description": "Área de la Coordinación de Inglés (CELEX) destinada principalmente a brindar informes y orientación relacionada con sus servicios.",
+      "navigationNodeId": null,
+      "bounds": [
+        {
+          "left": 0.131,
+          "top": 0.2931,
+          "right": 0.1595,
+          "bottom": 0.3081
+        }
+      ]
+    },
+    {
+      "id": "salon_1006",
+      "code": "1006",
+      "codes": [],
+      "name": "1006",
+      "aliases": [
+        "1006",
+        "salon 1006",
+        "salón 1006",
+        "aula 1006",
+        "s1006"
+      ],
+      "tipo": "AULA",
+      "building": "Edificio 1",
+      "acceso": "ESTUDIANTES",
+      "description": "Aula académica identificada como 1006. Se utiliza como referencia para la localización de clases y actividades académicas.",
+      "navigationNodeId": null,
+      "bounds": [
+        {
+          "left": 0.131,
+          "top": 0.3081,
+          "right": 0.1595,
+          "bottom": 0.3231
+        }
+      ]
+    },
+    {
+      "id": "salon_1007",
+      "code": "1007",
+      "codes": [],
+      "name": "1007",
+      "aliases": [
+        "1007",
+        "salon 1007",
+        "salón 1007",
+        "aula 1007",
+        "s1007"
+      ],
+      "tipo": "AULA",
+      "building": "Edificio 1",
+      "acceso": "ESTUDIANTES",
+      "description": "Aula académica identificada como 1007. Se utiliza como referencia para la localización de clases y actividades académicas.",
+      "navigationNodeId": null,
+      "bounds": [
+        {
+          "left": 0.131,
+          "top": 0.3231,
+          "right": 0.1595,
+          "bottom": 0.3381
+        }
+      ]
+    },
+    {
+      "id": "club_biorobotica_1008",
+      "code": "1008",
+      "codes": [],
+      "name": "Club de Bio-Robótica",
+      "aliases": [
+        "1008",
+        "salon 1008",
+        "salón 1008",
+        "biorobotica",
+        "biorrobótica",
+        "club biorobotica",
+        "club de biorobotica",
+        "club bio-robotica"
+      ],
+      "tipo": "AULA",
+      "building": "Edificio 3",
+      "acceso": "ESTUDIANTES",
+      "description": "Espacio utilizado por el Club de Bio-Robótica para el desarrollo de sus actividades y proyectos estudiantiles.",
+      "navigationNodeId": null,
+      "bounds": [
+        {
+          "left": 0.131,
+          "top": 0.3575,
+          "right": 0.1595,
+          "bottom": 0.3719
+        }
+      ]
+    },
+    {
+      "id": "sala_marco_antonio_dorantes_1009",
+      "code": "1009",
+      "codes": [],
+      "name": "Sala Dr. Marco Antonio Dorantes González",
+      "aliases": [
+        "1009",
+        "salon 1009",
+        "salón 1009",
+        "sala dorantes",
+        "sala marco antonio dorantes",
+        "sala dorantes gonzalez"
+      ],
+      "tipo": "AULA",
+      "building": "Edificio 3",
+      "acceso": "ESTUDIANTES",
+      "description": "Sala identificada con el nombre Dr. Marco Antonio Dorantes González, utilizada como espacio institucional para actividades académicas o reuniones.",
+      "navigationNodeId": null,
+      "bounds": [
+        {
+          "left": 0.131,
+          "top": 0.3719,
+          "right": 0.1595,
+          "bottom": 0.3869
+        }
+      ]
+    },
+    {
+      "id": "salon_1010",
+      "code": "1010",
+      "codes": [],
+      "name": "1010",
+      "aliases": [
+        "1010",
+        "salon 1010",
+        "salón 1010",
+        "aula 1010",
+        "s1010"
+      ],
+      "tipo": "AULA",
+      "building": "Edificio 3",
+      "acceso": "ESTUDIANTES",
+      "description": "Aula académica identificada como 1010. Se utiliza como referencia para la localización de clases y actividades académicas.",
+      "navigationNodeId": null,
+      "bounds": [
+        {
+          "left": 0.131,
+          "top": 0.3869,
+          "right": 0.1595,
+          "bottom": 0.4019
+        }
+      ]
+    },
+    {
+      "id": "salon_1011",
+      "code": "1011",
+      "codes": [],
+      "name": "1011",
+      "aliases": [
+        "1011",
+        "salon 1011",
+        "salón 1011",
+        "aula 1011",
+        "s1011"
+      ],
+      "tipo": "AULA",
+      "building": "Edificio 3",
+      "acceso": "ESTUDIANTES",
+      "description": "Aula académica identificada como 1011. Se utiliza como referencia para la localización de clases y actividades académicas.",
+      "navigationNodeId": null,
+      "bounds": [
+        {
+          "left": 0.131,
+          "top": 0.4019,
+          "right": 0.1595,
+          "bottom": 0.4169
+        }
+      ]
+    },
+    {
+      "id": "salon_1012",
+      "code": "1012",
+      "codes": [],
+      "name": "1012",
+      "aliases": [
+        "1012",
+        "salon 1012",
+        "salón 1012",
+        "aula 1012",
+        "s1012"
+      ],
+      "tipo": "AULA",
+      "building": "Edificio 3",
+      "acceso": "ESTUDIANTES",
+      "description": "Aula académica identificada como 1012. Se utiliza como referencia para la localización de clases y actividades académicas.",
+      "navigationNodeId": null,
+      "bounds": [
+        {
+          "left": 0.131,
+          "top": 0.4294,
+          "right": 0.1595,
+          "bottom": 0.4444
+        }
+      ]
+    },
+    {
+      "id": "salon_1013",
+      "code": "1013",
+      "codes": [],
+      "name": "1013",
+      "aliases": [
+        "1013",
+        "salon 1013",
+        "salón 1013",
+        "aula 1013",
+        "s1013"
+      ],
+      "tipo": "AULA",
+      "building": "Edificio 3",
+      "acceso": "ESTUDIANTES",
+      "description": "Aula académica identificada como 1013. Se utiliza como referencia para la localización de clases y actividades académicas.",
+      "navigationNodeId": null,
+      "bounds": [
+        {
+          "left": 0.131,
+          "top": 0.4444,
+          "right": 0.1595,
+          "bottom": 0.4594
+        }
+      ]
+    },
+    {
+      "id": "salon_1014",
+      "code": "1014",
+      "codes": [],
+      "name": "1014",
+      "aliases": [
+        "1014",
+        "salon 1014",
+        "salón 1014",
+        "aula 1014",
+        "s1014"
+      ],
+      "tipo": "AULA",
+      "building": "Edificio 3",
+      "acceso": "ESTUDIANTES",
+      "description": "Aula académica identificada como 1014. Se utiliza como referencia para la localización de clases y actividades académicas.",
+      "navigationNodeId": null,
+      "bounds": [
+        {
+          "left": 0.131,
+          "top": 0.4594,
+          "right": 0.1595,
+          "bottom": 0.4744
+        }
+      ]
+    },
+    {
+      "id": "area_institucional_2001",
+      "code": "2001",
+      "codes": [],
+      "name": "Área restringida 2001",
+      "aliases": [
+        "2001",
+        "area 2001",
+        "área 2001",
+        "restringido 2001",
+        "area restringida 2001",
+        "área restringida 2001"
+      ],
+      "tipo": "AULA",
+      "building": "Edificio 2",
+      "acceso": "RESTRINGIDO",
+      "description": "Espacio de uso interno con acceso restringido para estudiantes. Su función específica no se encuentra identificada dentro de la información disponible actualmente.",
+      "navigationNodeId": null,
+      "bounds": [
+        {
+          "left": 0.3286,
+          "top": 0.2213,
+          "right": 0.3571,
+          "bottom": 0.2356
+        }
+      ]
+    },
+    {
+      "id": "salon_2002",
+      "code": "2002",
+      "codes": [],
+      "name": "2002",
+      "aliases": [
+        "2002",
+        "salon 2002",
+        "salón 2002",
+        "aula 2002",
+        "s2002"
+      ],
+      "tipo": "AULA",
+      "building": "Edificio 2",
+      "acceso": "ESTUDIANTES",
+      "description": "Aula académica identificada como 2002. Se utiliza como referencia para la localización de clases y actividades académicas.",
+      "navigationNodeId": null,
+      "bounds": [
+        {
+          "left": 0.3286,
+          "top": 0.2356,
+          "right": 0.3571,
+          "bottom": 0.2506
+        }
+      ]
+    },
+    {
+      "id": "salon_2003",
+      "code": "2003",
+      "codes": [],
+      "name": "2003",
+      "aliases": [
+        "2003",
+        "salon 2003",
+        "salón 2003",
+        "aula 2003",
+        "s2003"
+      ],
+      "tipo": "AULA",
+      "building": "Edificio 2",
+      "acceso": "ESTUDIANTES",
+      "description": "Aula académica identificada como 2003. Se utiliza como referencia para la localización de clases y actividades académicas.",
+      "navigationNodeId": null,
+      "bounds": [
+        {
+          "left": 0.3286,
+          "top": 0.2506,
+          "right": 0.3571,
+          "bottom": 0.2656
+        }
+      ]
+    },
+    {
+      "id": "salon_2004",
+      "code": "2004",
+      "codes": [],
+      "name": "2004",
+      "aliases": [
+        "2004",
+        "salon 2004",
+        "salón 2004",
+        "aula 2004",
+        "s2004"
+      ],
+      "tipo": "AULA",
+      "building": "Edificio 2",
+      "acceso": "ESTUDIANTES",
+      "description": "Aula académica identificada como 2004. Se utiliza como referencia para la localización de clases y actividades académicas.",
+      "navigationNodeId": null,
+      "bounds": [
+        {
+          "left": 0.3286,
+          "top": 0.2656,
+          "right": 0.3571,
+          "bottom": 0.2806
+        }
+      ]
+    },
+    {
+      "id": "salon_2005",
+      "code": "2005",
+      "codes": [],
+      "name": "2005",
+      "aliases": [
+        "2005",
+        "salon 2005",
+        "salón 2005",
+        "aula 2005",
+        "s2005"
+      ],
+      "tipo": "AULA",
+      "building": "Edificio 2",
+      "acceso": "ESTUDIANTES",
+      "description": "Aula académica identificada como 2005. Se utiliza como referencia para la localización de clases y actividades académicas.",
+      "navigationNodeId": null,
+      "bounds": [
+        {
+          "left": 0.3286,
+          "top": 0.2931,
+          "right": 0.3571,
+          "bottom": 0.3081
+        }
+      ]
+    },
+    {
+      "id": "salon_2006",
+      "code": "2006",
+      "codes": [],
+      "name": "2006",
+      "aliases": [
+        "2006",
+        "salon 2006",
+        "salón 2006",
+        "aula 2006",
+        "s2006"
+      ],
+      "tipo": "AULA",
+      "building": "Edificio 2",
+      "acceso": "ESTUDIANTES",
+      "description": "Aula académica identificada como 2006. Se utiliza como referencia para la localización de clases y actividades académicas.",
+      "navigationNodeId": null,
+      "bounds": [
+        {
+          "left": 0.3286,
+          "top": 0.3081,
+          "right": 0.3571,
+          "bottom": 0.3231
+        }
+      ]
+    },
+    {
+      "id": "salon_2007",
+      "code": "2007",
+      "codes": [],
+      "name": "2007",
+      "aliases": [
+        "2007",
+        "salon 2007",
+        "salón 2007",
+        "aula 2007",
+        "s2007"
+      ],
+      "tipo": "AULA",
+      "building": "Edificio 2",
+      "acceso": "ESTUDIANTES",
+      "description": "Aula académica identificada como 2007. Se utiliza como referencia para la localización de clases y actividades académicas.",
+      "navigationNodeId": null,
+      "bounds": [
+        {
+          "left": 0.3286,
+          "top": 0.3231,
+          "right": 0.3571,
+          "bottom": 0.3381
+        }
+      ]
+    },
+    {
+      "id": "sepi_2008",
+      "code": "2008",
+      "codes": [],
+      "name": "Sección de Estudios de Posgrado e Investigación",
+      "aliases": [
+        "2008",
+        "salon 2008",
+        "salón 2008",
+        "sepi",
+        "posgrado",
+        "seccion de posgrado",
+        "sección de posgrado"
+      ],
+      "tipo": "AULA",
+      "building": "Edificio 4",
+      "acceso": "PERSONAL",
+      "description": "Área correspondiente a la Sección de Estudios de Posgrado e Investigación de ESCOM.",
+      "navigationNodeId": null,
+      "bounds": [
+        {
+          "left": 0.3286,
+          "top": 0.3575,
+          "right": 0.3571,
+          "bottom": 0.3769
+        }
+      ]
+    },
+    {
+      "id": "aula_computo_posgrado_2009",
+      "code": "2009",
+      "codes": [],
+      "name": "Aula de Cómputo de Posgrado",
+      "aliases": [
+        "2009",
+        "salon 2009",
+        "salón 2009",
+        "computo posgrado",
+        "cómputo posgrado",
+        "lab posgrado"
+      ],
+      "tipo": "AULA",
+      "building": "Edificio 4",
+      "acceso": "ESTUDIANTES",
+      "description": "Aula de cómputo destinada a actividades académicas de posgrado.",
+      "navigationNodeId": null,
+      "bounds": [
+        {
+          "left": 0.3286,
+          "top": 0.3769,
+          "right": 0.3571,
+          "bottom": 0.3969
+        }
+      ]
+    },
+    {
+      "id": "aula_maestria_2010",
+      "code": "2010",
+      "codes": [],
+      "name": "Área de posgrado — acceso restringido",
+      "aliases": [
+        "2010",
+        "posgrado 2010",
+        "area de posgrado 2010",
+        "área de posgrado 2010",
+        "posgrado restringido"
+      ],
+      "tipo": "AULA",
+      "building": "Edificio 4",
+      "acceso": "RESTRINGIDO",
+      "description": "Espacio asociado con actividades de posgrado y maestría. Su acceso no está destinado al uso general de estudiantes de licenciatura.",
+      "navigationNodeId": null,
+      "bounds": [
+        {
+          "left": 0.3286,
+          "top": 0.3969,
+          "right": 0.3571,
+          "bottom": 0.4169
+        }
+      ]
+    },
+    {
+      "id": "area_institucional_2011",
+      "code": "2011",
+      "codes": [],
+      "name": "Área restringida 2011",
+      "aliases": [
+        "2011",
+        "area 2011",
+        "área 2011",
+        "restringido 2011",
+        "area restringida 2011",
+        "área restringida 2011"
+      ],
+      "tipo": "AULA",
+      "building": "Edificio 4",
+      "acceso": "RESTRINGIDO",
+      "description": "Espacio de uso interno con acceso restringido para estudiantes. Su función específica no se encuentra identificada dentro de la información disponible actualmente.",
+      "navigationNodeId": null,
+      "bounds": [
+        {
+          "left": 0.3286,
+          "top": 0.4294,
+          "right": 0.3571,
+          "bottom": 0.4594
+        }
+      ]
+    },
+    {
+      "id": "laboratorio_sistemas_automotrices_2012",
+      "code": "2012",
+      "codes": [],
+      "name": "Laboratorio de Ingeniería en Sistemas Automotrices",
+      "aliases": [
+        "2012",
+        "salon 2012",
+        "salón 2012",
+        "isisa",
+        "sistemas automotrices",
+        "lab automotrices",
+        "laboratorio automotriz"
+      ],
+      "tipo": "AULA",
+      "building": "Edificio 4",
+      "acceso": "ESTUDIANTES",
+      "description": "Laboratorio destinado a actividades académicas relacionadas con Ingeniería en Sistemas Automotrices.",
+      "navigationNodeId": null,
+      "bounds": [
+        {
+          "left": 0.3286,
+          "top": 0.4594,
+          "right": 0.3571,
+          "bottom": 0.4744
+        }
+      ]
+    },
+    {
+      "id": "subestacion_electrica_3001",
+      "code": "3001",
+      "codes": [],
+      "name": "Subestación Eléctrica",
+      "aliases": [
+        "3001",
+        "subestacion",
+        "subestación",
+        "subestacion electrica",
+        "subestación eléctrica"
+      ],
+      "tipo": "MANTENIMIENTO",
+      "building": "Edificio de Laboratorios",
+      "acceso": "RESTRINGIDO",
+      "description": "Instalación técnica identificada como Subestación Eléctrica, con acceso restringido para estudiantes.",
+      "navigationNodeId": null,
+      "bounds": [
+        {
+          "left": 0.2135,
+          "top": 0.3269,
+          "right": 0.2365,
+          "bottom": 0.3413
+        }
+      ]
+    },
+    {
+      "id": "club_minirobotica_3002",
+      "code": "3002",
+      "codes": [],
+      "name": "Club de Minirobótica",
+      "aliases": [
+        "3002",
+        "minirobotica",
+        "minirrobótica",
+        "club minirobotica",
+        "club de minirobotica",
+        "robotica"
+      ],
+      "tipo": "AULA",
+      "building": "Edificio de Laboratorios",
+      "acceso": "ESTUDIANTES",
+      "description": "Espacio utilizado por el Club de Minirobótica para el desarrollo de proyectos y actividades estudiantiles relacionadas con robótica.",
+      "navigationNodeId": null,
+      "bounds": [
+        {
+          "left": 0.2198,
+          "top": 0.3544,
+          "right": 0.246,
+          "bottom": 0.3625
+        }
+      ]
+    },
+    {
+      "id": "laboratorio_electronica_1_3003",
+      "code": "3003",
+      "codes": [],
+      "name": "Laboratorio de Electrónica 1",
+      "aliases": [
+        "3003",
+        "lab electronica 1",
+        "laboratorio electronica 1",
+        "laboratorio de electrónica 1",
+        "electronica 1"
+      ],
+      "tipo": "AULA",
+      "building": "Edificio de Laboratorios",
+      "acceso": "ESTUDIANTES",
+      "description": "Laboratorio destinado a actividades académicas y prácticas relacionadas con electrónica.",
+      "navigationNodeId": null,
+      "bounds": [
+        {
+          "left": 0.2198,
+          "top": 0.3625,
+          "right": 0.246,
+          "bottom": 0.3919
+        }
+      ]
+    },
+    {
+      "id": "laboratorio_electronica_2_3004_3005",
+      "code": "3004-3005",
+      "codes": [
+        "3004",
+        "3005"
+      ],
+      "name": "Laboratorio de Electrónica 2",
+      "aliases": [
+        "3004",
+        "3005",
+        "3004-3005",
+        "lab electronica 2",
+        "laboratorio electronica 2",
+        "laboratorio de electrónica 2",
+        "electronica 2"
+      ],
+      "tipo": "AULA",
+      "building": "Edificio de Laboratorios",
+      "acceso": "ESTUDIANTES",
+      "description": "Laboratorio destinado a actividades académicas y prácticas relacionadas con electrónica.",
+      "navigationNodeId": null,
+      "bounds": [
+        {
+          "left": 0.2198,
+          "top": 0.3919,
+          "right": 0.246,
+          "bottom": 0.4213
+        }
+      ]
+    },
+    {
+      "id": "laboratorio_sistemas_digitales_1_3006_3007",
+      "code": "3006-3007",
+      "codes": [
+        "3006",
+        "3007"
+      ],
+      "name": "Laboratorio de Sistemas Digitales 1",
+      "aliases": [
+        "3006",
+        "3007",
+        "3006-3007",
+        "lab sistemas digitales 1",
+        "sistemas digitales 1",
+        "digitales 1"
+      ],
+      "tipo": "AULA",
+      "building": "Edificio de Laboratorios",
+      "acceso": "ESTUDIANTES",
+      "description": "Laboratorio destinado a actividades académicas y prácticas relacionadas con sistemas digitales.",
+      "navigationNodeId": null,
+      "bounds": [
+        {
+          "left": 0.2198,
+          "top": 0.4213,
+          "right": 0.246,
+          "bottom": 0.4506
+        }
+      ]
+    },
+    {
+      "id": "salon_3008",
+      "code": "3008",
+      "codes": [],
+      "name": "3008",
+      "aliases": [
+        "3008",
+        "salon 3008",
+        "salón 3008",
+        "aula 3008",
+        "s3008"
+      ],
+      "tipo": "AULA",
+      "building": "Edificio 5",
+      "acceso": "ESTUDIANTES",
+      "description": "Aula académica identificada como 3008. Se utiliza como referencia para la localización de clases y actividades académicas.",
+      "navigationNodeId": null,
+      "bounds": [
+        {
+          "left": 0.2198,
+          "top": 0.4813,
+          "right": 0.246,
+          "bottom": 0.4956
+        }
+      ]
+    },
+    {
+      "id": "salon_3009",
+      "code": "3009",
+      "codes": [],
+      "name": "3009",
+      "aliases": [
+        "3009",
+        "salon 3009",
+        "salón 3009",
+        "aula 3009",
+        "s3009"
+      ],
+      "tipo": "AULA",
+      "building": "Edificio 5",
+      "acceso": "ESTUDIANTES",
+      "description": "Aula académica identificada como 3009. Se utiliza como referencia para la localización de clases y actividades académicas.",
+      "navigationNodeId": null,
+      "bounds": [
+        {
+          "left": 0.2198,
+          "top": 0.4956,
+          "right": 0.246,
+          "bottom": 0.51
+        }
+      ]
+    },
+    {
+      "id": "salon_3010",
+      "code": "3010",
+      "codes": [],
+      "name": "3010",
+      "aliases": [
+        "3010",
+        "salon 3010",
+        "salón 3010",
+        "aula 3010",
+        "s3010"
+      ],
+      "tipo": "AULA",
+      "building": "Edificio 5",
+      "acceso": "ESTUDIANTES",
+      "description": "Aula académica identificada como 3010. Se utiliza como referencia para la localización de clases y actividades académicas.",
+      "navigationNodeId": null,
+      "bounds": [
+        {
+          "left": 0.2198,
+          "top": 0.51,
+          "right": 0.246,
+          "bottom": 0.5244
+        }
+      ]
+    },
+    {
+      "id": "salon_3011",
+      "code": "3011",
+      "codes": [],
+      "name": "3011",
+      "aliases": [
+        "3011",
+        "salon 3011",
+        "salón 3011",
+        "aula 3011",
+        "s3011"
+      ],
+      "tipo": "AULA",
+      "building": "Edificio 5",
+      "acceso": "ESTUDIANTES",
+      "description": "Aula académica identificada como 3011. Se utiliza como referencia para la localización de clases y actividades académicas.",
+      "navigationNodeId": null,
+      "bounds": [
+        {
+          "left": 0.2198,
+          "top": 0.5244,
+          "right": 0.246,
+          "bottom": 0.5388
+        }
+      ]
+    },
+    {
+      "id": "laboratorio_ciencia_datos_1_3012",
+      "code": "3012",
+      "codes": [],
+      "name": "Laboratorio de Ciencia de Datos 1",
+      "aliases": [
+        "3012",
+        "ciencia de datos 1",
+        "lab ciencia de datos 1",
+        "laboratorio ciencia de datos 1",
+        "datos 1"
+      ],
+      "tipo": "AULA",
+      "building": "Edificio 5",
+      "acceso": "ESTUDIANTES",
+      "description": "Laboratorio destinado a actividades académicas y prácticas relacionadas con ciencia de datos.",
+      "navigationNodeId": null,
+      "bounds": [
+        {
+          "left": 0.2198,
+          "top": 0.5388,
+          "right": 0.246,
+          "bottom": 0.5531
+        }
+      ]
+    },
+    {
+      "id": "laboratorio_ciencia_datos_2_3013",
+      "code": "3013",
+      "codes": [],
+      "name": "Laboratorio de Ciencia de Datos 2",
+      "aliases": [
+        "3013",
+        "ciencia de datos 2",
+        "lab ciencia de datos 2",
+        "laboratorio ciencia de datos 2",
+        "datos 2"
+      ],
+      "tipo": "AULA",
+      "building": "Edificio 5",
+      "acceso": "ESTUDIANTES",
+      "description": "Laboratorio destinado a actividades académicas y prácticas relacionadas con ciencia de datos.",
+      "navigationNodeId": null,
+      "bounds": [
+        {
+          "left": 0.2198,
+          "top": 0.5531,
+          "right": 0.246,
+          "bottom": 0.5675
+        }
+      ]
+    },
+    {
+      "id": "mdf_3014",
+      "code": "3014",
+      "codes": [],
+      "name": "MDF",
+      "aliases": [
+        "3014",
+        "mdf",
+        "site"
+      ],
+      "tipo": "AREA_INSTITUCIONAL",
+      "building": "Edificio 5",
+      "acceso": "RESTRINGIDO",
+      "description": "Área técnica identificada como MDF, con acceso restringido para estudiantes.",
+      "navigationNodeId": null,
+      "bounds": [
+        {
+          "left": 0.2198,
+          "top": 0.5675,
+          "right": 0.2381,
+          "bottom": 0.5713
+        }
+      ]
+    },
+    {
+      "id": "actividades_culturales_deportivas_4001",
+      "code": "4001",
+      "codes": [],
+      "name": "Actividades Culturales y Deportivas",
+      "aliases": [
+        "4001",
+        "actividades culturales y deportivas",
+        "actividades culturales",
+        "deportes"
+      ],
+      "tipo": "AULA",
+      "building": "Edificio de Laboratorios",
+      "acceso": "ESTUDIANTES",
+      "description": "Área correspondiente a Actividades Culturales y Deportivas.",
+      "navigationNodeId": null,
+      "bounds": [
+        {
+          "left": 0.2556,
+          "top": 0.3269,
+          "right": 0.2786,
+          "bottom": 0.3413
+        }
+      ]
+    },
+    {
+      "id": "laboratorio_fisica_4002",
+      "code": "4002",
+      "codes": [],
+      "name": "Laboratorio de Física",
+      "aliases": [
+        "4002",
+        "lab fisica",
+        "lab física",
+        "laboratorio de fisica",
+        "laboratorio de física",
+        "fisica",
+        "física"
+      ],
+      "tipo": "AULA",
+      "building": "Edificio de Laboratorios",
+      "acceso": "ESTUDIANTES",
+      "description": "Laboratorio destinado a actividades académicas y prácticas relacionadas con física.",
+      "navigationNodeId": null,
+      "bounds": [
+        {
+          "left": 0.246,
+          "top": 0.3544,
+          "right": 0.2722,
+          "bottom": 0.3838
+        }
+      ]
+    },
+    {
+      "id": "area_profesores_4003",
+      "code": "4003",
+      "codes": [],
+      "name": "Área restringida 4003",
+      "aliases": [
+        "4003",
+        "area 4003",
+        "área 4003",
+        "restringido 4003",
+        "area restringida 4003",
+        "área restringida 4003"
+      ],
+      "tipo": "AULA",
+      "building": "Edificio de Laboratorios",
+      "acceso": "RESTRINGIDO",
+      "description": "Espacio de uso interno con acceso restringido para estudiantes. Su función específica no se encuentra identificada dentro de la información disponible actualmente.",
+      "navigationNodeId": null,
+      "bounds": [
+        {
+          "left": 0.246,
+          "top": 0.3838,
+          "right": 0.2722,
+          "bottom": 0.3919
+        }
+      ]
+    },
+    {
+      "id": "sindicato_trabajadores_apoyo_4004",
+      "code": "4004",
+      "codes": [],
+      "name": "Sindicato de Trabajadores de Apoyo y Asistencia a la Educación",
+      "aliases": [
+        "4004",
+        "sindicato",
+        "sindicato de trabajadores",
+        "trabajadores de apoyo",
+        "sindicato escom"
+      ],
+      "tipo": "AULA",
+      "building": "Edificio de Laboratorios",
+      "acceso": "PERSONAL",
+      "description": "Área correspondiente al Sindicato de Trabajadores de Apoyo y Asistencia a la Educación.",
+      "navigationNodeId": null,
+      "bounds": [
+        {
+          "left": 0.246,
+          "top": 0.3919,
+          "right": 0.2722,
+          "bottom": 0.4063
+        }
+      ]
+    },
+    {
+      "id": "area_profesores_4005",
+      "code": "4005",
+      "codes": [],
+      "name": "Sindicato de Trabajadores de Apoyo y Asistencia a la Educación",
+      "aliases": [
+        "4005",
+        "sindicato",
+        "sindicato de trabajadores",
+        "area de profesores",
+        "área de profesores",
+        "trabajadores de apoyo",
+        "sindicato escom"
+      ],
+      "tipo": "AULA",
+      "building": "Edificio de Laboratorios",
+      "acceso": "PERSONAL",
+      "description": "Espacio correspondiente al Sindicato de Trabajadores de Apoyo y Asistencia a la Educación. El área es utilizada principalmente por profesores y personal de la institución para actividades relacionadas con sus funciones y organización.",
+      "navigationNodeId": null,
+      "bounds": [
+        {
+          "left": 0.246,
+          "top": 0.4063,
+          "right": 0.2722,
+          "bottom": 0.4213
+        }
+      ]
+    },
+    {
+      "id": "laboratorio_sistemas_digitales_2_4006_4007",
+      "code": "4006-4007",
+      "codes": [
+        "4006",
+        "4007"
+      ],
+      "name": "Laboratorio de Sistemas Digitales 2",
+      "aliases": [
+        "4006",
+        "4007",
+        "4006-4007",
+        "lab sistemas digitales 2",
+        "sistemas digitales 2",
+        "digitales 2"
+      ],
+      "tipo": "AULA",
+      "building": "Edificio de Laboratorios",
+      "acceso": "ESTUDIANTES",
+      "description": "Laboratorio destinado a actividades académicas y prácticas relacionadas con sistemas digitales.",
+      "navigationNodeId": null,
+      "bounds": [
+        {
+          "left": 0.246,
+          "top": 0.4213,
+          "right": 0.2722,
+          "bottom": 0.4506
+        }
+      ]
+    },
+    {
+      "id": "salon_4008",
+      "code": "4008",
+      "codes": [],
+      "name": "4008",
+      "aliases": [
+        "4008",
+        "salon 4008",
+        "salón 4008",
+        "aula 4008",
+        "s4008"
+      ],
+      "tipo": "AULA",
+      "building": "Edificio 5",
+      "acceso": "ESTUDIANTES",
+      "description": "Aula académica identificada como 4008. Se utiliza como referencia para la localización de clases y actividades académicas.",
+      "navigationNodeId": null,
+      "bounds": [
+        {
+          "left": 0.246,
+          "top": 0.4813,
+          "right": 0.2722,
+          "bottom": 0.4956
+        }
+      ]
+    },
+    {
+      "id": "salon_4009",
+      "code": "4009",
+      "codes": [],
+      "name": "4009",
+      "aliases": [
+        "4009",
+        "salon 4009",
+        "salón 4009",
+        "aula 4009",
+        "s4009"
+      ],
+      "tipo": "AULA",
+      "building": "Edificio 5",
+      "acceso": "ESTUDIANTES",
+      "description": "Aula académica identificada como 4009. Se utiliza como referencia para la localización de clases y actividades académicas.",
+      "navigationNodeId": null,
+      "bounds": [
+        {
+          "left": 0.246,
+          "top": 0.4956,
+          "right": 0.2722,
+          "bottom": 0.51
+        }
+      ]
+    },
+    {
+      "id": "salon_4010",
+      "code": "4010",
+      "codes": [],
+      "name": "4010",
+      "aliases": [
+        "4010",
+        "salon 4010",
+        "salón 4010",
+        "aula 4010",
+        "s4010"
+      ],
+      "tipo": "AULA",
+      "building": "Edificio 5",
+      "acceso": "ESTUDIANTES",
+      "description": "Aula académica identificada como 4010. Se utiliza como referencia para la localización de clases y actividades académicas.",
+      "navigationNodeId": null,
+      "bounds": [
+        {
+          "left": 0.246,
+          "top": 0.51,
+          "right": 0.2722,
+          "bottom": 0.5244
+        }
+      ]
+    },
+    {
+      "id": "salon_4011",
+      "code": "4011",
+      "codes": [],
+      "name": "4011",
+      "aliases": [
+        "4011",
+        "salon 4011",
+        "salón 4011",
+        "aula 4011",
+        "s4011"
+      ],
+      "tipo": "AULA",
+      "building": "Edificio 5",
+      "acceso": "ESTUDIANTES",
+      "description": "Aula académica identificada como 4011. Se utiliza como referencia para la localización de clases y actividades académicas.",
+      "navigationNodeId": null,
+      "bounds": [
+        {
+          "left": 0.246,
+          "top": 0.5244,
+          "right": 0.2722,
+          "bottom": 0.5388
+        }
+      ]
+    },
+    {
+      "id": "laboratorio_inteligencia_artificial_1_4012",
+      "code": "4012",
+      "codes": [],
+      "name": "Laboratorio de Inteligencia Artificial 1",
+      "aliases": [
+        "4012",
+        "inteligencia artificial 1",
+        "ia 1",
+        "lab ia 1",
+        "laboratorio de ia 1"
+      ],
+      "tipo": "AULA",
+      "building": "Edificio 5",
+      "acceso": "ESTUDIANTES",
+      "description": "Laboratorio destinado a actividades académicas y prácticas relacionadas con inteligencia artificial.",
+      "navigationNodeId": null,
+      "bounds": [
+        {
+          "left": 0.246,
+          "top": 0.5388,
+          "right": 0.2722,
+          "bottom": 0.5531
+        }
+      ]
+    },
+    {
+      "id": "laboratorio_inteligencia_artificial_2_4013",
+      "code": "4013",
+      "codes": [],
+      "name": "Laboratorio de Inteligencia Artificial 2",
+      "aliases": [
+        "4013",
+        "inteligencia artificial 2",
+        "ia 2",
+        "lab ia 2",
+        "laboratorio de ia 2"
+      ],
+      "tipo": "AULA",
+      "building": "Edificio 5",
+      "acceso": "ESTUDIANTES",
+      "description": "Laboratorio destinado a actividades académicas y prácticas relacionadas con inteligencia artificial.",
+      "navigationNodeId": null,
+      "bounds": [
+        {
+          "left": 0.246,
+          "top": 0.5531,
+          "right": 0.2722,
+          "bottom": 0.5675
+        }
+      ]
+    }
+  ]
+}

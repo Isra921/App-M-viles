@@ -1,0 +1,109 @@
+{
+  "schemaVersion": 1,
+  "id": "servicios_estudiantiles_biblioteca_prestamo",
+  "type": "SERVICE",
+  "category": "BIBLIOTECA",
+  "archetype": "FACILITY_SERVICE",
+  "name": "Préstamo de Libros y Material Bibliográfico",
+  "shortDescription": "Consulta interna, préstamo a domicilio y préstamo interbibliotecario de acervo físico.",
+  "description": "Servicio de acceso al acervo físico de libros, obras de consulta, textos de ingeniería y tesis de la biblioteca de ESCOM. Permite la lectura en salas de estudio o el préstamo externo a domicilio.",
+  "aliases": [
+    "prestamo de libros",
+    "pedir un libro",
+    "prestar libros",
+    "libros biblioteca",
+    "libros a domicilio",
+    "punto rojo",
+    "libros punto rojo",
+    "prestamo interbibliotecario"
+  ],
+  "keywords": [
+    "libros",
+    "préstamo",
+    "domicilio",
+    "punto rojo",
+    "biblioteca",
+    "acervo",
+    "credencial"
+  ],
+  "audience": [
+    "ESTUDIANTE",
+    "COMUNIDAD_ESCOM"
+  ],
+  "requirements": [
+    "Contar con credencial institucional vigente y resello del periodo activo.",
+    "No registrar adeudos de material ni multas pendientes en la biblioteca."
+  ],
+  "serviceRules": [
+    {
+      "id": "libros_punto_rojo",
+      "type": "LOAN_RESTRICTION",
+      "description": "Los libros identificados como únicos o de punto rojo únicamente se prestan para fotocopia o consulta rápida por un máximo de una hora.",
+      "maxDurationMinutes": 60
+    },
+    {
+      "id": "turnos_acervo",
+      "type": "INFORMATION",
+      "description": "Existen libros destinados específicamente al turno matutino y al turno vespertino."
+    },
+    {
+      "id": "alimentos",
+      "type": "PROHIBITION",
+      "description": "No se permite ingresar a las salas con alimentos ni bebidas abiertas."
+    }
+  ],
+  "location": {
+    "mapLocationId": "biblioteca",
+    "displayName": "Mostrador de Circulación (Biblioteca de ESCOM, Planta Baja)"
+  },
+  "cost": {
+    "displayText": "Servicio gratuito; multas pecuniarias por entrega tardía conforme a reglamento"
+  },
+  "schedule": "Lunes a Viernes de 08:30 a 20:00 hrs ininterrumpido",
+  "steps": [
+    {
+      "order": 1,
+      "title": "Búsqueda de Material",
+      "description": "Localizar la signatura topográfica del libro en el catálogo electrónico o en estantería."
+    },
+    {
+      "order": 2,
+      "title": "Mostrador de Préstamo",
+      "description": "Entregar el libro y tu credencial institucional vigente al personal bibliotecario."
+    },
+    {
+      "order": 3,
+      "title": "Registro del Préstamo",
+      "description": "El personal registra la fecha de devolución en la papeleta del libro."
+    },
+    {
+      "order": 4,
+      "title": "Devolución o Renovación",
+      "description": "Entregar el material en la fecha estipulada o solicitar renovación si no existe lista de espera."
+    }
+  ],
+  "faqs": [
+    {
+      "question": "¿Qué significa que un libro tenga un punto rojo?",
+      "answer": "Significa que es un ejemplar único o de alta demanda; solo se presta para consulta en sala o para fotocopias por un máximo de 60 minutos."
+    },
+    {
+      "question": "¿Por cuántos días se presta un libro a domicilio?",
+      "answer": "El préstamo regular a domicilio es de hasta 3 días hábiles para alumnos con credencial vigente."
+    }
+  ],
+  "sources": [
+    {
+      "name": "Políticas de Operación de la Biblioteca ESCOM",
+      "url": "https://www.escom.ipn.mx/SSEIS/serviciosestudiantiles/documentos/PoliticasOperacionBiblioteca2025.pdf",
+      "type": "OFFICIAL_DOCUMENT"
+    }
+  ],
+  "informationStatus": {
+    "verification": "OFFICIAL",
+    "notes": [
+      "Reglamento y políticas de préstamo verificados en las Políticas de Operación 2025 de la Biblioteca de ESCOM."
+    ]
+  },
+  "lastReviewed": "2026-10-22"
+}

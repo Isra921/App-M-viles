@@ -1,0 +1,190 @@
+{
+  "schemaVersion": 1,
+  "id": "gestion_escolar_baja_definitiva",
+  "type": "PROCEDURE",
+  "category": "GESTION_ESCOLAR",
+  "name": "Baja Definitiva",
+  "shortDescription": "Solicitud para causar baja definitiva de la institución.",
+  "description": "Procedimiento mediante el cual el estudiante solicita la baja definitiva, exponiendo los motivos correspondientes y proporcionando sus datos.",
+  "aliases": [
+    "baja",
+    "baja definitiva",
+    "darme de baja definitivamente",
+    "dejar la escuela",
+    "baja permanente"
+  ],
+  "keywords": [
+    "baja",
+    "definitiva",
+    "gestión escolar",
+    "carta",
+    "retiro"
+  ],
+  "audience": [
+    "ESTUDIANTE"
+  ],
+  "requirements": [
+    "Exponer los motivos de la solicitud."
+  ],
+  "documents": [
+    {
+      "id": "carta_solicitud_baja",
+      "name": "Carta de solicitud de baja",
+      "required": true,
+      "description": "Carta dirigida al Director en la que se especifiquen los motivos por los cuales se solicita la baja y los datos del alumno.",
+      "verification": "OFFICIAL"
+    }
+  ],
+  "channels": [
+    {
+      "id": "escom_web",
+      "type": "WEB_FORM",
+      "name": "Formulario de Gestión Escolar ESCOM",
+      "recommended": true,
+      "url": "https://forms.gle/t6ZxBRShbsYULQDw8",
+      "requirements": [
+        "Explicar los motivos por los cuales se solicita la baja definitiva.",
+        "Proporcionar los datos del alumno solicitados en el formulario."
+      ],
+      "requiredDocuments": [
+        {
+          "id": "carta_solicitud_baja",
+          "name": "Carta de solicitud de baja",
+          "required": true,
+          "description": "Carta dirigida al Director en la que se especifiquen los motivos por los cuales se solicita la baja y los datos del alumno.",
+          "verification": "OFFICIAL"
+        }
+      ],
+      "estimatedTime": {
+        "type": "UNSPECIFIED",
+        "displayText": "Sin plazo oficial publicado. La solicitud queda sujeta a revisión y autorización por Gestión Escolar.",
+        "official": true,
+        "basis": "OFFICIAL"
+      },
+      "steps": [
+        {
+          "order": 1,
+          "description": "Preparar la carta dirigida al Director con los motivos de la solicitud y los datos del alumno."
+        },
+        {
+          "order": 2,
+          "description": "Ingresar al formulario correspondiente desde el portal de trámites de Gestión Escolar de ESCOM."
+        },
+        {
+          "order": 3,
+          "description": "Capturar la información solicitada."
+        },
+        {
+          "order": 4,
+          "description": "Adjuntar o proporcionar la carta conforme a las indicaciones del formulario."
+        },
+        {
+          "order": 5,
+          "description": "Enviar la solicitud."
+        },
+        {
+          "order": 6,
+          "description": "Esperar la revisión y, en su caso, autorización de Gestión Escolar."
+        }
+      ],
+      "tracking": {
+        "available": false,
+        "notes": [
+          "La página oficial consultada no publica un mecanismo específico de seguimiento ni un plazo de resolución."
+        ]
+      }
+    },
+    {
+      "id": "gestion_escolar",
+      "type": "IN_PERSON",
+      "name": "Gestión Escolar",
+      "recommended": false,
+      "requirements": [
+        "Explicar los motivos por los cuales se solicita la baja definitiva.",
+        "Proporcionar los datos del alumno que sean solicitados por el área."
+      ],
+      "requiredDocuments": [
+        {
+          "id": "carta_solicitud_baja",
+          "name": "Carta de solicitud de baja",
+          "required": true,
+          "description": "Carta dirigida al Director en la que se especifiquen los motivos por los cuales se solicita la baja y los datos del alumno.",
+          "verification": "OFFICIAL"
+        }
+      ],
+      "estimatedTime": {
+        "type": "UNSPECIFIED",
+        "displayText": "Sin plazo oficial publicado. La solicitud queda sujeta a revisión y autorización por Gestión Escolar.",
+        "official": false,
+        "basis": "VERIFIED_BY_USE"
+      },
+      "steps": [
+        {
+          "order": 1,
+          "description": "Preparar la carta dirigida al Director con los motivos de la solicitud y los datos del alumno."
+        },
+        {
+          "order": 2,
+          "description": "Acudir a Gestión Escolar."
+        },
+        {
+          "order": 3,
+          "description": "Solicitar la baja definitiva."
+        },
+        {
+          "order": 4,
+          "description": "Entregar la carta y proporcionar los datos adicionales que sean solicitados."
+        },
+        {
+          "order": 5,
+          "description": "Esperar la revisión y, en su caso, autorización de Gestión Escolar."
+        }
+      ]
+    }
+  ],
+  "location": {
+    "mapLocationId": "gestion_escolar",
+    "displayName": "Gestión Escolar"
+  },
+  "archetype": "PROCEDURE",
+  "period": {
+    "type": "ACADEMIC_CALENDAR_WINDOW",
+    "description": "Durante el periodo escolar vigente.",
+    "warning": "La baja definitiva es irrevocable y causa la pérdida definitiva de la calidad de alumno del IPN."
+  },
+  "cost": {
+    "displayText": "Gratuito"
+  },
+  "schedule": "Atención en ventanillas de Gestión Escolar en horarios hábiles de 09:00 a 14:00 y de 15:00 a 20:00",
+  "notes": [
+    "La autorización de la baja depende de la revisión de Gestión Escolar.",
+    "No se encontró un plazo oficial de resolución publicado en la página consultada.",
+    "La solicitud debe expresar claramente los motivos por los cuales se desea tramitar la baja definitiva."
+  ],
+  "faqs": [
+    {
+      "question": "¿Puedo volver a ingresar a ESCOM tras una baja definitiva?",
+      "answer": "Únicamente participando nuevamente en el proceso general de admisión del IPN."
+    },
+    {
+      "question": "¿Afecta si tengo materias reprobadas?",
+      "answer": "No, la baja definitiva se puede solicitar independientemente del estatus académico."
+    }
+  ],
+  "sources": [
+    {
+      "name": "ESCOM - Gestión Escolar - Trámites",
+      "url": "https://www.escom.ipn.mx/SSEIS/gestionescolar/servicios/tramite.php",
+      "type": "OFFICIAL_WEB"
+    }
+  ],
+  "informationStatus": {
+    "verification": "PARTIALLY_VERIFIED",
+    "notes": [
+      "La existencia del trámite, el formulario y el requisito de la carta están publicados oficialmente por ESCOM.",
+      "La posibilidad de solicitar el proceso presencialmente en Gestión Escolar fue proporcionada por experiencia/conocimiento del usuario.",
+      "No se cuenta con un plazo oficial publicado para la resolución."
+    ]
+  },
+  "lastReviewed": "2026-08-23"
+}

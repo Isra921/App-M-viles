@@ -1,0 +1,126 @@
+{
+  "schemaVersion": 1,
+  "id": "servicios_estudiantiles_seguros",
+  "type": "SERVICE",
+  "category": "SALUD",
+  "archetype": "FACILITY_SERVICE",
+  "name": "Seguro de Vida y Accidentes Escolares",
+  "shortDescription": "Cobertura institucional del IPN ante accidentes dentro del plantel, en trayectos directos y póliza de seguro de vida.",
+  "description": "El Instituto Politécnico Nacional otorga a toda su comunidad estudiantil matriculada la protección de un Seguro de Vida y un Seguro contra Accidentes Escolares. Este seguro cubre gastos médicos por accidentes ocurridos durante actividades académicas en el plantel o en el trayecto directo escuela-casa y casa-escuela.",
+  "aliases": [
+    "seguro",
+    "seguro facultativo",
+    "seguro imss",
+    "seguro de vida",
+    "seguro de accidentes",
+    "seguro escolar",
+    "seguro institucional",
+    "seguro ipn",
+    "poliza de seguro",
+    "seguros estudiantiles"
+  ],
+  "keywords": [
+    "seguro",
+    "accidentes",
+    "vida",
+    "póliza",
+    "beneficiarios",
+    "trayecto",
+    "cobertura"
+  ],
+  "audience": [
+    "ESTUDIANTE"
+  ],
+  "requirements": [
+    "Estar formalmente inscrito en el semestre lectivo en curso.",
+    "Llenar y firmar el formato de designación de beneficiarios del Seguro de Vida y de Accidentes Escolares."
+  ],
+  "documents": [
+    {
+      "id": "seguro_vida",
+      "name": "Formato de Seguro de Vida",
+      "type": "PDF",
+      "url": "https://www.escom.ipn.mx/SSEIS/serviciosestudiantiles/documentos/seguroVida.pdf",
+      "required": true
+    },
+    {
+      "id": "ejemplo_seguro_vida",
+      "name": "Ejemplo de llenado de Seguro de Vida",
+      "type": "PDF",
+      "url": "https://www.escom.ipn.mx/SSEIS/serviciosestudiantiles/documentos/ejemploLlenadoSeguroVida.pdf",
+      "required": false
+    },
+    {
+      "id": "seguro_accidentes",
+      "name": "Formato de Seguro de Accidentes",
+      "type": "PDF",
+      "url": "https://www.escom.ipn.mx/SSEIS/serviciosestudiantiles/documentos/seguroAccidentes.pdf",
+      "required": true
+    },
+    {
+      "id": "ejemplo_seguro_accidentes",
+      "name": "Ejemplo de llenado de Seguro de Accidentes",
+      "type": "PDF",
+      "url": "https://www.escom.ipn.mx/SSEIS/serviciosestudiantiles/documentos/ejemploLlenadoSeguroAccidentes.pdf",
+      "required": false
+    }
+  ],
+  "actions": [
+    {
+      "id": "formulario_seguros",
+      "type": "EXTERNAL_FORM",
+      "name": "Formulario institucional para Seguro de Vida y Accidentes",
+      "url": "https://docs.google.com/forms/d/e/1FAIpQLSesltmSfnHYW-K4Yj5sLYJOfmjwweCHHLAJAJjX7bsvU86AKQ/viewform"
+    }
+  ],
+  "location": {
+    "mapLocationId": "servicio_medico",
+    "displayName": "Servicio Médico (Edificio de Gobierno, Planta Baja)"
+  },
+  "cost": {
+    "displayText": "Cobertura gratuita incluida con tu inscripción formal al IPN"
+  },
+  "schedule": "Atención para trámites de seguro en Servicio Médico: Lunes a Viernes de 08:00 a 20:00 hrs",
+  "steps": [
+    {
+      "order": 1,
+      "title": "Descarga de Formatos",
+      "description": "Descargar los formatos de Seguro de Vida y Seguro de Accidentes desde el portal de Servicios Estudiantiles."
+    },
+    {
+      "order": 2,
+      "title": "Designación de Beneficiarios",
+      "description": "Llenar con tinta azul o negra y sin tachaduras los datos personales y los porcentajes asignados a tus beneficiarios."
+    },
+    {
+      "order": 3,
+      "title": "Registro en Formulario",
+      "description": "Cargar o registrar los datos en el formulario oficial de recepción institucional."
+    },
+    {
+      "order": 4,
+      "title": "En caso de Accidente",
+      "description": "Notificar inmediatamente al Servicio Médico de ESCOM para expedir la orden de atención médica para la clínica u hospital en convenio."
+    }
+  ],
+  "faqs": [
+    {
+      "question": "¿Cubre el seguro accidentes en el transporte público?",
+      "answer": "Sí, cubre accidentes ocurridos en el trayecto directo e ininterrumpido entre el domicilio del estudiante y la escuela, y viceversa."
+    }
+  ],
+  "sources": [
+    {
+      "name": "ESCOM - Documentos Oficiales de Seguros Estudiantiles",
+      "url": "https://www.escom.ipn.mx/SSEIS/serviciosestudiantiles/servicios/servicioMedico.php",
+      "type": "OFFICIAL_WEB"
+    }
+  ],
+  "informationStatus": {
+    "verification": "OFFICIAL",
+    "notes": [
+      "Formatos oficiales descargables en PDF y formulario Google Forms verificados en el proyecto."
+    ]
+  },
+  "lastReviewed": "2026-10-22"
+}

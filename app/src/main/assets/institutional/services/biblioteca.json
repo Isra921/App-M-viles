@@ -1,0 +1,217 @@
+{
+  "schemaVersion": 1,
+  "id": "servicios_estudiantiles_biblioteca",
+  "type": "SERVICE",
+  "category": "BIBLIOTECA",
+  "name": "Biblioteca",
+  "shortDescription": "Servicio de acceso a libros, bases de datos, espacios de estudio y recursos bibliográficos para la comunidad de ESCOM.",
+  "description": "La biblioteca de ESCOM facilita a la comunidad el acceso a libros y bases de datos mediante la Red Institucional de Bibliotecas y el uso de tecnologías de la información y comunicación, con el propósito de favorecer la generación del conocimiento y el desarrollo de la investigación científica y tecnológica.",
+  "aliases": [
+    "biblioteca",
+    "biblioteca escom",
+    "acervo escom",
+    "instalaciones de biblioteca"
+  ],
+  "keywords": [
+    "biblioteca",
+    "libros",
+    "préstamo",
+    "bases de datos",
+    "cubículos",
+    "salas de estudio",
+    "credencial",
+    "catálogo",
+    "tesis",
+    "repositorio"
+  ],
+  "audience": [
+    "ESTUDIANTE",
+    "COMUNIDAD_ESCOM"
+  ],
+  "requirements": [
+    "Contar con credencial vigente para utilizar los servicios de la biblioteca."
+  ],
+  "serviceRules": [
+    {
+      "id": "libros_turnos",
+      "type": "INFORMATION",
+      "description": "Existen libros destinados al turno matutino y al turno vespertino."
+    },
+    {
+      "id": "libros_punto_rojo",
+      "type": "LOAN_RESTRICTION",
+      "description": "Los libros identificados como únicos o de punto rojo únicamente se prestan para copias por un máximo de una hora.",
+      "maxDurationMinutes": 60
+    },
+    {
+      "id": "credencial_vigente",
+      "type": "REQUIREMENT",
+      "description": "Para utilizar cualquier servicio de la biblioteca se requiere credencial vigente."
+    },
+    {
+      "id": "cubiculos",
+      "type": "SPACE_USAGE",
+      "description": "Los cubículos pueden ser utilizados por grupos de 2 a 4 personas.",
+      "minPeople": 2,
+      "maxPeople": 4,
+      "maxDurationMinutes": 90
+    },
+    {
+      "id": "salas_estudio",
+      "type": "SPACE_USAGE",
+      "description": "Las salas de estudio pueden ser utilizadas por grupos de 5 a 10 personas.",
+      "minPeople": 5,
+      "maxPeople": 10,
+      "maxDurationMinutes": 90
+    },
+    {
+      "id": "uso_indebido",
+      "type": "SANCTION_WARNING",
+      "description": "El uso indebido de la credencial, materiales o instalaciones puede ser sujeto de sanción."
+    },
+    {
+      "id": "alimentos_bebidas",
+      "type": "PROHIBITION",
+      "description": "No se permite ingresar con alimentos ni bebidas."
+    }
+  ],
+  "offerings": [
+    {
+      "id": "consulta_libros",
+      "type": "LIBRARY_SERVICE",
+      "name": "Consulta y préstamo de libros",
+      "description": "Acceso al material bibliográfico disponible en la biblioteca."
+    },
+    {
+      "id": "cubiculos_estudio",
+      "type": "STUDY_SPACE",
+      "name": "Cubículos de estudio",
+      "description": "Espacios de estudio para grupos de 2 a 4 personas, con una duración máxima de 1 hora y 30 minutos."
+    },
+    {
+      "id": "salas_estudio",
+      "type": "STUDY_SPACE",
+      "name": "Salas de estudio",
+      "description": "Espacios de estudio para grupos de 5 a 10 personas, con una duración máxima de 1 hora y 30 minutos."
+    },
+    {
+      "id": "busqueda_informacion",
+      "type": "SEARCH_SERVICE",
+      "name": "Buscador de información",
+      "description": "La página de Biblioteca de ESCOM permite realizar búsquedas en recursos bibliográficos y académicos.",
+      "url": "https://www.escom.ipn.mx/SSEIS/serviciosestudiantiles/servicios/biblioteca.php",
+      "searchTargets": [
+        "Catálogo IPN",
+        "Tesis Institucionales IPN",
+        "Repositorio Digital IPN",
+        "Revistas y Libros",
+        "Búsqueda General"
+      ]
+    }
+  ],
+  "documents": [
+    {
+      "id": "formatos_registro",
+      "name": "Formatos de Registro",
+      "type": "DOCX",
+      "url": "https://www.escom.ipn.mx/SSEIS/serviciosestudiantiles/documentos/Formato_de_Registro%202024.docx",
+      "required": false
+    },
+    {
+      "id": "politicas_operacion_biblioteca",
+      "name": "Políticas de operación de la biblioteca",
+      "type": "PDF",
+      "url": "https://www.escom.ipn.mx/SSEIS/serviciosestudiantiles/documentos/PoliticasOperacionBiblioteca2025.pdf",
+      "required": false
+    },
+    {
+      "id": "registro_renovacion_servicios",
+      "name": "Formatos de registro y renovación de servicios bibliotecarios",
+      "type": "PDF",
+      "url": "https://www.escom.ipn.mx/SSEIS/serviciosestudiantiles/documentos/Procedimiento_de_registro.pdf",
+      "required": false
+    },
+    {
+      "id": "convenios_prestamo_interbibliotecario",
+      "name": "Lista de escuelas con convenios de préstamos interbibliotecarios",
+      "type": "PDF",
+      "url": "https://www.escom.ipn.mx/SSEIS/serviciosestudiantiles/documentos/escuelas.pdf",
+      "required": false
+    }
+  ],
+  "location": {
+    "mapLocationId": "biblioteca",
+    "displayName": "Biblioteca ESCOM"
+  },
+  "archetype": "FACILITY_SERVICE",
+  "cost": {
+    "displayText": "Gratuito para la comunidad politécnica"
+  },
+  "schedule": {
+    "displayText": "08:30 a 20:00 horas (Lunes a Viernes)",
+    "openingTime": "08:30",
+    "closingTime": "20:00",
+    "days": [
+      "LUNES",
+      "MARTES",
+      "MIERCOLES",
+      "JUEVES",
+      "VIERNES"
+    ],
+    "notes": [
+      "Servicio continuo para ambos turnos escolares."
+    ]
+  },
+  "subServices": [
+    {
+      "id": "prestamo_libros",
+      "name": "Préstamo en sala y a domicilio",
+      "description": "Acceso a material bibliográfico para consulta interna y préstamo externo.",
+      "rules": "Libros de punto rojo sólo se prestan para fotocopias por máximo 1 hora."
+    },
+    {
+      "id": "cubiculos_estudio",
+      "name": "Cubículos grupales",
+      "description": "Espacios cerrados para trabajo en equipo.",
+      "capacity": "2 a 4 personas",
+      "maxDurationMinutes": 90,
+      "rules": "Se requiere dejar credencial vigente de estudiante en mostrador."
+    },
+    {
+      "id": "salas_estudio",
+      "name": "Salas de estudio colaborativo",
+      "description": "Áreas amplias para grupos de estudio.",
+      "capacity": "5 a 10 personas",
+      "maxDurationMinutes": 90
+    }
+  ],
+  "faqs": [
+    {
+      "question": "¿Se puede ingresar con alimentos o bebidas?",
+      "answer": "No, está estrictamente prohibido ingresar con alimentos o bebidas abiertas a las salas de lectura."
+    },
+    {
+      "question": "¿Qué necesito para pedir un libro prestado a domicilio?",
+      "answer": "Contar con tu credencial institucional vigente y no tener adeudos de material en la biblioteca."
+    }
+  ],
+  "notes": [
+    "Los libros de punto rojo se consideran ejemplares únicos y sólo se prestan para copias por una hora.",
+    "La página oficial incluye un buscador de información para consultar distintos recursos del IPN.",
+    "Para búsquedas bibliográficas actualizadas, la aplicación debe dirigir al usuario a la página oficial en lugar de intentar replicar el catálogo localmente."
+  ],
+  "sources": [
+    {
+      "name": "ESCOM - Servicios Estudiantiles - Biblioteca",
+      "url": "https://www.escom.ipn.mx/SSEIS/serviciosestudiantiles/servicios/biblioteca.php",
+      "type": "OFFICIAL_WEB"
+    }
+  ],
+  "informationStatus": {
+    "verification": "OFFICIAL",
+    "notes": [
+      "Las recomendaciones, documentos, horario de atención y opciones de búsqueda fueron verificadas en la página oficial de Biblioteca de ESCOM."
+    ]
+  },
+  "lastReviewed": "2026-08-24"
+}

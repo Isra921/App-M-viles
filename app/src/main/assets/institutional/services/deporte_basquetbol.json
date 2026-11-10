@@ -1,0 +1,75 @@
+{
+  "schemaVersion": 1,
+  "id": "servicios_estudiantiles_deporte_basquetbol",
+  "type": "SERVICE",
+  "category": "DEPORTE",
+  "archetype": "WORKSHOP_ACTIVITY",
+  "name": "Basquetbol (Canchas y Torneos)",
+  "shortDescription": "Canchas de básquetbol norte y sur para torneos internos, retas estudiantiles y selección de ESCOM.",
+  "description": "Espacio y disciplina deportiva para la práctica del básquetbol en ramas varonil y femenil. La escuela cuenta con canchas reglamentarias exteriores donde se organizan ligas inter-semestrales y entrenamientos representativos.",
+  "aliases": [
+    "basquetbol",
+    "basquet",
+    "baloncesto",
+    "cancha de basquetbol",
+    "torneo de basquetbol",
+    "equipo de basquetbol"
+  ],
+  "keywords": [
+    "básquetbol",
+    "baloncesto",
+    "cancha",
+    "canasta",
+    "deporte",
+    "torneo"
+  ],
+  "audience": [
+    "ESTUDIANTE"
+  ],
+  "requirements": [
+    "Ser estudiante de la ESCOM.",
+    "Ramas: Varonil y Femenil."
+  ],
+  "location": {
+    "mapLocationId": "canchas_basquetbol_norte",
+    "displayName": "Canchas de básquetbol norte (Frente a Gestión Escolar)"
+  },
+  "cost": {
+    "displayText": "Uso libre y torneos gratuitos"
+  },
+  "schedule": "Uso libre durante horas escolares; torneos y ligas conforme a convocatoria semestral",
+  "contact": {
+    "name": "Oficina de Cultura y Deportes (Salón 4001)",
+    "role": "Informes de Deportes",
+    "phone": "57296000",
+    "extension": "52063",
+    "email": "cultura_y_deportes_escom@ipn.mx"
+  },
+  "steps": [
+    {
+      "order": 1,
+      "title": "Práctica Libre o Torneo",
+      "description": "Uso libre de canchas en descansos o inscripción de equipos en las convocatorias semestrales de la liga de basquetbol en el Salón 4001."
+    }
+  ],
+  "faqs": [
+    {
+      "question": "¿Prestan balones de básquetbol en ESCOM?",
+      "answer": "Sí, en la oficina de Deportes (Salón 4001) se prestan balones dejando credencial de estudiante en resguardo."
+    }
+  ],
+  "sources": [
+    {
+      "name": "ESCOM - Servicios Estudiantiles - Actividades Deportivas",
+      "url": "https://www.escom.ipn.mx/SSEIS/serviciosestudiantiles/servicios/actsDeportivas.php",
+      "type": "OFFICIAL_WEB"
+    }
+  ],
+  "informationStatus": {
+    "verification": "OFFICIAL",
+    "notes": [
+      "Instalaciones y torneos registrados oficialmente. El rol de juegos semestral se publica en las mamparas del Salón 4001."
+    ]
+  },
+  "lastReviewed": "2026-10-22"
+}

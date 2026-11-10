@@ -1,0 +1,132 @@
+{
+  "schemaVersion": 1,
+  "id": "apoyos_educativos_beca_deportiva",
+  "type": "SUPPORT",
+  "category": "BECAS",
+  "archetype": "SCHOLARSHIP",
+  "name": "Beca Deportiva (Nivel Superior)",
+  "shortDescription": "Apoyo semestral de $7,000.00 M.N. para estudiantes que practican disciplinas deportivas avaladas por el IPN.",
+  "description": "La Beca Deportiva del IPN apoya la formación integral y la práctica deportiva de los estudiantes de educación superior mediante un pago único de $7,000.00 M.N. por periodo escolar, para quienes participan en disciplinas deportivas oficiales de la Dirección de Actividades Deportivas (DAD) o de ESCOM.",
+  "aliases": [
+    "beca deportiva",
+    "beca de deportes",
+    "beca deportistas",
+    "apoyo deportivo",
+    "beca deporte escom"
+  ],
+  "keywords": [
+    "beca deportiva",
+    "deportes",
+    "dad",
+    "fútbol",
+    "voleibol",
+    "atletismo",
+    "sibec"
+  ],
+  "audience": [
+    "ESTUDIANTE"
+  ],
+  "requirements": [
+    "Monto: $7,000.00 M.N. por periodo escolar 27/1 (pago único semestral).",
+    "Tener un promedio general mínimo de 6.0.",
+    "Ser estudiante en situación escolar regular o con adeudo de hasta una unidad de aprendizaje.",
+    "Participar activamente en disciplinas deportivas avaladas por la Dirección de Actividades Deportivas (DAD) del IPN.",
+    "Tener la actividad registrada en SAES antes de la fecha límite fijada en la convocatoria (24 de septiembre de 2026 en periodo 27/1).",
+    "Compatible con BEIFI (en situación escolar regular)."
+  ],
+  "documents": [
+    {
+      "id": "acuse_solicitud_sibec",
+      "name": "Acuse de solicitud de beca emitido por SIBec",
+      "required": true
+    },
+    {
+      "id": "constancia_deportiva",
+      "name": "Constancia de participación deportiva emitida por el entrenador y validada por Cultura y Deportes / DAD",
+      "required": true
+    },
+    {
+      "id": "expediente_bancario_bbva",
+      "name": "Expediente bancario BBVA activo a tu nombre",
+      "required": true
+    }
+  ],
+  "channels": [
+    {
+      "id": "sibec_plataforma",
+      "type": "ONLINE_PLATFORM",
+      "name": "Sistema Informático de Becas (SIBec)",
+      "recommended": true,
+      "url": "https://www.sibec.ipn.mx/",
+      "steps": [
+        {
+          "order": 1,
+          "title": "Registro de Disciplina",
+          "description": "Verificar con el entrenador o en la oficina de Deportes (Salón 4001) el alta de la actividad en SAES antes de la fecha límite."
+        },
+        {
+          "order": 2,
+          "title": "Solicitud en SIBec",
+          "description": "Completar la solicitud de Beca Deportiva y adjuntar constancia deportiva y acuse."
+        },
+        {
+          "order": 3,
+          "title": "Revisión y Resultados",
+          "description": "Validación por el Subcomité de Becas y consulta de resultados oficiales en SIBec."
+        },
+        {
+          "order": 4,
+          "title": "Pago",
+          "description": "Captura de CLABE BBVA para la dispersión bancaria correspondiente."
+        }
+      ]
+    }
+  ],
+  "contact": {
+    "name": "Martha Angélica Gasca Cervantes",
+    "title": "Lic.",
+    "phone": "57296000",
+    "extension": "52056",
+    "email": "becas.escom@ipn.mx"
+  },
+  "location": {
+    "mapLocationId": "departamento_extension_apoyos_educativos",
+    "displayName": "Departamento de Extensión y Apoyos Educativos (Edificio de Gobierno, Planta Alta)"
+  },
+  "period": {
+    "type": "CALL_BASED",
+    "description": "Periodo Escolar 27/1 del Ciclo Escolar 2026-2027 (Agosto - Diciembre 2026). Registro en SIBec: 25 de septiembre al 02 de octubre de 2026."
+  },
+  "cost": {
+    "displayText": "Trámite gratuito"
+  },
+  "schedule": "Atención en ventanilla de Becas: Lunes a Viernes de 09:00 a 14:00 y de 16:00 a 19:00 hrs",
+  "faqs": [
+    {
+      "question": "¿Cuántas materias reprobadas puedo tener para la Beca Deportiva?",
+      "answer": "La convocatoria permite contar con adeudo de hasta una unidad de aprendizaje, manteniendo un promedio mínimo de 6.0."
+    }
+  ],
+  "actions": [
+    {
+      "id": "open_sibec",
+      "name": "Abrir plataforma SIBec",
+      "type": "EXTERNAL_LINK",
+      "url": "https://www.sibec.ipn.mx/"
+    }
+  ],
+  "sources": [
+    {
+      "name": "Gaceta Politécnica Extraordinaria No. 1970 - Convocatoria General de Becas 27/1",
+      "url": "https://www.ipn.mx/daes/servicios/becas/",
+      "type": "OFFICIAL_GAZETTE"
+    }
+  ],
+  "informationStatus": {
+    "verification": "OFFICIAL",
+    "notes": [
+      "Verificado en la Gaceta Politécnica Extraordinaria No. 1970."
+    ]
+  },
+  "lastReviewed": "2026-10-22"
+}

@@ -1,0 +1,84 @@
+{
+  "schemaVersion": 1,
+  "id": "servicios_estudiantiles_odontologia",
+  "type": "SERVICE",
+  "category": "SALUD",
+  "archetype": "FACILITY_SERVICE",
+  "name": "Servicio Odontológico",
+  "shortDescription": "Diagnóstico, profilaxis y cuidado de la salud bucal con cuotas de recuperación accesibles.",
+  "description": "El Servicio Odontológico de la ESCOM trabaja con el compromiso de fomentar y preservar la salud bucal de los estudiantes y la comunidad mediante consultas diagnósticas, limpiezas y curaciones dentales con cuotas de recuperación asequibles.",
+  "aliases": [
+    "odontologia",
+    "dentista",
+    "dentista escom",
+    "servicio odontologico",
+    "salud bucal",
+    "limpieza dental"
+  ],
+  "keywords": [
+    "odontología",
+    "dentista",
+    "dientes",
+    "limpieza",
+    "muela",
+    "salud bucal"
+  ],
+  "audience": [
+    "ESTUDIANTE",
+    "COMUNIDAD_ESCOM"
+  ],
+  "requirements": [
+    "Ser estudiante o trabajador de ESCOM.",
+    "Presentar credencial vigente al agendar o recibir la consulta."
+  ],
+  "location": {
+    "displayName": "Planta baja del Edificio de Gobierno, a un costado de Gestión Escolar"
+  },
+  "cost": {
+    "displayText": "Cuotas de recuperación asequibles fijadas por la administración escolar"
+  },
+  "schedule": "Turno matutino: Lunes a Viernes de 08:00 a 15:00 hrs (C.D. Rocío Gómez Ruíz) | Turno vespertino: Lunes a Viernes de 15:00 a 21:00 hrs (C.D. Gabriela Sanabria Paredes)",
+  "contact": {
+    "name": "C.D. Rocío Gómez Ruíz / C.D. Gabriela Sanabria Paredes",
+    "role": "Cirujanas Dentistas Titulares",
+    "phone": "57296000",
+    "extension": "52079"
+  },
+  "steps": [
+    {
+      "order": 1,
+      "title": "Solicitud de Cita",
+      "description": "Acudir al consultorio dental en planta baja del Edificio de Gobierno para agendar turno según disponibilidad."
+    },
+    {
+      "order": 2,
+      "title": "Valoración Dental",
+      "description": "Evaluación diagnóstica del estado de piezas dentales y encías."
+    },
+    {
+      "order": 3,
+      "title": "Tratamiento",
+      "description": "Realización de profilaxis, obturaciones o recomendaciones de higiene bucal."
+    }
+  ],
+  "faqs": [
+    {
+      "question": "¿El servicio dental es gratuito?",
+      "answer": "La consulta de diagnóstico y revisión básica son de orientación para el estudiante; tratamientos como resinas o limpiezas manejan cuotas mínimas de recuperación de insumos."
+    }
+  ],
+  "sources": [
+    {
+      "name": "ESCOM - Servicios Estudiantiles - Atención a la Salud",
+      "url": "https://www.escom.ipn.mx/SSEIS/serviciosestudiantiles/servicios/servicioMedico.php",
+      "type": "OFFICIAL_WEB"
+    }
+  ],
+  "informationStatus": {
+    "verification": "PARTIALLY_VERIFIED",
+    "notes": [
+      "Dentistas, horarios y extensión verificados en la página de ESCOM. El tabulador exacto de cuotas de recuperación está pendiente de consulta presencial."
+    ]
+  },
+  "lastReviewed": "2026-10-22"
+}

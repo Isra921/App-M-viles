@@ -1,0 +1,347 @@
+{
+  "floorId": "2",
+  "notaConectores": "La correspondencia física entre escaleras se define explícitamente en MapScreen; los IDs no se comparan directamente entre pisos.",
+  "conectoresEntrePisos": [
+    "S01",
+    "S02",
+    "S03",
+    "S04",
+    "S05",
+    "S06",
+    "S07"
+  ],
+  "coordinateSystem": {
+    "width": 1260,
+    "height": 1600,
+    "mapWidth": 1260,
+    "mapHeight": 1600,
+    "verticalOffset": 0
+  },
+  "nodes": [
+    {
+      "id": "N01",
+      "x": 427,
+      "y": 360,
+      "tipo": "CAMINO"
+    },
+    {
+      "id": "N02",
+      "x": 834,
+      "y": 355,
+      "tipo": "CAMINO"
+    },
+    {
+      "id": "N03",
+      "x": 427,
+      "y": 531,
+      "tipo": "CAMINO"
+    },
+    {
+      "id": "N04",
+      "x": 834,
+      "y": 531,
+      "tipo": "CAMINO"
+    },
+    {
+      "id": "N06",
+      "x": 427,
+      "y": 727,
+      "tipo": "CAMINO"
+    },
+    {
+      "id": "N07",
+      "x": 557,
+      "y": 727,
+      "tipo": "CAMINO"
+    },
+    {
+      "id": "N08",
+      "x": 705,
+      "y": 727,
+      "tipo": "CAMINO"
+    },
+    {
+      "id": "N09",
+      "x": 631,
+      "y": 727,
+      "tipo": "CAMINO"
+    },
+    {
+      "id": "N10",
+      "x": 834,
+      "y": 727,
+      "tipo": "CAMINO"
+    },
+    {
+      "id": "N12",
+      "x": 427,
+      "y": 967,
+      "tipo": "CAMINO"
+    },
+    {
+      "id": "N13",
+      "x": 834,
+      "y": 967,
+      "tipo": "CAMINO"
+    },
+    {
+      "id": "N14",
+      "x": 427,
+      "y": 1051,
+      "tipo": "CAMINO"
+    },
+    {
+      "id": "N15",
+      "x": 557,
+      "y": 1051,
+      "tipo": "CAMINO"
+    },
+    {
+      "id": "N16",
+      "x": 631,
+      "y": 1051,
+      "tipo": "CAMINO"
+    },
+    {
+      "id": "N17",
+      "x": 705,
+      "y": 1051,
+      "tipo": "CAMINO"
+    },
+    {
+      "id": "N18",
+      "x": 834,
+      "y": 1051,
+      "tipo": "CAMINO"
+    },
+    {
+      "id": "N19",
+      "x": 427,
+      "y": 1163,
+      "tipo": "CAMINO"
+    },
+    {
+      "id": "N21",
+      "x": 834,
+      "y": 1163,
+      "tipo": "CAMINO"
+    },
+    {
+      "id": "N23",
+      "x": 557,
+      "y": 1475,
+      "tipo": "CAMINO"
+    },
+    {
+      "id": "N24",
+      "x": 635,
+      "y": 1475,
+      "tipo": "CAMINO"
+    },
+    {
+      "id": "N25",
+      "x": 705,
+      "y": 1475,
+      "tipo": "CAMINO"
+    },
+    {
+      "id": "S01",
+      "x": 381,
+      "y": 531,
+      "tipo": "ESCALERAS"
+    },
+    {
+      "id": "S02",
+      "x": 880,
+      "y": 531,
+      "tipo": "ESCALERAS"
+    },
+    {
+      "id": "S03",
+      "x": 631,
+      "y": 668,
+      "tipo": "ESCALERAS"
+    },
+    {
+      "id": "S04",
+      "x": 381,
+      "y": 967,
+      "tipo": "ESCALERAS"
+    },
+    {
+      "id": "S05",
+      "x": 880,
+      "y": 967,
+      "tipo": "ESCALERAS"
+    },
+    {
+      "id": "S06",
+      "x": 635,
+      "y": 1116,
+      "tipo": "ESCALERAS"
+    },
+    {
+      "id": "S07",
+      "x": 635,
+      "y": 1438,
+      "tipo": "ESCALERAS"
+    }
+  ],
+  "edges": [
+    {
+      "from": "N01",
+      "to": "N03",
+      "weight": 171
+    },
+    {
+      "from": "N03",
+      "to": "N06",
+      "weight": 196
+    },
+    {
+      "from": "N06",
+      "to": "N12",
+      "weight": 240
+    },
+    {
+      "from": "N12",
+      "to": "N14",
+      "weight": 84
+    },
+    {
+      "from": "N14",
+      "to": "N19",
+      "weight": 112
+    },
+    {
+      "from": "N02",
+      "to": "N04",
+      "weight": 176
+    },
+    {
+      "from": "N04",
+      "to": "N10",
+      "weight": 196
+    },
+    {
+      "from": "N10",
+      "to": "N13",
+      "weight": 240
+    },
+    {
+      "from": "N13",
+      "to": "N18",
+      "weight": 84
+    },
+    {
+      "from": "N18",
+      "to": "N21",
+      "weight": 112
+    },
+    {
+      "from": "N06",
+      "to": "N07",
+      "weight": 130
+    },
+    {
+      "from": "N07",
+      "to": "N09",
+      "weight": 74
+    },
+    {
+      "from": "N09",
+      "to": "N08",
+      "weight": 74
+    },
+    {
+      "from": "N08",
+      "to": "N10",
+      "weight": 129
+    },
+    {
+      "from": "N07",
+      "to": "N15",
+      "weight": 324
+    },
+    {
+      "from": "N08",
+      "to": "N17",
+      "weight": 324
+    },
+    {
+      "from": "N14",
+      "to": "N15",
+      "weight": 130
+    },
+    {
+      "from": "N15",
+      "to": "N16",
+      "weight": 74
+    },
+    {
+      "from": "N16",
+      "to": "N17",
+      "weight": 74
+    },
+    {
+      "from": "N17",
+      "to": "N18",
+      "weight": 129
+    },
+    {
+      "from": "N15",
+      "to": "N23",
+      "weight": 424
+    },
+    {
+      "from": "N17",
+      "to": "N25",
+      "weight": 424
+    },
+    {
+      "from": "N23",
+      "to": "N24",
+      "weight": 78
+    },
+    {
+      "from": "N24",
+      "to": "N25",
+      "weight": 70
+    },
+    {
+      "from": "N03",
+      "to": "S01",
+      "weight": 46
+    },
+    {
+      "from": "N04",
+      "to": "S02",
+      "weight": 46
+    },
+    {
+      "from": "N09",
+      "to": "S03",
+      "weight": 59
+    },
+    {
+      "from": "N12",
+      "to": "S04",
+      "weight": 46
+    },
+    {
+      "from": "N13",
+      "to": "S05",
+      "weight": 46
+    },
+    {
+      "from": "N16",
+      "to": "S06",
+      "weight": 65.123
+    },
+    {
+      "from": "N24",
+      "to": "S07",
+      "weight": 37
+    }
+  ]
+}

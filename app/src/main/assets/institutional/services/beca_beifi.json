@@ -1,0 +1,147 @@
+{
+  "schemaVersion": 1,
+  "id": "apoyos_educativos_beca_beifi",
+  "type": "SUPPORT",
+  "category": "BECAS",
+  "archetype": "SCHOLARSHIP",
+  "name": "Beca de Formación de Investigadores (BEIFI)",
+  "shortDescription": "Apoyo de $1,400.00 M.N. mensuales (hasta $7,000.00 semestrales) para incorporarse a proyectos de investigación SIP.",
+  "description": "La Beca de Estímulo Institucional de Formación de Investigadores (BEIFI) fomenta el interés y la participación de los alumnos de ESCOM en actividades de investigación científica y tecnológica, vinculándolos a proyectos formales dirigidos por profesores investigadores avalados por la Secretaría de Investigación y Posgrado (SIP).",
+  "aliases": [
+    "beca beifi",
+    "beifi",
+    "beca de investigacion",
+    "beca sip",
+    "investigadores escom",
+    "apoyo beifi"
+  ],
+  "keywords": [
+    "beifi",
+    "investigación",
+    "sip",
+    "investigador",
+    "proyectos",
+    "estímulo",
+    "promedio 8"
+  ],
+  "audience": [
+    "ESTUDIANTE"
+  ],
+  "requirements": [
+    "Monto: $1,400.00 M.N. mensuales (hasta 5 meses por periodo = $7,000.00 M.N. en total).",
+    "Tener un promedio general mínimo de 8.0 y ser estudiante en situación escolar regular sin adeudos.",
+    "Ser postulado/a por un/a profesor/a director/a de proyecto de investigación institucional SIP vigente.",
+    "Entrega y validación de los formatos BEIFI-01 y BEIFI-02 en la coordinación de becas de ESCOM.",
+    "Matriz de compatibilidad: Es la única beca compatible con las becas Institucional, Excelencia, Cultural, Deportiva y Beca Benito Juárez."
+  ],
+  "documents": [
+    {
+      "id": "formato_beifi_01",
+      "name": "Formato BEIFI-01 de postulación por el Director del Proyecto SIP",
+      "required": true
+    },
+    {
+      "id": "formato_beifi_02",
+      "name": "Formato BEIFI-02 de compromiso de actividades de investigación",
+      "required": true
+    },
+    {
+      "id": "constancia_promedio_regularidad",
+      "name": "Constancia de calificaciones SAES con promedio mínimo de 8.0 y regularidad",
+      "required": true
+    },
+    {
+      "id": "expediente_bancario_bbva",
+      "name": "Expediente bancario BBVA a nombre del estudiante",
+      "required": true
+    }
+  ],
+  "channels": [
+    {
+      "id": "coordinacion_investigacion_escom",
+      "type": "IN_PERSON",
+      "name": "Coordinación de Investigación y Posgrado / Ventanilla de Becas",
+      "recommended": true,
+      "steps": [
+        {
+          "order": 1,
+          "title": "Contacto con Investigador",
+          "description": "Acordar la postulación con un profesor de ESCOM que cuente con proyecto de investigación registrado ante la SIP vigente."
+        },
+        {
+          "order": 2,
+          "title": "Llenado de Formatos",
+          "description": "Requisitar y firmar los formatos institucionales BEIFI-01 y BEIFI-02."
+        },
+        {
+          "order": 3,
+          "title": "Entrega en Ventanilla",
+          "description": "Entregar el expediente completo en el Departamento de Extensión y Apoyos Educativos de ESCOM."
+        },
+        {
+          "order": 4,
+          "title": "Registro en SIBec",
+          "description": "Cargar la solicitud en la plataforma SIBec para validación del Subcomité y registro de cuenta bancaria."
+        }
+      ]
+    }
+  ],
+  "contact": {
+    "name": "Martha Angélica Gasca Cervantes",
+    "title": "Lic.",
+    "phone": "57296000",
+    "extension": "52056",
+    "email": "becas.escom@ipn.mx"
+  },
+  "location": {
+    "mapLocationId": "departamento_extension_apoyos_educativos",
+    "displayName": "Departamento de Extensión y Apoyos Educativos (Edificio de Gobierno, Planta Alta)"
+  },
+  "period": {
+    "type": "CALL_BASED",
+    "description": "Periodo Escolar 27/1 del Ciclo Escolar 2026-2027 (Agosto - Diciembre 2026). Registro en SIBec: 25 de septiembre al 02 de octubre de 2026."
+  },
+  "cost": {
+    "displayText": "Trámite gratuito"
+  },
+  "schedule": "Atención en ventanilla de Becas: Lunes a Viernes de 09:00 a 14:00 y de 16:00 a 19:00 hrs",
+  "faqs": [
+    {
+      "question": "¿Puedo tener la Beca Institucional y la Beca BEIFI al mismo tiempo?",
+      "answer": "Sí, de acuerdo con la Matriz de Compatibilidad de la Gaceta 1970 del IPN, la Beca BEIFI es compatible con la Beca Institucional, Excelencia, Cultural y Deportiva."
+    }
+  ],
+  "actions": [
+    {
+      "id": "open_sibec",
+      "name": "Abrir plataforma SIBec",
+      "type": "EXTERNAL_LINK",
+      "url": "https://www.sibec.ipn.mx/"
+    },
+    {
+      "id": "open_sip",
+      "name": "Secretaría de Investigación y Posgrado IPN",
+      "type": "EXTERNAL_LINK",
+      "url": "https://www.sip.ipn.mx/"
+    }
+  ],
+  "sources": [
+    {
+      "name": "Gaceta Politécnica Extraordinaria No. 1970 - Convocatoria General de Becas 27/1",
+      "url": "https://www.ipn.mx/daes/servicios/becas/",
+      "type": "OFFICIAL_GAZETTE"
+    },
+    {
+      "name": "Secretaría de Investigación y Posgrado (SIP - IPN)",
+      "url": "https://www.sip.ipn.mx/",
+      "type": "OFFICIAL_WEB"
+    }
+  ],
+  "informationStatus": {
+    "verification": "OFFICIAL",
+    "notes": [
+      "Verificado en Gaceta Politécnica Extraordinaria No. 1970."
+    ]
+  },
+  "lastReviewed": "2026-10-22"
+}

@@ -1,0 +1,101 @@
+{
+  "schemaVersion": 1,
+  "id": "servicios_estudiantiles_ambulancia",
+  "type": "SERVICE",
+  "category": "SALUD",
+  "archetype": "FACILITY_SERVICE",
+  "name": "Protocolo para Uso de Ambulancia de Urgencia",
+  "shortDescription": "Procedimiento institucional para la solicitud y traslado en ambulancia en casos de emergencia médica.",
+  "description": "Establece los lineamientos y pasos obligatorios para activar el traslado en ambulancia de un estudiante o miembro de la comunidad politécnica en situaciones de urgencia médica o trauma grave que ponga en riesgo la vida o integridad física.",
+  "aliases": [
+    "ambulancia",
+    "protocolo de ambulancia",
+    "urgencia medica",
+    "emergencia medica",
+    "traslado medico",
+    "ambulancia escom"
+  ],
+  "keywords": [
+    "ambulancia",
+    "urgencia",
+    "emergencia",
+    "traslado",
+    "paramédico",
+    "accidente grave",
+    "hospital"
+  ],
+  "audience": [
+    "ESTUDIANTE",
+    "COMUNIDAD_ESCOM"
+  ],
+  "requirements": [
+    "Situación médica urgente o accidente grave ocurrido dentro de las instalaciones de ESCOM.",
+    "La llamada y activación del servicio de ambulancias debe ser autorizada y realizada exclusivamente por el personal del Servicio Médico escolar o la Unidad Interna de Protección Civil."
+  ],
+  "documents": [
+    {
+      "id": "protocolo_uso_ambulancia",
+      "name": "Protocolo institucional para el Uso de la Ambulancia",
+      "type": "PDF",
+      "url": "https://www.escom.ipn.mx/SSEIS/serviciosestudiantiles/documentos/protocoloUsoAmbulancia.pdf",
+      "required": false
+    },
+    {
+      "id": "triptico_uso_ambulancia",
+      "name": "Tríptico informativo para el Uso de la Ambulancia",
+      "type": "PDF",
+      "url": "https://www.escom.ipn.mx/SSEIS/serviciosestudiantiles/documentos/tripticoUsoAmbulancia.pdf",
+      "required": false
+    }
+  ],
+  "location": {
+    "mapLocationId": "servicio_medico",
+    "displayName": "Servicio Médico (Edificio de Gobierno, Planta Baja)"
+  },
+  "cost": {
+    "displayText": "Servicio de urgencia gratuito"
+  },
+  "schedule": "Atención y activación disponible durante los turnos de operación escolar de ESCOM",
+  "steps": [
+    {
+      "order": 1,
+      "title": "Aviso Inmediato",
+      "description": "Notificar de inmediato al personal del Servicio Médico (ext. 52014) o a los elementos de seguridad y protección civil más cercanos."
+    },
+    {
+      "order": 2,
+      "title": "Valoración del Médico",
+      "description": "El médico escolar en turno acude y realiza la evaluación del paciente para determinar la necesidad de traslado prehospitalario."
+    },
+    {
+      "order": 3,
+      "title": "Activación Oficial",
+      "description": "El médico o brigadista oficial realiza el enlace con el sistema de ambulancias del IPN (USISE Zacatenco) o corporaciones de auxilio (ERUM/Cruz Roja)."
+    },
+    {
+      "order": 4,
+      "title": "Traslado Hospitalario",
+      "description": "Traslado a la unidad hospitalaria correspondiente, notificando de inmediato a los familiares de contacto del estudiante."
+    }
+  ],
+  "faqs": [
+    {
+      "question": "¿Puede un alumno llamar directamente a una ambulancia particular?",
+      "answer": "No se recomienda; el protocolo institucional exige que el Servicio Médico de ESCOM sea quien valore y coordine el acceso al plantel para asegurar el ingreso de la unidad y la cobertura del seguro institucional."
+    }
+  ],
+  "sources": [
+    {
+      "name": "ESCOM - Protocolo Oficial de Ambulancia",
+      "url": "https://www.escom.ipn.mx/SSEIS/serviciosestudiantiles/documentos/protocoloUsoAmbulancia.pdf",
+      "type": "OFFICIAL_DOCUMENT"
+    }
+  ],
+  "informationStatus": {
+    "verification": "OFFICIAL",
+    "notes": [
+      "Protocolo y tríptico oficiales publicados por ESCOM disponibles en PDF en el portal escolar."
+    ]
+  },
+  "lastReviewed": "2026-10-22"
+}

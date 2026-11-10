@@ -1,0 +1,69 @@
+{
+  "schemaVersion": 1,
+  "id": "servicios_estudiantiles_deporte_barras",
+  "type": "SERVICE",
+  "category": "DEPORTE",
+  "archetype": "WORKSHOP_ACTIVITY",
+  "name": "Acondicionamiento Físico y Barras",
+  "shortDescription": "Área exterior con aparatos de calistenia y barras para ejercicio y desarrollo muscular.",
+  "description": "Espacio al aire libre equipado con estructuras metálicas, barras paralelas y fijas para entrenamiento de calistenia, dominadas y acondicionamiento físico de uso libre para la comunidad estudiantil de ESCOM.",
+  "aliases": [
+    "barras",
+    "barras de ejercicio",
+    "calistenia",
+    "gimnasio al aire libre",
+    "ejercicio",
+    "barras escom"
+  ],
+  "keywords": [
+    "barras",
+    "calistenia",
+    "ejercicio",
+    "acondicionamiento",
+    "músculo",
+    "deporte exterior"
+  ],
+  "audience": [
+    "ESTUDIANTE",
+    "COMUNIDAD_ESCOM"
+  ],
+  "requirements": [
+    "Pertenecer a la comunidad de ESCOM.",
+    "Uso responsable de los aparatos y respeto al entorno."
+  ],
+  "location": {
+    "mapLocationId": "barras_ejercicio",
+    "displayName": "Barras de ejercicio (Área exterior de acondicionamiento físico, costado poniente)"
+  },
+  "cost": {
+    "displayText": "Acceso libre y gratuito"
+  },
+  "schedule": "Disponible permanentemente durante el horario de apertura del plantel",
+  "steps": [
+    {
+      "order": 1,
+      "title": "Uso Libre",
+      "description": "Acudir a la zona de barras en horas libres para rutinas de acondicionamiento físico personal o grupal."
+    }
+  ],
+  "faqs": [
+    {
+      "question": "¿Se necesita credencial para usar las barras?",
+      "answer": "No, el área es de libre acceso dentro de las instalaciones para todos los estudiantes de la escuela."
+    }
+  ],
+  "sources": [
+    {
+      "name": "ESCOM - Mapa de Instalaciones y Servicios Deportivos",
+      "url": "https://www.escom.ipn.mx/",
+      "type": "OFFICIAL_WEB"
+    }
+  ],
+  "informationStatus": {
+    "verification": "OFFICIAL",
+    "notes": [
+      "Instalación deportiva física cartografiada y verificada en el plano oficial de la escuela."
+    ]
+  },
+  "lastReviewed": "2026-10-22"
+}

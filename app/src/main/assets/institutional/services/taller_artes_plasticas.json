@@ -1,0 +1,86 @@
+{
+  "schemaVersion": 1,
+  "id": "servicios_estudiantiles_cultura_artes_plasticas",
+  "type": "SERVICE",
+  "category": "CULTURA",
+  "archetype": "WORKSHOP_ACTIVITY",
+  "name": "Taller de Artes Plásticas",
+  "shortDescription": "Aprende y desarrolla técnicas de expresión visual mediante dibujo a lápiz, acuarela y pintura.",
+  "description": "Taller cultural orientado al desarrollo integral y la expresión creativa de los estudiantes a través de diferentes técnicas de artes plásticas, incluyendo dibujo anatómico, carboncillo, pastel y pintura.",
+  "aliases": [
+    "artes plasticas",
+    "taller de pintura",
+    "taller de dibujo",
+    "pintura",
+    "dibujo",
+    "taller de artes"
+  ],
+  "keywords": [
+    "artes plásticas",
+    "pintura",
+    "dibujo",
+    "cultura",
+    "taller",
+    "expresión artística"
+  ],
+  "audience": [
+    "ESTUDIANTE"
+  ],
+  "requirements": [
+    "Ser estudiante de la ESCOM.",
+    "Inscribirse en el periodo de registro al inicio del semestre con el área de Cultura y Deportes.",
+    "Adquirir el material básico de trabajo personal (bloc de dibujo, lápices, pinturas)."
+  ],
+  "location": {
+    "mapLocationId": "actividades_culturales_deportivas_4001",
+    "displayName": "Oficina de Cultura y Deportes (Salón 4001, Edificio de Laboratorios, Planta Baja)"
+  },
+  "cost": {
+    "displayText": "Taller gratuito para la comunidad estudiantil de ESCOM"
+  },
+  "schedule": "Miércoles y Viernes de 13:00 a 18:00 hrs",
+  "contact": {
+    "name": "Profra. Martha Aurora Torres Hernández",
+    "role": "Instructora del Taller de Artes Plásticas",
+    "phone": "57296000",
+    "extension": "52063",
+    "email": "cultura_y_deportes_escom@ipn.mx"
+  },
+  "steps": [
+    {
+      "order": 1,
+      "title": "Convocatoria e Inscripción",
+      "description": "Acudir al Salón 4001 (Oficina de Cultura) durante las dos primeras semanas de inicio de semestre para registrarse."
+    },
+    {
+      "order": 2,
+      "title": "Asistencia a Sesiones",
+      "description": "Presentarse en los horarios de taller los miércoles y viernes en el espacio asignado con tus materiales."
+    },
+    {
+      "order": 3,
+      "title": "Acreditación",
+      "description": "Cumplir con al menos el 80% de asistencia para recibir constancia y solicitar acreditación para Beca Cultural o créditos formativos."
+    }
+  ],
+  "faqs": [
+    {
+      "question": "¿El taller tiene costo?",
+      "answer": "No, el taller es 100% gratuito; únicamente debes contar con tus propios materiales de dibujo o pintura."
+    }
+  ],
+  "sources": [
+    {
+      "name": "ESCOM - Servicios Estudiantiles - Actividades Culturales",
+      "url": "https://www.escom.ipn.mx/SSEIS/serviciosestudiantiles/servicios/actsCulturales.php",
+      "type": "OFFICIAL_WEB"
+    }
+  ],
+  "informationStatus": {
+    "verification": "OFFICIAL",
+    "notes": [
+      "Instructora, horarios y datos de contacto verificados en el portal oficial de ESCOM."
+    ]
+  },
+  "lastReviewed": "2026-10-22"
+}

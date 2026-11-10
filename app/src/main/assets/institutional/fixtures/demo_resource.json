@@ -1,0 +1,20 @@
+{
+  "id": "demo_recurso_institucional",
+  "type": "INFORMATION",
+  "category": "Demo",
+  "name": "Recurso institucional de demostración",
+  "shortDescription": "Fixture técnico; no contiene información institucional real.",
+  "description": "Archivo excluido del manifest y destinado exclusivamente a verificar el esquema.",
+  "aliases": [],
+  "keywords": ["demo"],
+  "audience": [],
+  "requirements": [],
+  "documents": [],
+  "steps": [],
+  "location": null,
+  "schedule": null,
+  "cost": null,
+  "notes": [],
+  "sources": [],
+  "lastReviewed": null
+}
