@@ -1,48 +1,105 @@
 # ESCOM Orienta Móviles
 
-Versión independiente para el proyecto de Móviles, basada en ESCOM Orienta.
+Aplicación Android para estudiantes de ESCOM-IPN: consulta el mapa del plantel, organiza tu horario y encuentra información sobre trámites y servicios escolares.
 
-## Funciones
-- Inicio con accesos rápidos y la clase actual o siguiente.
-- Mapa del plantel, búsqueda de lugares, rutas e indicaciones paso a paso con distancias calibradas.
-- Horario: importación de PDF, edición, personalización, tarjetas de resumen y exportación a calendario (.ics).
-- Catálogo de 46 trámites, servicios, becas y actividades, con filtros y fichas detalladas.
-- Ajustes de apariencia, alias, recordatorios y datos locales.
-- Diagnósticos locales de errores.
+Proyecto académico de Móviles basado en ESCOM Orienta, adaptado para continuar su desarrollo en equipo **sin módulo de chatbot ni dependencias de IA**.
 
-Se retiraron el chatbot, sus pantallas, historial, contribuciones, motor semántico, modelos, catálogos, dependencias ONNX y pruebas exclusivas. Los diagnósticos de mapa y ajustes ya no dependen del motor de conversación.
+## Funcionalidades
 
-La navegación inferior contiene Inicio, Mapa, Horario y Trámites. Se eliminó el enlace de actualización que descargaba la aplicación original.
+- **Inicio:** accesos rápidos y consulta de la clase actual o siguiente.
+- **Mapa:** búsqueda de salones y espacios, rutas entre pisos, distancias e indicaciones paso a paso.
+- **Horario:** importación de PDF, captura y edición de clases, personalización y exportación a calendario `.ics`.
+- **Trámites y servicios:** catálogo local de 46 recursos, con filtros para trámites, servicios, becas, deportes y cultura.
+- **Recordatorios:** avisos de clases y reprogramación tras reinicios o cambios de hora.
+- **Ajustes:** tema, alias, preferencias del mapa, notificaciones y gestión de datos locales.
 
-## Abrir y compilar
-Abrir esta carpeta en Android Studio. Requiere JDK 17 o compatible, Android SDK 36 y las dependencias declaradas en Gradle.
+La navegación principal contiene **Inicio, Mapa, Horario y Trámites**. Los enlaces externos y el envío de archivos se abren con las aplicaciones disponibles en el dispositivo.
 
-```powershell
-.\gradlew.bat :app:assembleDebug :app:testDebugUnitTest
+## Tecnologías y requisitos
+
+- Kotlin y Jetpack Compose con Material 3.
+- Room para persistencia local y PDFBox Android para lectura de PDF.
+- Android Studio compatible con Android Gradle Plugin **9.2.1**.
+- Android SDK **36** y un dispositivo o emulador con **Android 10 / API 29** o superior.
+- Gradle Wrapper **9.4.1** incluido; no requiere instalar Gradle por separado.
+- El daemon de Gradle está configurado para **JDK 21** en `gradle/gradle-daemon-jvm.properties`.
+
+## Empezar
+
+```bash
+git clone https://github.com/Isra921/App-M-viles.git
+cd App-M-viles
 ```
 
-APK: `app/build/outputs/apk/debug/app-debug.apk`.
+1. En Android Studio, selecciona **Open** y abre la carpeta raíz que contiene `settings.gradle.kts`.
+2. Instala Android SDK 36 si el IDE lo solicita y espera a que finalice la sincronización de Gradle. La primera sincronización requiere conexión para descargar dependencias.
+3. Configura la ubicación de tu SDK desde Android Studio. El archivo `local.properties` es propio de cada equipo y está excluido de Git.
+4. Selecciona el módulo `app` y un emulador o teléfono con depuración USB.
+5. Pulsa **Run**. Si no aparece una configuración, crea una de tipo **Android App**, selecciona el módulo `app` y deja **Default Activity**.
 
-Identificador: `com.escom.escomorienta.moviles`. Puede coexistir con la app original y mantiene sus datos separados. El namespace del código se conserva para reducir cambios innecesarios.
+La app usa el identificador `com.escom.escomorienta.moviles`, por lo que puede instalarse junto a la versión original y mantiene sus datos separados.
 
-La copia no incluye historial Git, cachés, compilaciones previas ni reportes de evaluación del Trabajo Terminal. El proyecto original no se modifica. `local.properties` contiene la ruta local del SDK y debe ajustarse en otros equipos.
-## Actualización del 10 de noviembre de 2026
+## Compilación y pruebas
 
-Versión de Móviles: 1.1 (versionCode 2). Se incorporaron los cambios disponibles en la copia local de `Trabajo Terminal/ESCOM_Orienta`:
+Desde PowerShell en la raíz del proyecto:
 
-- Mapas y grafos actualizados, calibración de distancias, navegación paso a paso y preferencias del mapa.
-- Exportación de horario a iCalendar, tarjetas de resumen, ajustes en importación de PDF y persistencia del horario.
-- Cálculo y caducidad de recordatorios, reprogramación tras reinicios, cambios de hora y permisos.
-- Catálogo institucional ampliado a 46 recursos, filtros por tipo y detalles de servicios, becas, deportes y cultura.
-- Ajustes visuales, paletas y dependencias de animación. Se mantienen Inicio, Mapa, Horario y Trámites.
-- Pruebas funcionales de mapa, notificaciones y catálogo actualizadas; la prueba de navegación excluye las acciones del módulo retirado.
+```powershell
+.\gradlew.bat :app:assembleDebug
+.\gradlew.bat :app:testDebugUnitTest
+```
 
-No se incorporan el chatbot, sus modelos, catálogos, pantallas, contribuciones ni dependencias ONNX. Tampoco se incorpora el enlace de descarga de la app original. Se conservan el identificador independiente y los datos locales de Móviles.
+Para pruebas instrumentadas con un dispositivo o emulador conectado:
 
-Respaldo de los archivos reemplazados y listado de cambios: `backups/pre-update-20261110-073440/`. Se omiten los benchmarks académicos que dependen de evidencias externas.
+```powershell
+.\gradlew.bat :app:connectedDebugAndroidTest
+```
 
-## Validación
+En macOS o Linux, usa `bash ./gradlew` en lugar de `.\gradlew.bat`.
 
-Se revisaron estáticamente las referencias de navegación, dependencias retiradas, 57 archivos JSON, 19 archivos XML y las rutas de los 46 recursos institucionales. Se ajustó FileProvider para compartir el calendario exportado.
+El APK de depuración se genera en `app/build/outputs/apk/debug/app-debug.apk`.
 
-No se ejecutaron Gradle, compilación ni pruebas durante esta actualización, por indicación del usuario. Pendiente probar en Android Studio: inicio y ajustes, mapa y rutas entre pisos, importación/exportación del horario, recordatorios y navegación por los trámites.
+**Estado de validación:** la actualización se revisó estáticamente, incluyendo referencias de navegación y recursos JSON/XML. No se ejecutaron compilación ni pruebas durante su preparación; queda pendiente validarla en Android Studio y en dispositivo.
+
+## Organización
+
+```text
+app/src/main/
+├── java/com/escom/escomorienta/
+│   ├── data/            # Repositorios, persistencia, mapas y procesamiento de horarios
+│   ├── domain/          # Reglas de navegación, trámites y recordatorios
+│   ├── navigation/      # Rutas y destinos de la aplicación
+│   ├── notifications/   # Programación y recepción de avisos
+│   └── ui/              # Pantallas, componentes y temas
+├── assets/
+│   ├── maps/            # Lugares, accesos y grafos del plantel
+│   └── institutional/   # Catálogo de trámites y servicios
+└── res/                 # Imágenes, iconos y recursos Android
+```
+
+Las pruebas locales están en `app/src/test` y las instrumentadas en `app/src/androidTest`.
+
+## Trabajo en equipo
+
+Cada integrante con permisos de escritura puede crear una rama para su cambio:
+
+```bash
+git switch main
+git pull --ff-only origin main
+git switch -c mejora/nombre-del-cambio
+```
+
+Después de modificar y revisar los archivos:
+
+```bash
+git add ruta/del/archivo
+git commit -m "Describe el cambio realizado"
+git push -u origin mejora/nombre-del-cambio
+```
+
+Abre un **Pull Request hacia `main`** indicando qué cambió y cómo lo probaste. Para subir ramas directamente, el propietario debe agregar a cada compañero como colaborador desde la configuración del repositorio. Sin permisos de escritura, pueden trabajar mediante un fork y enviar un Pull Request.
+
+No subas `local.properties`, cachés, compilaciones, respaldos, credenciales ni claves de firma. El `.gitignore` ya excluye los archivos locales habituales. Mantén esta versión sin chatbot al incorporar cambios del proyecto original.
+
+## Versión actual
+
+**1.1 · versionCode 2.** Incluye la actualización del 10 de noviembre de 2026: mejoras de mapas y navegación, exportación de horarios, recordatorios, catálogo institucional y ajustes visuales. Se excluyen el chatbot, ONNX, las contribuciones de conversaciones y el enlace de actualización de la app original.
